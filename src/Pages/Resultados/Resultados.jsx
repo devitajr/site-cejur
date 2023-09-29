@@ -2,6 +2,7 @@ import React from "react";
 import "./Resultados.css";
 import CarouselLogos from "./components/CarouselLogos";
 import Numeros from "./../../components/Numeros/Numeros"
+import SocialProof from "./components/SocialProof/SocialProof";
 
 import { Link } from "react-router-dom";
 
@@ -22,6 +23,8 @@ const Resultados = () => {
                         somos movidos por desafios.
                     </p>
                 </div>
+
+            <SocialProof></SocialProof>
 
             <Numeros></Numeros>
 

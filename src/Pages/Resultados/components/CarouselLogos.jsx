@@ -7,7 +7,7 @@
 */
 
 import React from "react";
-import "./styles.css";
+import "./CarouselLogos.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";

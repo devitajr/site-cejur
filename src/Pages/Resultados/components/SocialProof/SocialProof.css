@@ -1,0 +1,46 @@
+#SocialProof .w-full{
+   width: 100%;
+}
+
+#SocialProof .card{
+   width: 300px;
+   height: 400px;
+}
+
+#SocialProof .stick-down{
+  position: absolute;
+  bottom: 5px;
+}
+
+#SocialProof SwiperSlide{
+   width: fit-content;
+}
+
+#SocialProof .btn{
+   color: var(--azulMarinho);
+   position: absolute;
+   right: 5px;
+   bottom: 5px;
+}
+
+.mySwiper {
+   display: flex;
+   justify-content: center;
+}
+
+.mySwiper .slide{
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.mySwiper .swiper-slide{
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.mySwiper .swiper-wrapper{
+   display: flex !important;
+   align-items: center !important;
+}
