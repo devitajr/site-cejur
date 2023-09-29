@@ -31,7 +31,8 @@ const Servicos = () => {
 
                <div className="card-group tres-cards info">
                   <div className="card">
-                     <img
+                     <img 
+                        style = {{padding:  '35px',}}
                         className="card-img-top"  
                         src="./svg/contrato.svg"
                         alt="Card image cap"

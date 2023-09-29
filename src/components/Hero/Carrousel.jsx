@@ -1,5 +1,5 @@
 import React from "react";
-import "./Modified_Hero.css";
+import "./Carousel.css";
 import LogoCejurHero from "/Logo_cejur_hero.svg";
 import Frame1 from "./Frame1";
 

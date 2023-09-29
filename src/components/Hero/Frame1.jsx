@@ -1,5 +1,6 @@
 import React from "react";
 import LogoCejurHero from "/Logo_cejur_hero.svg";
+import "./Frame1.css";
 
 const Frame1 = () => {
    return (

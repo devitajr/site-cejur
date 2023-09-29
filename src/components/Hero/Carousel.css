@@ -7,7 +7,10 @@
 }
 
 #heroCarousel .logo-cejur {
+   opacity: 0;
    width: 30%;
+   transition: all;
+   animation: aparecer 0.4s ease-in forwards;
 }
 
 #heroCarousel .btn-mais {
@@ -38,7 +41,10 @@
 }
 
 #heroCarousel .hero-content {
+   opacity: 0;
    padding: 3rem;
+   transition: all;
+   animation: aparecer 0.4s ease-in forwards;
 }
 /* Responsividade */
 
