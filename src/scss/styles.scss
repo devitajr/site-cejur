@@ -1,0 +1,16 @@
+// Import all of Bootstrap's CSS
+// Override the Bootstrap variable
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 992px,
+  lg: 1200px,
+  xl: 1400px,
+  xxl: 1900px,
+);
+
+// Import Bootstrap
+@import 'bootstrap';
+
+
+@import "~bootstrap/scss/bootstrap";

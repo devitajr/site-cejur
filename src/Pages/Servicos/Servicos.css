@@ -1,0 +1,128 @@
+/* Serviços */
+#servicos {
+    padding-bottom: 2rem;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--cinzaClaro);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--azulMarinho);
+    overflow: hidden;
+}
+#servicos .container{
+    max-width: min(var(--larguraMaxima), 90vw);
+    height: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#servicos .container .titulo{
+    padding-top: 2rem;
+}
+#servicos .container .titulo h2{
+    font-size: 2rem;
+    color: var(--azulJeans);
+    line-height: 1;
+    padding: 1rem;
+    border-left: var(--azulMarinho) 3px solid;
+}
+#servicos .container .titulo h2 span{
+    color: var(--azulMarinho);
+    border-bottom: var(--amareloClaro) 3px solid;
+    font-size: 3rem;
+}
+#servicos .container .titulo p{
+    color: var(--azulMarinho);
+    font-size: 1.2rem;
+    line-height: 1;
+    padding-top: 1rem;
+}
+#servicos .content{
+    display: flex;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+#servicos .info{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    min-height: 12rem;
+}
+
+#servicos .info h3{
+    padding-left: 1rem;
+    border-left: 2px var(--azulMarinho) solid;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    background: url(/svg/fundotextura.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#servicos .btn-mais{
+
+    color: var(--amareloClaro);
+    background-color: transparent;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#servicos .btn-mais a{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: var(--amareloClaro);
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+#servicos .btn-mais a:hover{
+    background: var(--azulMarinho);
+}
+
+/* New code for V2, focus on cards */
+
+#servicos .tres-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#servicos .card {
+    border-radius: 10px;
+    height: 350px;
+    background: none;
+    border-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 500ms ease-out, opacity 500ms ease-out; /* Add transition for smooth animation */
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+#servicos .card .card-img-top{
+    height: 200px;
+}
+
+#servicos .card-title {
+    color: var(--azulMarinho);
+    border-bottom: 4px solid var(--amareloClaro);
+    padding-bottom: 0.2rem;  /* Optional: Add some padding below the title for spacing */
+    width: fit-content;
+    font-size: 2rem;  /* Adjust as needed */
+    overflow-wrap: break-word;
+}
+
+#servicos .card-text {
+    color: var(--azulMarinho);
+    opacity: 1;
+    transition: all 500ms ease-out; /* Add transition for smooth animation */
+}

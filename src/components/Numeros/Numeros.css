@@ -1,0 +1,73 @@
+
+
+.card-estatisticas{
+    background-image: url(/svg/fundotextura.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    --padding: 2rem;
+    padding: var(--padding) 0;
+    height: fit-content;
+    /* transform: translateY(70%);
+    transition: all 500ms 500ms ease; */
+
+    width: 100%;
+    border-radius: 10px;
+    border-collapse: separate;
+
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    color: var(--corClara)
+}
+
+.projetos{
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-right: 1px solid var(--amareloEscuro);
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    padding: 0 20px;
+    border-left: 1px solid var(--amareloEscuro);
+    border-right: 1px solid var(--amareloEscuro);
+}
+
+
+
+.historia{
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-left: 1px solid var(--amareloEscuro);
+
+}
+
+.numeros{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--amareloEscuro)
+}
+
+.textinho {
+    font-size: 0.8rem;
+}
+
+.textao{
+    padding-bottom: 30px;
+}

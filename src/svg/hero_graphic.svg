@@ -1,0 +1,54 @@
+
+<svg
+width="1920"
+height="1920"
+viewBox="0 0 1920 1920"
+fill="none">
+<circle
+    style="fill:#05285b;stroke-width:0.207874;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+    id="path1047"
+    cx="960"
+    cy="960"
+    r="415.95932" />
+<g
+    class="linhas"
+    id="g960">
+    <line
+    x1="979.19061"
+    y1="1048.0774"
+    x2="806.18793"
+    y2="1192.6783"
+    stroke="#f4f4f4"
+    stroke-width="22.7405"
+    stroke-linecap="round"
+    id="line6" />
+    <line
+    x1="825.08899"
+    y1="931.46716"
+    x2="692.41992"
+    y2="1034.0978"
+    stroke="#f4f4f4"
+    stroke-width="22.7405"
+    stroke-linecap="round"
+    id="line8" />
+    <line
+    x1="1007.713"
+    y1="1130.52"
+    x2="914.21259"
+    y2="1209.6371"
+    stroke="#f4f4f4"
+    stroke-width="22.7405"
+    stroke-linecap="round"
+    id="line10" />
+    <line
+    x1="865.68719"
+    y1="1025.3541"
+    x2="803.36182"
+    y2="1078.777"
+    stroke="#f4f4f4"
+    stroke-width="22.7405"
+    stroke-linecap="round"
+    id="line12" />
+</g>
+<!-- The path element is truncated for brevity -->
+</svg>

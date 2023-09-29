@@ -1,0 +1,27 @@
+.mySwiper .imagem{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.mySwiper {
+    display: flex;
+    justify-content: center;
+}
+
+.mySwiper .slide{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.mySwiper .swiper-slide{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.mySwiper .swiper-wrapper{
+    display: flex !important;
+    align-items: center !important;
+}

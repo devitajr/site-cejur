@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+   .visible {
+      visibility: visible;
+   }
+   .invisible {
+      visibility: hidden;
+   }
+}
+
+:root {
+   --amareloEscuro: #e3e3e3;
+   --amareloClaro: #f2decb;
+   --azulEscuro: #000f47;
+   --azulJeans: #2c4396;
+   --azulClaro: #1439cc;
+   --azulMarinho: #002878;
+   --corFundos: #292929;
+   --corClara: #ffffff;
+   --cinzaClaro: #e3e3e3;
+   --larguraMaxima: 1100px;
+}
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Outfit", sans-serif;
+   line-height: 1.5;
+   background: var(--corClara);
+   position: relative;
+   overflow-x: hidden;
+}
+a {
+   text-decoration: none;
+}
+ul {
+   list-style: none;
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar {
+   width: 0.5rem;
+}
+::-webkit-scrollbar-track {
+   background: var(--corClara);
+   margin-block: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+   background: var(--azulClaro);
+   border-radius: 100vw;
+}
+::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:focus-within {
+   background: var(--azulEscuro);
+}
+:target {
+   scroll-margin-top: 120px; /* Adjust based on the height of your navbar */
+}

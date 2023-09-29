@@ -1,0 +1,104 @@
+/* Adjust the @media variables at the bottom of file for responsivity */
+
+
+/* Social */
+.social{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+.social a{
+    padding: 1rem;
+    color: var(--azulEscuro);
+    border-bottom: transparent 2px solid;
+    transition: border 0.6s ease-in-out;
+}
+.social a:hover,
+.social a:focus-within{
+    border-bottom: var(--amareloClaro) 2px solid;
+}
+
+/* Navbar */
+
+#main-nav{
+    background: var(--corClara);
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}    
+#main-nav .container{
+    max-width: var(--larguraMaxima);
+    margin: auto;
+    padding: 0 0rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    min-height: 3rem;
+}    
+#main-nav ul{
+    display: flex;
+}    
+#main-nav ul li a,
+#main-nav div a{
+    padding: 1.4rem 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--azulEscuro);
+    transition: border 0.6s ease-in-out;
+    border-bottom: transparent 2px solid;
+}    
+
+#main-nav div i{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--azulEscuro);
+    transition: border 0.6s ease-in-out;
+    border-bottom: transparent 2px solid;
+}
+
+#main-nav ul li .nav-link:hover,
+#main-nav ul li .nav-link:focus-within,
+#main-nav div .nav-link:hover,
+#main-nav div .nav-link:focus-within,
+#main-nav .nav-icon:hover,
+#main-nav .nav-icon:focus-within {
+    border-bottom: var(--amareloClaro) 2px solid;
+    transition: border 0.6s ease-in-out;
+}
+
+#main-nav .navbar-brand{
+    width: 200px;
+    margin-right: 35%;  
+    margin-left: 1%;
+}
+
+/* Responsive style of navbar-brand*/
+@media screen and (max-width: 1900px) {
+    #main-nav .navbar-brand {
+        margin-right: 23%;
+    }
+}
+@media screen and (max-width: 1440px) {
+    #main-nav .navbar-brand {
+        margin-right: 15%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    #main-nav .navbar-brand {
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-nav .navbar-brand {
+        margin-right: 2%;
+    }
+}
+
+
+
+
