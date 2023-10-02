@@ -23,24 +23,24 @@
    bottom: 5px;
 }
 
-.mySwiper {
+#SocialProof .mySwiper {
    display: flex;
    justify-content: center;
 }
 
-.mySwiper .slide{
+#SocialProof .mySwiper .slide{
    display: flex !important;
    justify-content: center !important;
    align-items: center !important;
 }
 
-.mySwiper .swiper-slide{
+#SocialProof .mySwiper .swiper-slide{
    display: flex !important;
    justify-content: center !important;
    align-items: center !important;
 }
 
-.mySwiper .swiper-wrapper{
+#SocialProof .mySwiper .swiper-wrapper{
    display: flex !important;
    align-items: center !important;
 }

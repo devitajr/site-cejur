@@ -80,7 +80,7 @@ const SocialProof = () => {
             autoplay={{
                // Configure autoplay
                delay: 2500, // Delay between transitions (in ms). Adjust this value as needed.
-               disableOnInteraction: false, // Continue autoplaying when the user interacts with the slide.
+               disableOnInteraction: true, // Continue autoplaying when the user interacts with the slide.
             }}
             enabled={true}
             breakpoints={{
