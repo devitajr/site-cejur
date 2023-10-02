@@ -1,37 +1,26 @@
 
 
 .card-estatisticas{
-    background-image: url(/svg/fundotextura.svg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    --padding: 2rem;
-    padding: var(--padding) 0;
-    height: fit-content;
     /* transform: translateY(70%);
     transition: all 500ms 500ms ease; */
 
-    width: 100%;
+    width: 60%;
     border-radius: 10px;
-    border-collapse: separate;
 
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: inline-flex;
+    align-items: first baseline;
+    justify-content: center;
     font-weight: 500;
-    color: var(--corClara)
+    color: var(--corFundos)
 }
 
 .projetos{
-    padding: 0 20px;
+    padding: 0 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border-right: 1px solid var(--amareloEscuro);
 }
 
 .empresas{
@@ -40,28 +29,25 @@
     align-items: center;
     text-align: center;
 
-    padding: 0 20px;
-    border-left: 1px solid var(--amareloEscuro);
-    border-right: 1px solid var(--amareloEscuro);
+    padding: 0 10px;
 }
 
 
 
 .historia{
-    padding: 0 20px;
+    padding: 0 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    border-left: 1px solid var(--amareloEscuro);
 
 }
 
 .numeros{
     font-size: 2rem;
     font-weight: 700;
-    color: var(--amareloEscuro)
+    color: var(--azulMarinho)
 }
 
 .textinho {
@@ -69,5 +55,5 @@
 }
 
 .textao{
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
