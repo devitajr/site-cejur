@@ -1,10 +1,9 @@
 /* Título */
 /* Serviços */
 #contato {
-    padding-bottom: 2rem;
     width: 100%;
     height: fit-content;
-    background: url(/svg/fundotextura.svg);
+    background-color: var(--azulJeans);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +14,7 @@
 }
 #contato .container{
     max-width: min(var(--larguraMaxima), 90vw);
-    height: fit-content;
+    height: 1000px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -28,6 +27,13 @@
     line-height: 1;
     padding: 1rem;
     border-left: var(--amareloEscuro) 3px solid;
+}
+
+#contato .container .titulo h3{
+    font-size: 1.75rem;
+    color: var(--amareloClaro);
+    line-height: 1;
+    padding: 1rem 0;
 }
 #contato .container .titulo h2 span{
     font-size: 3rem;
@@ -43,12 +49,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     gap: 4rem;
 }
 
 #contato .info{
-    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,4 +65,15 @@
     min-width: 400px;
     max-width: 500px;
     width: 100%;
+}
+
+#contato .svg {
+    height:600px;
+    width: 600px;
+    background: url(/public/Contato_cejur.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
 }

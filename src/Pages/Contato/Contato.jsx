@@ -24,19 +24,17 @@ const Contato = () => {
                     <Forms></Forms>
                     <div className="titulo mensagem-lateral">
                         <h2>
-                            A ITAJÚNIOR ESTÁ
+                            A CEJUR ESTÁ
                             <br />
                             <span>PRONTA </span>
                             PARA TE ATENDER!
                         </h2>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Odio eveniet at perspiciatis sequi cumque. Rem
-                            repellendus odio velit illo, iusto veritatis? Atque
-                            quis eius, libero quae dolores laboriosam dolor
-                            nobis?
-                        </p>
+                        <h3>
+                            ENTENDA NOSSO PROCESSO:
+                        </h3>
+                        <div className="svg"></div>
                     </div>
+
                 </div>
             </div>
         </section>
