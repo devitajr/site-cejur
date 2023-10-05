@@ -14,7 +14,7 @@
 }
 #contato .container{
     max-width: min(var(--larguraMaxima), 90vw);
-    height: 1000px;
+    height: fit-content;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -51,6 +51,7 @@
     justify-content: center;
     padding: 2rem 0 0 0;
     gap: 4rem;
+    height: fit-content;
 }
 
 #contato .info{
@@ -61,18 +62,21 @@
     min-height: 12rem;
 }
 
-.mensagem-lateral{
+#contato .mensagem-lateral{
     min-width: 400px;
     max-width: 500px;
     width: 100%;
+    height: 650px;
 }
 
-#contato .svg {
+#contato .svg-processo {
     height:600px;
     width: 600px;
     background: url(/public/Contato_cejur.svg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    background-size: 140%;
+    background-position-x: 40%;
     margin: 0;
     padding: 0;
     border: none;

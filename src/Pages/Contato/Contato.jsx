@@ -23,16 +23,10 @@ const Contato = () => {
                     {/* Eis o componente do forms */}
                     <Forms></Forms>
                     <div className="titulo mensagem-lateral">
-                        <h2>
-                            A CEJUR ESTÁ
-                            <br />
-                            <span>PRONTA </span>
-                            PARA TE ATENDER!
-                        </h2>
-                        <h3>
+                        <h1>
                             ENTENDA NOSSO PROCESSO:
-                        </h3>
-                        <div className="svg"></div>
+                        </h1>
+                        <div className="svg-processo"></div>
                     </div>
 
                 </div>
