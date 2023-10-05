@@ -53,7 +53,7 @@ const Navbar = () => {
                         ></button>
                     </div>
                     <div className="offcanvas-body">
-                        <div className="navbar-nav t-flex t-items-center t-font-semibold">
+                        <div className="navbar-nav t-font-semibold navbar">
                             <a
                                 className="nav-link active"
                                 aria-current="page"

@@ -3,7 +3,6 @@
 
 /* Social */
 .social{
-    margin-top: 1rem;
     margin-left: 4rem;
     text-overflow: clip;
     white-space: nowrap;
@@ -27,6 +26,7 @@
     top: 0;
     left: 0;
     z-index: 10;
+    position:sticky;
 }    
 #main-nav .container{
     max-width: var(--larguraMaxima);
@@ -36,15 +36,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
     min-height: 3rem;
 }    
 #main-nav ul{
     display: flex;
 }    
+
+
 #main-nav ul li a,
 #main-nav div a{
-    padding: 1.4rem 1.2rem;
+    padding: 0vh 1.2rem;
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--azulEscuro);
@@ -74,6 +75,11 @@
     width: 200px;
     margin-right: 35%;  
     margin-left: 1%;
+}
+
+.navbar-brand img {
+    width: 80%;
+    padding: 10px;
 }
 
 /* Responsive style of navbar-brand*/
