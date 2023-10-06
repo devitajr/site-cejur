@@ -21,8 +21,10 @@
    --azulMarinho: #002878;
    --corFundos: #292929;
    --corClara: #ffffff;
+   --corClaraFraca: #ffffff30;
    --cinzaClaro: #e3e3e3;
    --larguraMaxima: 1100px;
+
 }
 * {
    margin: 0;

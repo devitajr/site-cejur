@@ -97,7 +97,6 @@ const SocialProof = () => {
                  slidesPerView: 3,
                },
              }}
-            onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
          >
             {testimonials.map((testimonial, index) => (

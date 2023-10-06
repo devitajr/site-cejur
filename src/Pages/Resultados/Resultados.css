@@ -48,7 +48,7 @@
     background-size: 40%;
     background-position: 120% 35%;
     background-repeat: no-repeat;
-    background-image: url(/public/LogoSimplesVazada.svg);
+    background-image: url(/LogoSimplesVazada.svg);
 }
 
 #resultados .container{
@@ -66,13 +66,18 @@
     padding-top: 1rem;
 }
 #resultados .container .titulo h2{
-    font-size: 2rem;
-    color: var(--azulClaro);
+    font-size: 2.5rem;
+
+    color: var(--azulJeans);
     line-height: 1;
     padding: 1rem;
-    border-left: var(--amareloEscuro) 3px solid;
+    border-left: var(--corFundos) 3px solid;
 }
-
+#resultados .container .titulo h2 span{
+    color: var(--azulMarinho);
+    border-bottom: var(--amareloClaro) 3px solid;
+    font-size: 3rem;
+}
 
 #resultados .btn-mais {
     color: var(--corClara);
@@ -107,6 +112,29 @@
     color: var(--corFundos);
     background: var(--amareloClaro);
     transition: all ease-in-out 0.3s;
+}
+
+#resultados .mosaico {
+
+    background-image: url(/Apoio_Mosaico.svg);
+    background-repeat: repeat-y;
+    background-size: 15vw;
+    background-position: -50% -50%;
+    width: 15vw;
+    height: 1390px;
+
+    opacity: 85%;
+
+    position: absolute;
+    left: 2rem;
+    top: 1600px;
+}
+
+@media (max-width: 1900px) {
+    #resultados .mosaico {
+        display: hidden;
+        background: none;
+    }
 }
 
 

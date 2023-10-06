@@ -34,6 +34,8 @@ const Resultados = () => {
           </div>
         </div>
 
+      <div className="mosaico"></div>
+
         <div className="espacado-3rem">
           <SocialProof></SocialProof>
         </div>

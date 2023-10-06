@@ -48,7 +48,6 @@ function CarouselLogos() {
             }}
             enabled={true}
             slidesPerView={4}
-            onSlideChange={() => console.log("slide change")}
             onSwiper={(swiper) => console.log(swiper)}
         >
             {logos.map((logo, index) => (

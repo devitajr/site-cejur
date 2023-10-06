@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 
+import LogoCejur from "./Logo_cejur.svg";
 
 import { Link } from "react-router-dom";
 
-const Navbar_Cases = () => {
+const Navbar_NonHome = () => {
     // const [opened, setOpened] = useState(false)
 
     // const toogleMenu = () => {
@@ -19,9 +20,9 @@ const Navbar_Cases = () => {
     return (
         <nav className=" navbar navbar-expand-lg" id="main-nav">
             <div className="container-fluid">
-                {/* LOGO DA JR */}
-                <Link to="/" className="navbar-brand" href="#">
-                    <img className="logo" src="./svg/Logo Superior.svg" alt="Ita Junior" />
+                {/* LOGO DA CEJUR */}
+                <Link to="/home" className="navbar-brand">
+                    <img className="logo" src={LogoCejur} alt="Logo Cejur" />
                 </Link>
 
 
@@ -99,4 +100,4 @@ const Navbar_Cases = () => {
         </nav>
     );
 };
-export default Navbar_Cases;
+export default Navbar_NonHome;
