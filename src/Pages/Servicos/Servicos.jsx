@@ -3,6 +3,8 @@
 import React from "react";
 import "./Servicos.css";
 
+import { Link } from "react-router-dom";
+
 const Servicos = () => {
    return (
       <>
@@ -77,9 +79,9 @@ const Servicos = () => {
                <br />
             </div>
             <div className="btn-mais">
-               <a href="#Diferenciais" className="btn">
+               <Link to="/sobre" className="btn">
                   Sobre Nós
-               </a>
+               </Link>
             </div>
          </section>
       </>

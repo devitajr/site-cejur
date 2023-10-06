@@ -2,6 +2,7 @@ import './App.css'
 import Footer from './components/Footer/Footer';
 import Home from "./Home"
 import Cases from './Pages/Cases/Cases';
+import Sobre from './Pages/Sobre/Sobre';
 
 import {
     createBrowserRouter,
@@ -31,6 +32,7 @@ const router = createBrowserRouter(
             <Route index element={<Home/>}></Route>
             <Route path="/cases" element ={<Cases />}></Route>
             <Route path="/home" element ={<Home />}></Route>
+            <Route path="/sobre" element = {<Sobre/>}></Route>
         </Route>
 
     )

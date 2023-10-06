@@ -62,9 +62,6 @@ const Navbar = () => {
                                 Home
                             </a>
                             <a className="nav-link" href="/#servicos">
-                                Serviços
-                            </a>
-                            <a className="nav-link" href="/#sobre">
                                 Sobre
                             </a>
                             <a className="nav-link" href="/#resultados">

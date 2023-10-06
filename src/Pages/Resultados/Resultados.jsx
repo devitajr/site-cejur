@@ -34,11 +34,21 @@ const Resultados = () => {
           </div>
         </div>
 
-      <div className="mosaico"></div>
+        <div className="mosaico"></div>
 
         <div className="espacado-3rem">
           <SocialProof></SocialProof>
         </div>
+
+        <h3 className="texto">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam sunt
+          ab laborum porro deserunt, consequuntur delectus facere optio! Illo
+          aliquid perspiciatis, autem debitis natus optio ea asperiores
+          doloremque magni maiores!
+        </h3>
+        <Link to="/cases" className="btn-mais casesbtn">
+          Cases de Sucesso
+        </Link>
 
         <div className="subtitulo">
           <h2>
