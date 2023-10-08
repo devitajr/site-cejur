@@ -105,7 +105,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: transform 500ms ease-out, opacity 500ms ease-out; /* Add transition for smooth animation */
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out; /* Add transition for smooth animation */
   }
 
 #servicos .card .card-img-top{
@@ -124,11 +124,11 @@
 #servicos .card-text {
     color: var(--azulMarinho);
     opacity: 1;
-    transition: all 500ms ease-out; /* Add transition for smooth animation */
+    transition: all 1000ms ease-out; /* Add transition for smooth animation */
 }
 
 #servicos .animate-fadein{
     opacity: 1;
     transform: translateY(0);
-    transition: all 500ms ease-out;
+    transition: all 1000ms ease-out;
 }

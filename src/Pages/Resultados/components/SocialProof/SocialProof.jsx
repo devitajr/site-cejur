@@ -70,7 +70,7 @@ const SocialProof = () => {
             className="mySwiper"
             modules={[Autoplay, EffectCoverflow]}
             coverflowEffect={{
-               rotate: 50,
+               rotate: -25,
                stretch: 10,
                depth: 100,
                modifier: 1,
