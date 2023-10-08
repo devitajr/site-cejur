@@ -1,5 +1,3 @@
-/* Adjust the @media variables at the bottom of file for responsivity */
-
 
 /* Social */
 .social{
@@ -73,7 +71,6 @@
 
 #main-nav .navbar-brand{
     width: 200px; 
-    margin-left: 1%;
 }
 
 .navbar-brand img {

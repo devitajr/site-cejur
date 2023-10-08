@@ -63,10 +63,13 @@
 }
 
 #contato .mensagem-lateral{
-    min-width: 400px;
     max-width: 500px;
     width: 100%;
     height: 650px;
+    overflow-wrap: break-word;
+}
+#contato .mensagem-lateral h1{
+    overflow-wrap: break-word;
 }
 
 #contato .svg-processo {
@@ -81,3 +84,16 @@
     padding: 0;
     border: none;
 }
+
+@media screen and (max-width: 600px) {
+    #contato .svg-processo{
+      width: 120%
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #contato .svg-processo{
+      width: 90%;
+      margin-left: 3.5rem;
+    }
+  }
