@@ -1,5 +1,3 @@
-// 
-
 
 import React from "react";
 
@@ -16,9 +14,9 @@ const Newsletter = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-        console.log("Valores captados" + name + "" + email);
+      console.log("Valores captados" + name + "" + email);
     } catch (error) {
-        console.error('Error submitting form:', error);
+      console.error('Error submitting form:', error);
     }
   };
 
@@ -40,11 +38,14 @@ const Newsletter = () => {
 
   return (
     <div id="newsletter">
-      <form className="news-form fade-in" onSubmit={handleSubmit}>
+
+     {/* <div id="newsletter"> */}
+
+
+      {/* <form className="news-form fade-in" onSubmit={handleSubmit}>
         <button onClick={handleClose} className="close-button">
           X
         </button>{" "}
-        {/* Close button */}
         <h2 className="subtitulo">Se inscreva no nosso newsletter!</h2>
         <input
           aria-label="Seu nome"
@@ -65,8 +66,32 @@ const Newsletter = () => {
         />
         <button className="btn">Enviar</button>
       </form>
-    </div>
-  );
-};
+    </div> */}
 
-export default Newsletter;
+
+<button type="button" class="botaoNewsletter" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Se inscreva em nossa newsletter!
+</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Receba nossas Newsletters!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="botaoEnviar">Enviar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  )
+}
+export default Newsletter
