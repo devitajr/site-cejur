@@ -28,7 +28,6 @@
 }
 #servicos .container .titulo h2 span{
     color: var(--azulMarinho);
-    border-bottom: var(--amareloClaro) 3px solid;
     font-size: 3rem;
 }
 #servicos .container .titulo p{
@@ -106,7 +105,13 @@
     background-size: cover;
     background-repeat: no-repeat;
     transition: transform 1000ms ease-out, opacity 1000ms ease-out; /* Add transition for smooth animation */
-  }
+}
+
+#servicos .card:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
 
 #servicos .card .card-img-top{
     height: 200px;
@@ -114,7 +119,7 @@
 
 #servicos .card-title {
     color: var(--azulMarinho);
-    border-bottom: 4px solid var(--amareloClaro);
+    border-bottom: 2px solid var(--azulMarinho);
     padding-bottom: 0.2rem;  /* Optional: Add some padding below the title for spacing */
     width: fit-content;
     font-size: 2rem;  /* Adjust as needed */
