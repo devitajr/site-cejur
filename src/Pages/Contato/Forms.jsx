@@ -21,7 +21,7 @@ const Forms = () => {
   // coloca usestate de todos os campos
   const [whatsappNumber, setWhatsappNumber] = useState("");
   const [name, setName] = useState("");
-  const [valor, setValor] = useState("");
+  const [howKnew, setHowknew] = useState("");
   const [area, setArea] = useState("");
   const [email, setEmail] = useState("");
   const [descricao, setDescricao] = useState("");
@@ -54,7 +54,8 @@ const Forms = () => {
         console.error("Email sending error:", error);
         setFormStatus("Erro ao enviar email!");
     }
-};
+  };
+
 
   const handleWhatsappChange = (e) => {
     let value = e.target.value;
@@ -150,17 +151,37 @@ const Forms = () => {
           />
         </Form.Control>
       </Form.Field>
-      <Form.Field className="FormField" name="Valor">
+      {/* <Form.Field className="FormField" name="Valor">
         <Form.Label className="FormLabel">
           Quanto Você pretende Investir em seu projeto?
         </Form.Label>
         <SelectValor onValueChange={handleSelectChange} />
-      </Form.Field>
+      </Form.Field> */}
       <Form.Field className="FormField" name="Area">
         <Form.Label className="FormLabel">
           Qual Área de atuação mais te interessou?
         </Form.Label>
         <SelectArea onValueChange={handleAreaChange}></SelectArea>
+      </Form.Field>
+      <Form.Field className="FormFieldPenultimo" name="question">
+        <div
+          style={{
+            display: "flex",
+            alignItems: "baseline",
+            justifyContent: "space-between",
+          }}
+        >
+          <Form.Label className="FormLabel">Como você nos conheceu? </Form.Label>
+        </div>
+        <Form.Control asChild>
+          <textarea
+            className="Textarea"
+            required
+            value={howKnew}
+            onChange={(e) => setHowknew(e.target.value)}
+          />
+        </Form.Control>
+        <div className="status FormMessage">{formStatus}</div>
       </Form.Field>
       <Form.Field className="FormField" name="question">
         <div
