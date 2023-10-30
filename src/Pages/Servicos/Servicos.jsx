@@ -90,11 +90,6 @@ const Servicos = () => {
           </div>
           <br />
         </div>
-        <div className="btn-mais">
-          <Link to="/sobre" className="btn">
-            Sobre Nós
-          </Link>
-        </div>
       </section>
     </>
   );

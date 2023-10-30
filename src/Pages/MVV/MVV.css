@@ -1,0 +1,148 @@
+/* Serviços */
+#mvv {
+    padding-bottom: 2rem;
+    width: 100%;
+    height: fit-content;
+    background-color: var(--cinzaClaro);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--azulMarinho);
+    overflow: hidden;
+}
+#mvv .container{
+    max-width: min(var(--larguraMaxima), 90vw);
+    height: fit-content;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#mvv .container .titulo{
+    padding-top: 1.6rem;
+}
+#mvv .container .titulo h2{
+    color: var(--azulJeans);
+    line-height: 1;
+    padding: 1rem;
+    border-left: var(--azulMarinho) 3px solid;
+}
+#mvv .container .titulo h2 span{
+    color: var(--azulMarinho);
+    font-size: 2.4rem;
+}
+#mvv .container .titulo p{
+    color: var(--azulMarinho);
+    font-size: 1.2rem;
+    line-height: 1;
+    padding-top: 1rem;
+}
+#mvv .content{
+    display: flex;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+#mvv .info{
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    min-height: 12rem;
+}
+
+#mvv .info h3{
+    padding-left: 1rem;
+    border-left: 2px var(--azulMarinho) solid;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    background: url(/svg/fundotextura.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#mvv .btn-mais{
+    color: var(--amareloClaro);
+    background-color: transparent;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#mvv .btn-mais a{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: var(--amareloClaro);
+    border-radius: 5px;
+    transition: all 300ms ease-in-out;
+}
+#mvv .btn-mais a:hover{
+    background: var(--azulMarinho);
+}
+
+/* New code for V2, focus on cards */
+
+#mvv .tres-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    transform: translateY(50px);
+    opacity: 0.3;
+}
+
+#mvv .card {
+    border-radius: 10px;
+    height: 350px;
+    background: none;
+    border-color: transparent;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out; /* Add transition for smooth animation */
+}
+
+
+
+#mvv .card .card-img-top{
+    height: 130px;
+}
+
+#mvv .card-body{    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#mvv .card-title {
+    text-align: center;
+    justify-content: center;
+    color: var(--azulMarinho);
+    border-bottom: 2px solid var(--azulMarinho);
+    padding-bottom: 10px;  /* Optional: Add some padding below the title for spacing */
+    text-align: center;
+    font-size: 2rem;  /* Adjust as needed */
+    font-weight: 500;
+}
+
+#mvv .card-text {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--azulMarinho);
+    opacity: 1;
+    /* transition: all 1000ms ease-out; Add transition for smooth animation*/ 
+}
+
+#mvv .card-text .valores{
+    padding-bottom: 4px;
+}
+
+
+#mvv .animate-fadein{
+    opacity: 1;
+    transform: translateY(0);
+    transition: all 1000ms ease-out;
+}

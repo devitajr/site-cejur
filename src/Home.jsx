@@ -5,6 +5,7 @@
 import React from "react";
 import Navbar from './components/Navbar/Navbar'
 import Servicos from './Pages/Servicos/Servicos'
+import MVV from './Pages/MVV/MVV'
 import Carrousel from './components/Hero/Carrousel'
 import Resultados from './Pages/Resultados/Resultados'
 import Contato from './Pages/Contato/Contato'
@@ -49,6 +50,7 @@ const Home = () => {
             <Carrousel></Carrousel>
             {showNewsletter && <Newsletter></Newsletter>}
             <Servicos></Servicos>
+            <MVV></MVV>
             <Resultados></Resultados>
             <Contato></Contato>
         </>

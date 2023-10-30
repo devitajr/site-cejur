@@ -64,7 +64,7 @@
     background-repeat: no-repeat;
     width: 100%;
 }
-#servicos .btn-mais{
+/* #servicos .btn-mais{
 
     color: var(--amareloClaro);
     background-color: transparent;
@@ -84,7 +84,7 @@
 }
 #servicos .btn-mais a:hover{
     background: var(--azulMarinho);
-}
+} */
 
 /* New code for V2, focus on cards */
 
