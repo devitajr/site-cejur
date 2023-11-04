@@ -57,8 +57,8 @@ const Navbar = () => {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item className="item-nav-link" href="#servicos">Serviços</Dropdown.Item>
-                                    <Dropdown.Item className="item-nav-link" href="#mvv">Sobre nós</Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link" href="/#servicos">Serviços</Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link" href="/#mvv">Sobre nós</Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             <a className="nav-link" href="/#resultados">

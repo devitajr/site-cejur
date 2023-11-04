@@ -7,7 +7,7 @@
     color: var(--cinzaClaro);
     background-color: var(--azulJeans);
     padding: 1rem;
-
+    height: 20vh;
     background-size: 40%;
     background-position: 120% 35%;
     background-image: url(/LogoSimplesVazada.svg);
@@ -15,7 +15,7 @@
 
 
 #faq-page .accordion{
-    border-radius: 20px;
+    margin: 0 5vw;    
 }
 
 #faq-page .accordion-item{
