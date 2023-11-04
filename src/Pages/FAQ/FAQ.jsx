@@ -20,6 +20,30 @@ const FAQ = () => {
         {
             pergunta: "Clique Aqui para Expandir 2",
             resposta: "Este é o conteúdo do Acordeão 2.",
+        },
+        {
+            pergunta: "Clique Aqui para Expandir 1",
+            resposta: "Este é o conteúdo do Acordeão 1.",
+        },
+        {
+            pergunta: "Clique Aqui para Expandir 3",
+            resposta: "Este é o conteúdo do Acordeão 3.",
+        },
+        {
+            pergunta: "Clique Aqui para Expandir 2",
+            resposta: "Este é o conteúdo do Acordeão 2.",
+        },
+        {
+            pergunta: "Clique Aqui para Expandir 1",
+            resposta: "Este é o conteúdo do Acordeão 1.",
+        },
+        {
+            pergunta: "Clique Aqui para Expandir 3",
+            resposta: "Este é o conteúdo do Acordeão 3.",
+        },
+        {
+            pergunta: "Clique Aqui para Expandir 2",
+            resposta: "Este é o conteúdo do Acordeão 2.",
         }
     ]
     const renderizarPerguntas = (duvidas) => {

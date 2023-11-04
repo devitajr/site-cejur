@@ -6,32 +6,46 @@
     font-size: 3rem;
     color: var(--cinzaClaro);
     background-color: var(--azulJeans);
-    line-height: 1;
     padding: 1rem;
+
+    background-size: 40%;
+    background-position: 120% 35%;
+    background-image: url(/LogoSimplesVazada.svg);
 }
-#faq-page {
-    background-color: var(--cinzaClaro);
-}
-#faq-page .newsletters-box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
+
 
 #faq-page .accordion{
     border-radius: 20px;
 }
 
 #faq-page .accordion-item{
+    background-color: var(--cinzaClaro);
+    color: var(--azulEscuro);
+    font-size: 18px;
     margin: 20px;
-    border-left: 4px var(--azulJeans) solid;
-}
-
-#faq-page .accordion-item .pergunta{
-    border-radius: 20px;
+    border-left: 4px var(--azulEscuro) solid;
+    border-radius: 6px;
 }
 
 #faq-page .accordion-item .resposta{
-    border-radius: 20px;
+    border-top: 2px var(--azulJeans) solid;
+}
+
+#faq-page .accordion-item .accordion-button{
+    border-radius: 0px;
+    background-color: var(--cinzaClaro);
+    color: var(--azulEscuro);
+    font-size: 18px;
+}
+
+#faq-page .accordion-item .accordion-button:focus-within{
+    outline: none;
+    box-shadow: none;
+}
+
+#faq-page .accordion-item .accordion-button:hover{
+    /* color: var(--cinzaClaro);
+    background-color: var(--azulEscuro); */
+
+    background-color: var(--cinzaMedio);
 }
