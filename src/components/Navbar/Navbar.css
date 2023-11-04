@@ -9,7 +9,7 @@
     padding: 1rem;
     color: var(--azulEscuro);
     border-bottom: transparent 2px solid;
-    transition: border 0.6s ease-in-out;
+    transition: border 0.3s ease-in-out;
 }
 .social a:hover,
 .social a:focus-within{
@@ -47,7 +47,7 @@
     font-size: 1.4rem;
     font-weight: bold;
     color: var(--azulEscuro);
-    transition: border 0.6s ease-in-out;
+    transition: border 0.3s ease-in-out;
     border-bottom: transparent 2px solid;
 }    
 
@@ -55,7 +55,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     color: var(--azulEscuro);
-    transition: border 0.6s ease-in-out;
+    transition: border 0.3s ease-in-out;
     border-bottom: transparent 2px solid;
 }
 
@@ -82,4 +82,34 @@
     position: absolute;
     right: 4rem;
     top: 1.5rem;
+}
+
+.dropdown-nav-link{
+    padding: 0;
+    background-color: var(--corClara);
+    color: var(--azulEscuro);
+    padding: 0vh 1.2rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border-radius: 0;
+    border: 0;
+    border-bottom: var(--corClara) 2px solid;
+}
+
+.dropdown-nav-link:hover{
+    background-color: var(--corClara);
+    color: var(--azulEscuro);
+    border-bottom: var(--amareloClaro) 2px solid;
+}
+.dropdown-nav-link:focus,
+.dropdown-nav-link:active, 
+.dropdown-nav-link:focus-within{
+    background-color: var(--corClara);
+    color: var(--azulEscuro);
+    border-bottom: var(--amareloClaro) 2px solid;
+}
+
+.item-nav-link:focus-within{
+    background-color: var(--corClara);
+    color: var(--azulEscuro);
 }

@@ -1,21 +1,11 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-
 import LogoCejur from "./Logo_cejur.svg";
+import Dropdown from 'react-bootstrap/Dropdown';
 
-import { Link } from "react-router-dom";    
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    // const [opened, setOpened] = useState(false)
-
-    // const toogleMenu = () => {
-    //     if(opened){
-    //         setOpened(false)
-    //     } else {
-    //         setOpened(true)
-    //     }
-    //     console.log(opened)
-    // }
 
     return (
         <nav className=" navbar navbar-expand-lg" id="main-nav">
@@ -61,11 +51,31 @@ const Navbar = () => {
                             >
                                 Home
                             </a>
-                            <a className="nav-link" href="/#servicos">
-                                Sobre
-                            </a>
+                            <Dropdown>
+                                <Dropdown.Toggle className="dropdown-nav-link" >
+                                    Sobre
+                                </Dropdown.Toggle>
+
+                                <Dropdown.Menu>
+                                    <Dropdown.Item className="item-nav-link" href="#servicos">Serviços</Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link" href="#mvv">Sobre nós</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
                             <a className="nav-link" href="/#resultados">
                                 Resultados
+                            </a>
+                            <Dropdown>
+                                <Dropdown.Toggle className="dropdown-nav-link" >
+                                    Conteúdo
+                                </Dropdown.Toggle>
+
+                                <Dropdown.Menu>
+                                    <Dropdown.Item className="item-nav-link" href="/eventos">Eventos</Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link" href="/newsletters">Newsletters</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                            <a className="nav-link" href="/faq">
+                                FAQ
                             </a>
                             <a className="nav-link" href="/#contato">
                                 Contato

@@ -1,0 +1,19 @@
+
+
+#newsletters-page .titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--cinzaClaro);
+    background-color: var(--azulJeans);
+    line-height: 1;
+    padding: 1rem;
+}
+
+#newsletters-page .newsletters-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

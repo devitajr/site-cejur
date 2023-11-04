@@ -3,6 +3,7 @@ import Footer from './components/Footer/Footer';
 import Home from "./Home"
 import Cases from './Pages/Cases/Cases';
 import Sobre from './Pages/Sobre/Sobre';
+import Newsletters from './Pages/Conteudo/Newsletters/Newsletters';
 
 import {
     createBrowserRouter,
@@ -11,6 +12,7 @@ import {
     RouterProvider,
     Outlet,
 } from "react-router-dom";
+import Newsletter from './popups/Newsletter/Newsletter';
 
 
 
@@ -33,6 +35,7 @@ const router = createBrowserRouter(
             <Route path="/cases" element ={<Cases />}></Route>
             <Route path="/home" element ={<Home />}></Route>
             <Route path="/sobre" element = {<Sobre/>}></Route>
+            <Route path="/newsletters" element = {<Newsletters/>}></Route>
         </Route>
 
     )
