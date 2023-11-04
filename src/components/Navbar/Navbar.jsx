@@ -47,7 +47,7 @@ const Navbar = () => {
                             <a
                                 className="nav-link active"
                                 aria-current="page"
-                                href="#"
+                                href="/"
                             >
                                 Home
                             </a>
