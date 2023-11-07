@@ -2,11 +2,15 @@
 #resultados .container .subtitulo h2{
     font-size: 1rem;
     color: var(--azulEscuro);
-    line-height: 0.2;
-    padding: 1rem;
+    padding: 16px;
     border-left: var(--azulClaro) 3px solid;
-
 }
+
+#resultados .container .subtitulo h2 span{
+    font-size: 28px;
+    font-weight: 700;
+}
+
 
 
 #resultados .subtitulo-e-numeros{
@@ -157,6 +161,6 @@
     width: 20%;
 }
 
-#resultados .casesbtn{
-    margin-top: 5rem;
+#resultados .faqbtn{
+    margin-top: 8vh;
 }

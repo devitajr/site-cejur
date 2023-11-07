@@ -38,13 +38,12 @@ const Resultados = () => {
         </div>
 
         <h3 className="texto">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam sunt
-          ab laborum porro deserunt, consequuntur delectus facere optio! Illo
-          aliquid perspiciatis, autem debitis natus optio ea asperiores
-          doloremque magni maiores!
+        O CEJUR é uma entidade que se pauta em serviços paralegais e na elaboração de projetos acadêmicos e sociais. 
+        Trabalha com soluções jurídicas e consultorias que contribuem para a adequação jurídica do cliente diante do mercado. 
+        Os principais perfis de clientes da entidade são: startups, ONGs, entidades estudantis e projetos Pro-Bono. 
         </h3>
-        <Link to="/cases" className="btn-mais casesbtn">
-          Cases de Sucesso
+        <Link to="/faq" className="btn-mais faqbtn">
+          Acesse nosso FAQ!
         </Link>
 
         <div className="subtitulo">
@@ -58,7 +57,7 @@ const Resultados = () => {
           <CarouselLogos></CarouselLogos>
         </div>
         <br />
-        <a href="#contato" className="btn-mais casesbtn">
+        <a href="#contato" className="btn-mais">
           Entre em contato!
         </a>
       </div>
