@@ -35,7 +35,6 @@ const Servicos = () => {
             Os principais perfis de clientes da entidade são: startups, ONGs, entidades estudantis e projetos Pro-Bono.
             </p>
           </div>
-
           <div ref={cards} className="card-group tres-cards info">
             <div className="card">
               <img
@@ -45,10 +44,10 @@ const Servicos = () => {
                 alt="Card image cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Lorem</h5>
+                <h5 className="card-title">Elaboração e Revisão</h5>
                 <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                  culpa molestiae eum fugiat.
+                  Revisamos contratos, essenciais para qualquer pessoa jurídica e 
+                  elaboramos documentos constitutivos, necessários para o devido reconhecimento legal da pessoa jurídica.
                 </p>
               </div>
             </div>
@@ -59,10 +58,10 @@ const Servicos = () => {
                 alt="Card image cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Lorem, ipsum.</h5>
+                <h5 className="card-title">Consultoria jurídica</h5>
                 <p className="card-text comp">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae, dolore eaque.
+                  Fazemos em um estudo aprofundado sobre um tema de interesse do cliente. 
+                  Fornecemos insumos para tomada de decisões e também capacitações personalizadas. 
                 </p>
               </div>
             </div>
@@ -73,10 +72,10 @@ const Servicos = () => {
                 alt="Card image cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Lorem, ipsum.</h5>
+                <h5 className="card-title">Adequação à LGPD</h5>
                 <p className="card-text comp">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Repudiandae.
+                  Consiste uma análise do processo de tratamento dos dados. Identificamos as necessidades para se adequar à lei, 
+                  e oferecemos o serviço de DPO, com suporte na fiscalização, documentação dos dados
                 </p>
               </div>
             </div>
