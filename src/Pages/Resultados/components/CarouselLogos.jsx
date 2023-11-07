@@ -18,22 +18,27 @@ import "swiper/css";
 import "swiper/css/autoplay";
 
 // import de logos
-import logoItau from "./logos/itau.svg";
-import logoUnilever from "./logos/unilever.svg";
-import logoMicrosoft from "./logos/microsoft.svg";
+import logoCittaMobi from "./logos/cittamobi.png";
+import logoDatApto from "./logos/datApto.png";
+import logoEJMackenzie from "./logos/EJ_Mackenzie.png";
+import logoFinDocs from "./logos/FinDocs.png";
+import logoLigaNegociosModa from "./logos/Liga_negocios_moda.png";
+import logoRubrum from "./logos/logo_rubrum-1.png";
 
 function CarouselLogos() {
     const logos = [
-        logoItau,
-        logoUnilever,
-        logoMicrosoft,
-        logoItau,
-        logoItau,
-        logoItau,
-        logoItau,
-        logoItau,
-        logoItau,
-        logoItau,
+        logoCittaMobi,
+        logoDatApto,
+        logoEJMackenzie,
+        logoFinDocs,
+        logoLigaNegociosModa,
+        logoRubrum,
+        logoCittaMobi,
+        logoDatApto,
+        logoEJMackenzie,
+        logoFinDocs,
+        logoLigaNegociosModa,
+        logoRubrum,
     ];
 
     return (
