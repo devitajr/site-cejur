@@ -12,7 +12,7 @@
 }
 #mvv .container{
     max-width: min(var(--larguraMaxima), 90vw);
-    height: fit-content;
+    height: 70vh;
     margin: 0 auto;
     overflow: hidden;
 }

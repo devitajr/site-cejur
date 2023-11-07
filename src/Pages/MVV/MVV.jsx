@@ -43,8 +43,8 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Missão</h5>
                 <p className="card-text">
-                Impactar a sociedade por meio da capacitação dos nossos membros para a realização de consultorias jurídicas.
-                  
+                Promover soluções jurídicas, garantindo oportunidades e experiências personalizadas aos nossos clientes, membros e parceiros. 
+
                 </p>
               </div>
             </div>
@@ -57,9 +57,8 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Visão</h5>
                 <p className="card-text">
-                Tornar-se referência de consultoria jurídica para o segundo e terceiro setor, 
-                disseminando conhecimento jurídico e uma cultura de responsabilidade social a todos.
-                  
+                Ser a Empresa Júnior Jurídica de maior referência em serviços de qualidade no Estado de São Paulo, atingindo o Cluster 3 do Movimento Brasil Júnior até 2024.
+
                 </p>
               </div>
             </div>
@@ -72,10 +71,12 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Valores</h5>
                 <p className="card-text">
-                    <div className="valores">Excelência</div>
-                    <div className="valores">Dinamismo</div>
-                    <div className="valores">Sentimento de Dono</div>
-                    <div className="valores">Consciência</div>
+                    <div className="valores">Paixão pelo propósito</div>
+                    <div className="valores">Foco no cliente</div>
+                    <div className="valores">Responsabilidade com a empresa</div>
+                    <div className="valores">Protagonismo no cotidiano</div>
+                    <div className="valores">Pluralidade</div>
+                    <div className="valores">Profissionalismo</div>
                 </p>
               </div>
             </div>
