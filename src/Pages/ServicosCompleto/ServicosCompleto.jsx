@@ -9,7 +9,7 @@ const ServicosCompleto = () => {
                 <Navbar></Navbar>
                 <Newsletter></Newsletter>
                 <div className="container-custom">
-                    <div className="titulo">
+                    <div id="inicio" className="titulo">
                         <div className="parte-esquerda">
                             <h2>
                                 NOSSOS

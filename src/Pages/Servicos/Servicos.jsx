@@ -36,7 +36,7 @@ const Servicos = () => {
             </p>
           </div>
           <div ref={cards} className="card-group tres-cards info">
-            <div className="card">
+            <Link className="card" to="/servicos#" >
               <img
                 style={{ padding: "35px" }}
                 className="card-img-top"
@@ -50,8 +50,8 @@ const Servicos = () => {
                   elaboramos documentos constitutivos, necessários para o devido reconhecimento legal da pessoa jurídica.
                 </p>
               </div>
-            </div>
-            <div className="card">
+            </Link>
+            <Link className="card" to="/servicos#" >
               <img
                 className="card-img-top"
                 src="./svg/marteloJuiz.svg"
@@ -64,8 +64,8 @@ const Servicos = () => {
                   Fornecemos insumos para tomada de decisões e também capacitações personalizadas. 
                 </p>
               </div>
-            </div>
-            <div className="card">
+            </Link>
+            <Link className="card" to="/servicos#">
               <img
                 className="card-img-top"
                 src="./svg/dashboard.svg"
@@ -78,11 +78,11 @@ const Servicos = () => {
                   e oferecemos o serviço de DPO, com suporte na fiscalização, documentação dos dados
                 </p>
               </div>
-            </div>
+            </Link>
           </div>
           <br />
           <div className="btn-mais">
-          <Link to="/servicos" className="btn">
+          <Link to="/servicos#" className="btn">
             Leia mais sobre nossos serviços
           </Link>
         </div>
