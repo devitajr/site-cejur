@@ -14,5 +14,8 @@ export default {
     hot: true
   },
   plugins: [react()],
-  publicDir: "public"
+  publicDir: "public", 
+  build: {
+    outDir: 'dist', // Define o diretório de saída para 'dist' ou o diretório desejado
+  },
 }
