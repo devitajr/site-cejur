@@ -30,16 +30,9 @@ const Servicos = () => {
               <span>SERVIÇOS</span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi
-              doloribus sapiente similique modi laudantium odit libero non
-              maxime, optio est dolore culpa temporibus nisi minus aspernatur.
-              Tempore sunt ex, saepe eligendi est molestiae, enim optio quidem
-              eum eius deserunt tempora blanditiis sint consectetur ipsum
-              mollitia quaerat! Consequuntur quo, voluptate nisi laudantium
-              dicta ipsa enim error optio incidunt earum veritatis suscipit
-              delectus deleniti nemo distinctio eaque, minus cum consectetur,
-              corporis sit pariatur harum. Minus modi quas a exercitationem ad
-              eveniet cupiditate!
+            O CEJUR é uma entidade que se pauta em serviços paralegais e na elaboração de projetos acadêmicos e sociais. 
+            Trabalha com soluções jurídicas e consultorias que contribuem para a adequação jurídica do cliente diante do mercado. 
+            Os principais perfis de clientes da entidade são: startups, ONGs, entidades estudantis e projetos Pro-Bono.
             </p>
           </div>
 
