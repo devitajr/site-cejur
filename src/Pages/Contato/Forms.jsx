@@ -41,7 +41,8 @@ const Forms = () => {
                 name: name,
                 email: email,
                 phone: whatsappNumber,
-                valor: valor,
+                howKnew: howKnew,
+                // valor: valor,
                 area: area,
                 description: descricao,
             },
@@ -85,7 +86,7 @@ const Forms = () => {
             justifyContent: "space-between",
           }}
         >
-          <Form.Label className="FormLabel">Nome</Form.Label>
+          <Form.Label className="FormLabel">Nome e sobrenome</Form.Label>
           <Form.Message className="FormMessage" match="valueMissing">
             Por favor, insira um nome
           </Form.Message>
@@ -143,7 +144,7 @@ const Forms = () => {
           <input
             className="Input WhatsappInput"
             type="text"
-            placeholder="Ex.: (11) 99002-8922"
+            placeholder="Ex.: (11) 99000-0000"
             required
             value={whatsappNumber}
             onChange={handleWhatsappChange}
@@ -159,7 +160,7 @@ const Forms = () => {
       </Form.Field> */}
       <Form.Field className="FormField" name="Area">
         <Form.Label className="FormLabel">
-          Qual Área de atuação mais te interessou?
+          Qual assunto mais te interessou?
         </Form.Label>
         <SelectArea onValueChange={handleAreaChange}></SelectArea>
       </Form.Field>
@@ -171,7 +172,7 @@ const Forms = () => {
             justifyContent: "space-between",
           }}
         >
-          <Form.Label className="FormLabel">Como você nos conheceu? </Form.Label>
+          <Form.Label className="FormLabel">Como você conheceu o CEJUR? </Form.Label>
         </div>
         <Form.Control asChild>
           <textarea
@@ -191,9 +192,9 @@ const Forms = () => {
             justifyContent: "space-between",
           }}
         >
-          <Form.Label className="FormLabel">Descreva seu projeto</Form.Label>
+          <Form.Label className="FormLabel">Descreva sua demanda</Form.Label>
           <Form.Message className="FormMessage" match="valueMissing">
-            Por favor, insira uma descrição do projeto
+            Por favor, insira uma breve descrição da demanda
           </Form.Message>
         </div>
         <Form.Control asChild>

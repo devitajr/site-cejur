@@ -42,10 +42,10 @@ const SelectArea = (props) => {
           </Select.ScrollUpButton>
           <Select.Viewport className="SelectViewport">
             <Select.Group>
-              <SelectItem value="Consultoria">Consultoria</SelectItem>
-              <SelectItem value="Desenvolvimento">Desenvolvimento</SelectItem>
-              <SelectItem value="Dados">Dados</SelectItem>
-              <SelectItem value="Mais de Uma">Mais de Uma</SelectItem>
+              <SelectItem value="Conhecer a consultoria">Conhecer o funcionamento dos serviços de consultoria</SelectItem>
+              <SelectItem value="Orçamento de serviço">Realizar orçamento de um serviço </SelectItem>
+              <SelectItem value="Projeto de consultoria em conjunto">Projetos de consultoria em conjunto</SelectItem>
+              <SelectItem value="Ser parceiro">Ser um parceiro do Cejur</SelectItem>
               <SelectItem value="Nenhuma das anteriores">
                 Nenhuma das anteriores
               </SelectItem>
