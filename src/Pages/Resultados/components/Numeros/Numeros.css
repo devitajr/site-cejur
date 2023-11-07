@@ -1,21 +1,15 @@
 
 
 .card-estatisticas{
-    /* transform: translateY(70%);
-    transition: all 500ms 500ms ease; */
-
     width: 60%;
-    border-radius: 10px;
-
     display: inline-flex;
-    align-items: first baseline;
-    justify-content: center;
+    align-items: baseline;
     font-weight: 500;
     color: var(--corFundos)
 }
 
 .projetos{
-    padding: 0 10px;
+    padding: 0 35px;
 
     display: flex;
     flex-direction: column;
@@ -35,8 +29,6 @@
 
 
 .historia{
-    padding: 0 10px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
