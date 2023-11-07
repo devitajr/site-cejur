@@ -5,6 +5,7 @@ import Cases from './Pages/Cases/Cases';
 import Sobre from './Pages/Sobre/Sobre';
 import Newsletters from './Pages/Conteudo/Newsletters/Newsletters';
 import FAQ from './Pages/FAQ/FAQ';
+import ServicosCompleto from './Pages/ServicosCompleto/ServicosCompleto';
 
 import {
     createBrowserRouter,
@@ -15,6 +16,7 @@ import {
 } from "react-router-dom";
 
 import Newsletter from './popups/Newsletter/Newsletter';
+
 
 
 
@@ -37,6 +39,7 @@ const router = createBrowserRouter(
             <Route path="/cases" element ={<Cases />}></Route>
             <Route path="/home" element ={<Home />}></Route>
             <Route path="/sobre" element = {<Sobre/>}></Route>
+            <Route path="/servicos" element = {<ServicosCompleto/>}></Route>
             <Route path="/newsletters" element = {<Newsletters/>}></Route>
             <Route path="/faq" element = {<FAQ/>}></Route>
         </Route>

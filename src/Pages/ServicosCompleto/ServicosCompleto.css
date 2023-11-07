@@ -1,0 +1,492 @@
+#servicos-completo{
+    padding-bottom: 2rem;
+    width: 100vw;
+    height: fit-content;
+    color: var(--azulMarinho);
+}
+
+#servicos-completo .container-custom{
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#servicos-completo .container-custom .titulo{
+    width: 100vw;
+    display: flex;
+    margin: 0;
+    height: 87vh;
+}
+
+
+#servicos-completo .container-custom .titulo .parte-esquerda{
+    width: 65vw;
+    background-color: var(--azulMarinho);
+    color: var(--amareloClaro);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7vw;
+    font-size: 30px;
+
+    background-size: 120%;
+    background-position: 120% 35%;
+    background-image: url(/LogoSimplesVazada.svg);
+
+}
+
+#servicos-completo  .titulo .parte-esquerda h2{
+    font-size: 50px;
+}
+
+#servicos-completo .container-custom .titulo .parte-direita{
+    width: 35vw;
+    background-color: var(--cinzaClaro);
+    padding: 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/Logo_cejur.svg);
+}
+
+#servicos-completo .seta {
+    display: flex;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+
+    position: absolute;
+    top: 90vh;
+ }
+ #servicos-completo .seta a {
+    color: var(--amareloClaro);
+    animation: seta 3s ease-in-out infinite forwards;
+ }
+ #servicos-completo .seta a:hover,
+ #servicos-completo .seta a:focus-within {
+    animation: none;
+    transform: scale(1.3);
+    border-bottom: transparent 3px solid;
+ }
+ @keyframes seta {
+    0% {
+       transform: scale(1);
+    }
+    10% {
+       transform: scale(1.3);
+    }
+    30% {
+       transform: scale(1);
+    }
+    100% {
+       transform: scale(1);
+    }
+ }
+
+ /* ---------- ELABORAÇÃO E REVISÃO ----------- */
+ #elaboracao-revisao{
+    background-color: var(--azulEscuro);
+    color: var(--corClara);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+ }
+
+
+ #elaboracao-revisao .servico-descricao{
+    display: flex;
+    padding: 10vh 10vw;
+ }
+
+ #elaboracao-revisao .servico-texto{
+    font-size: 20px;
+    color: #ffffffb0;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #elaboracao-revisao .servico-texto p{
+    font-size: 30px;
+    color: #ffffff;
+ }
+
+ #elaboracao-revisao .servico-palavras-chave{
+    margin-top: 80px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: #ffffff solid 3px;
+    border-bottom: #ffffff solid 3px;
+    color: var(--corClara)
+ }
+
+ #elaboracao-revisao .servico-bloco{
+    border: 2px solid var(--azulJeans);
+ }
+
+ #elaboracao-revisao .servico-bloco .servico-svg{
+    width: 315px;
+    height: 217.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./SVG/Elaboracao.svg);
+    padding: 10px;
+    margin: 15px;
+ }
+
+ #elaboracao-revisao .servico-bloco .servico-nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    font-size: 40px;
+    color:var(--azulJeans);
+ }
+
+
+
+
+
+ /* ---------- DOCUMENTOS CONSTITUTIVOS ----------- */
+
+
+ #documentos-constitutivos{
+    background-color: var(--corClara);
+    color: var(--azulEscuro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+ }
+
+
+ #documentos-constitutivos .servico-descricao{
+    display: flex;
+    padding: 10vh 10vw;
+ }
+
+ #documentos-constitutivos .servico-texto{
+    font-size: 20px;
+    color: var(--azulJeans);;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #documentos-constitutivos .servico-texto p{
+    font-size: 30px;
+    color: var(--azulEscuro);
+ }
+
+ #documentos-constitutivos .servico-palavras-chave{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: var(--azulEscuro) solid 3px;
+    border-bottom: var(--azulEscuro) solid 3px;
+    color: var(--azulEscuro);
+ }
+
+ #documentos-constitutivos .servico-bloco{
+    border: 2px solid var(--azulEscuro);
+ }
+
+ #documentos-constitutivos .servico-bloco .servico-svg{
+    width: 315px;
+    height: 217.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./SVG/Elaboracao.svg);
+    padding: 10px;
+    margin: 15px;
+ }
+
+ #documentos-constitutivos .servico-bloco .servico-nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    font-size: 40px;
+    color:var(--azulEscuro);
+ }
+
+/* ---------- CONSULTORIA E PARECERES ----------- */
+
+
+#consultoria-pareceres{
+    background-color: var(--cinzaClaro);
+    color: var(--azulJeans);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+ }
+
+
+ #consultoria-pareceres .servico-descricao{
+    display: flex;
+    padding: 10vh 10vw;
+ }
+
+ #consultoria-pareceres .servico-texto{
+    font-size: 20px;
+    color: var(--azulJeans);;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #consultoria-pareceres .servico-texto p{
+    font-size: 30px;
+    color: var(--azulJeans);
+ }
+
+ #consultoria-pareceres .servico-palavras-chave{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: var(--azulJeans) solid 3px;
+    border-bottom: var(--azulJeans) solid 3px;
+    color: var(--azulJeans);
+ }
+
+ #consultoria-pareceres .servico-bloco{
+    border: 2px solid var(--azulJeans);
+ }
+
+ #consultoria-pareceres .servico-bloco .servico-svg{
+    width: 315px;
+    height: 217.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./SVG/Elaboracao.svg);
+    padding: 10px;
+    margin: 15px;
+ }
+
+ #consultoria-pareceres .servico-bloco .servico-nome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    font-size: 40px;
+    color:var(--azulJeans);
+ }
+
+
+/* ---------- ADEQUAÇÃO À LGPD ----------- */
+
+
+#adequacao-lgpd{
+    background-color: var(--corClara);
+    color: var(--azulEscuro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+ }
+
+
+ #adequacao-lgpd .servico-descricao{
+    display: flex;
+    padding: 10vh 10vw;
+ }
+
+ #adequacao-lgpd .servico-texto{
+    font-size: 20px;
+    color: var(--azulJeans);;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #adequacao-lgpd .servico-texto p{
+    font-size: 30px;
+    color: var(--azulEscuro);
+ }
+
+ #adequacao-lgpd .servico-palavras-chave{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: var(--azulEscuro) solid 3px;
+    border-bottom: var(--azulEscuro) solid 3px;
+    color: var(--azulEscuro);
+ }
+
+ #adequacao-lgpd .servico-bloco{
+    border: 2px solid var(--azulEscuro);
+ }
+
+ #adequacao-lgpd .servico-bloco .servico-svg{
+    width: 315px;
+    height: 217.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./SVG/Elaboracao.svg);
+    padding: 10px;
+    margin: 15px;
+ }
+
+ #adequacao-lgpd .servico-bloco .servico-nome{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    font-size: 40px;
+    color:var(--azulEscuro);
+ }
+
+
+ /* ---------- DPO AS A SERVICE ----------- */
+
+
+#dpo-service{
+    background-color: var(--azulJeans);
+    color: var(--corClara);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+ }
+
+
+ #dpo-service .servico-descricao{
+    display: flex;
+    padding: 10vh 10vw;
+ }
+
+ #dpo-service .servico-texto{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--corClara);;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #dpo-service .servico-texto p{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--corClara);
+ }
+
+ #dpo-service .servico-palavras-chave{
+    font-weight: 400;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: var(--amareloClaro) solid 3px;
+    border-bottom: var(--amareloClaro) solid 3px;
+    color: var(--amareloClaro);
+ }
+
+ #dpo-service .servico-bloco{
+    border: 2px solid var(--corClara);
+ }
+
+ #dpo-service .servico-bloco .servico-svg{
+    width: 315px;
+    height: 217.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./SVG/Elaboracao.svg);
+    padding: 10px;
+    margin: 15px;
+ }
+
+ #dpo-service .servico-bloco .servico-nome{
+    display: flex;
+    padding: 0 15px;
+    font-size: 40px;
+    color:var(--corClara);
+ }
+
+ /* ---------- CAPACITACOES ----------- */
+
+
+#capacitacoes{
+    background-color: var(--azulEscuro);
+    color: var(--corClara);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 87vh;
+ }
+
+
+ #capacitacoes .servico-descricao{
+    display: flex;
+    padding: 10vh 10vw;
+ }
+
+ #capacitacoes .servico-texto{
+    font-size: 20px;
+    color:  #ffffffb0;
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+ }
+
+ #capacitacoes .servico-texto p{
+    font-size: 30px;
+    color: var(--corClara);
+ }
+
+ #capacitacoes .servico-palavras-chave{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 25px;
+    border-top: var(--corClara) solid 3px;
+    border-bottom: var(--corClara) solid 3px;
+    color: var(--corClara);
+ }
+
+ #capacitacoes .servico-bloco{
+    border: 2px solid var(--corClara);
+ }
+
+ #capacitacoes .servico-bloco .servico-svg{
+    width: 315px;
+    height: 217.5px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(./SVG/Elaboracao.svg);
+    padding: 10px;
+    margin: 15px;
+ }
+
+ #capacitacoes .servico-bloco .servico-nome{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    padding-bottom: 35px;
+    font-size: 40px;
+    color:var(--azulJeans);
+ }
+
+
+
+ /* --------------  POR QUE O CEJUR?   --------------  */
+
+ 
