@@ -1,5 +1,5 @@
 /* CSS ESPECIFICO */
-#cases .quadro-areas {
+/* #cases .quadro-areas {
     background-image: url(/svg/fundotextura.svg);
     background-position: center;
     background-size: cover;
@@ -9,7 +9,7 @@
     height: fit-content;
     /* transform: translateY(70%);
     transition: all 500ms 500ms ease; */
-
+/*
     width: auto;
 
     margin: 1rem;
@@ -77,10 +77,12 @@
     color: var(--azulEscuro);
     border-radius: 0.5rem;
 }
-
+*/
 
 
 /* CSS Padrão */
+
+/*
 #cases .container {
     max-width: min(var(--larguraMaxima), 90vw);
     height: fit-content;
@@ -208,4 +210,4 @@
     color: var(--corFundos);
     background: var(--amareloEscuro);
     transition: all ease-in-out 0.3s;
-}
+} */
