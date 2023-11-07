@@ -7,7 +7,7 @@ const Numeros = () => {
     const [countProjetos, setCountProjetos] = useState(0)
     const [countEmpresas, setCountEmpresas] = useState(0)
     const [countTempo, setCountTempo] = useState(0)
-    const targetValues = [150, 100, 30]
+    const targetValues = [85, 50, 10]
 
     const ANIMATION_SPEED = 20
     
@@ -50,17 +50,23 @@ const Numeros = () => {
             <div className='projetos'>
                 <div className="numeros">+{ countProjetos }</div>
                 <div className='textao'>Projetos realizados</div>
-                <div className='textinho'>Somos a empresa júnior que mais faz projetos do vale. Venha nos conhecer! </div>
+                <div className='textinho'>
+                    Oferecemos soluções jurídicas acessíveis e de excelência
+                </div>
             </div>
             <div className='empresas'>
                 <div className="numeros">+{ countEmpresas }</div>
                 <div className='textao'>Empresas impactadas</div>
-                <div className='textinho'>Nosso trabalho busca otimizar o que nossos clientes têm de melhor</div>
+                <div className='textinho'>
+                Nosso trabalho busca otimizar o que nossos clientes têm de melhor
+                </div>
             </div>
             <div className='historia'>
                 <div className="numeros">+{ countTempo }</div>
                 <div className='textao'>Anos no mercado</div>
-                <div className='textinho'>Temos orgulho de nossa tradição tanto como empresa junior quanto como iteanos</div>
+                <div className='textinho'>
+                Temos orgulho de nossa tradição tanto como empresa júnior quanto como gvnianos, empreendedores natos
+                </div>
             </div>
         </div>
     )

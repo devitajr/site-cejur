@@ -1,7 +1,7 @@
 import React from "react";
 import "./Resultados.css";
 import CarouselLogos from "./components/CarouselLogos";
-import Numeros from "./../../components/Numeros/Numeros";
+import Numeros from "./components/Numeros/Numeros";
 import SocialProof from "./components/SocialProof/SocialProof";
 
 import { Link } from "react-router-dom";
@@ -20,15 +20,12 @@ const Resultados = () => {
           </h2>
           <div className="subtitulo-e-numeros">
             <h3 className="subtitulo-metade">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Laudantium accusantium ex explicabo qui nostrum! Fugit nulla
-              expedita perferendis minima consequuntur dignissimos labore
-              distinctio libero quisquam modi in perspiciatis quos eveniet
-              sapiente quia excepturi ducimus eius dolore sit corporis, quod
-              neque ea. Iure, neque sequi nemo, dignissimos tempora suscipit
-              illum pariatur a in eveniet, officiis voluptate quos fugiat porro
-              itaque sapiente inventore architecto et eum aspernatur deserunt
-              soluta necessitatibus quasi!
+            Com mais de 10 anos de experiência, o CEJUR-FGV já acumulou um impressionante histórico de resultados. 
+            Ao longo desse período, realizamos mais de 85 projetos, proporcionando soluções jurídicas acessíveis e de excelência.
+            Nossa dedicação incansável impactou positivamente mais de 50 empresas, otimizando o que nossos clientes têm de melhor. 
+            Essa jornada de sucesso reflete nosso compromisso contínuo com a excelência, a inovação e o espírito empreendedor, 
+            tanto como empresa júnior quanto como membros da comunidade FGV.
+
             </h3>
             <Numeros></Numeros>
           </div>
