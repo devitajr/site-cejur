@@ -18,17 +18,17 @@ import { auto } from "@popperjs/core";
 
 const testimonials = [
    {
-      text: "This is an amazing product! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod odio mollitia natus illum maiores consectetur.",
+      text: "Gosto de contratar Empresas Juniores (EJ's), como o CEJUR, porque a vontade que os alunos têm de aprender me faz perceber que o projeto vai muito além de um mero serviço que visa retorno financeiro. Optei pela contratação de uma EJ - nesse caso, o CEJUR - por ter um custo benefício melhor, ou seja, por ser um serviço de alta qualidade com menor custo. A equipe do CEJUR mostra bastante profissionalismo, de modo que os contratei mais serviços do que era previsto no início do projeto.",
       image: "pessoas/image.jpg",
-      name: "John Doe",
-      profession: "Software Engineer",
+      name: " Rodrigo Korovichenco",
+      profession: "Fundador e CEO da Rubrum",
       linkedin: "https://www.linkedin.com/in/johndoe/",
    },
    {
-      text: "Wow, I love CEJUR! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod odio mollitia natus illum maiores consectetur.",
+      text: "Nós contratamos os serviços jurídicos do Cejur-FGV afim de fazer nossa reforma estatutária e elaborar nosso regimento interno. O serviço foi muito bem executado e em poucas reuniões providenciamos tudo. Parabéns pelo empenho dos acadêmicos de Direito da FGV que trabalharam muito bem e atenderam todas as nossas necessidades. Recomendo!" ,
       image: "pessoas/image.jpg",
-      name: "John Doe",
-      profession: "Software Engineer",
+      name: "Fernanda Miranda",
+      profession: "Presidente da Sociedade Goiana de Pneumologia",
       linkedin: "https://www.linkedin.com/in/johndoe/",
    },
    {
@@ -80,7 +80,7 @@ const SocialProof = () => {
             autoplay={{
                // Configure autoplay
                delay: 2500, // Delay between transitions (in ms). Adjust this value as needed.
-               disableOnInteraction: false, // Continue autoplaying when the user interacts with the slide.
+               disableOnInteraction: true, // Continue autoplaying when the user interacts with the slide.
             }}
             enabled={true}
             breakpoints={{
@@ -121,9 +121,9 @@ const SocialProof = () => {
                                  marginRight: "10px",
                               }}
                            />
-                           <div className="w-full">
-                              <p className="mb-0">{testimonial.name}</p>
-                              <p className="mb-0">{testimonial.profession}</p>
+                           <div className="w-full text-sm">
+                              <p className="mb-0 card-nome">{testimonial.name}</p>
+                              <p className="mb-0 card-profissao">{testimonial.profession}</p>
                            </div>
                         </div>
                         <a
