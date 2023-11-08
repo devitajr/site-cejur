@@ -119,6 +119,7 @@
 
 #servicos .card-title {
     color: var(--azulMarinho);
+    text-decoration: none;
     border-bottom: 2px solid var(--azulMarinho);
     padding-bottom: 0.2rem;  /* Optional: Add some padding below the title for spacing */
     width: fit-content;
@@ -128,11 +129,13 @@
 
 #servicos .card-text {
     color: var(--azulMarinho);
+    text-decoration: none;
     opacity: 1;
     transition: all 1000ms ease-out; /* Add transition for smooth animation */
 }
 
 #servicos .animate-fadein{
+    text-decoration: none;
     opacity: 1;
     transform: translateY(0);
     transition: all 1000ms ease-out;

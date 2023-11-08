@@ -59,7 +59,7 @@ const Servicos = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">Consultoria jurídica</h5>
-                <p className="card-text comp">
+                <p className="card-text">
                   Fazemos em um estudo aprofundado sobre um tema de interesse do cliente. 
                   Fornecemos insumos para tomada de decisões e também capacitações personalizadas. 
                 </p>
@@ -73,7 +73,7 @@ const Servicos = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">Adequação à LGPD</h5>
-                <p className="card-text comp">
+                <p className="card-text">
                   Consiste uma análise do processo de tratamento dos dados. Identificamos as necessidades para se adequar à lei, 
                   e oferecemos o serviço de DPO, com suporte na fiscalização, documentação dos dados
                 </p>

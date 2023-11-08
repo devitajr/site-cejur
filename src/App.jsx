@@ -1,8 +1,6 @@
-import './App.css'
+import './App.css';
 import Footer from './components/Footer/Footer';
-import Home from "./Home"
-// import Cases from './Pages/Cases/Cases';
-// import Sobre from './Pages/Sobre/Sobre';
+import Home from "./Home";
 import Newsletters from './Pages/Conteudo/Newsletters/Newsletters';
 import FAQ from './Pages/FAQ/FAQ';
 import ServicosCompleto from './Pages/ServicosCompleto/ServicosCompleto';
@@ -36,9 +34,7 @@ const router = createBrowserRouter(
 
         <Route path= "/" element={<Root />}>
             <Route index element={<Home/>}></Route>
-            {/* <Route path="/cases" element ={<Cases />}></Route> */}
             <Route path="/home" element ={<Home />}></Route>
-            {/* <Route path="/sobre" element = {<Sobre/>}></Route> */}
             <Route path="/servicos" element = {<ServicosCompleto/>}></Route>
             <Route path="/newsletters" element = {<Newsletters/>}></Route>
             <Route path="/faq" element = {<FAQ/>}></Route>
