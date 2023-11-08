@@ -1,5 +1,5 @@
 import "./ServicosCompleto.css";
-import Navbar from "../../components/Navbar/Navbar";
+import Navbar from "../Navbar/Navbar";
 import Newsletter from "../../popups/Newsletter/Newsletter";
 const ServicosCompleto = () => {
 

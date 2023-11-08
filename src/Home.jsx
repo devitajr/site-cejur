@@ -3,7 +3,7 @@
 // Marcim T27 05/10/2023
 
 import React from "react";
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './Pages/Navbar/Navbar'
 import Servicos from './Pages/Servicos/Servicos'
 import MVV from './Pages/MVV/MVV'
 import Carrousel from './components/Hero/Carrousel'

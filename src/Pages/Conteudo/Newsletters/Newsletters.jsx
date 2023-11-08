@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../../components/Navbar/Navbar";
+import Navbar from "../../Navbar/Navbar";
 import Newsletter from "../../../popups/Newsletter/Newsletter";
 import './Newsletters.css'
 const Conteudo = () => {

@@ -70,13 +70,21 @@ const Navbar = () => {
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
-                                    <Dropdown.Item className="item-nav-link" href="/eventos">Eventos</Dropdown.Item>
-                                    <Dropdown.Item className="item-nav-link" href="/newsletters">Newsletters</Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link" href="/eventos">
+                                        <Link className="nav-link" to="/eventos">
+                                            Eventos
+                                        </Link>
+                                    </Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link" href="/newsletters">
+                                        <Link className="nav-link" to="/newsletters">
+                                            Newsletters
+                                        </Link>
+                                    </Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
-                            <a className="nav-link" href="/faq">
+                            <Link className="nav-link" to="/faq">
                                 FAQ
-                            </a>
+                            </Link>
                             <a className="nav-link" href="/#contato">
                                 Contato
                             </a>
