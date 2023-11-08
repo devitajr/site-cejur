@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react'
 
 export default {
   root: path.resolve(__dirname, 'src'),
+  // root: path.resolve(__dirname),
   resolve: {
     alias: {
       '~bootstrap': path.resolve(__dirname, 'node_modules/bootstrap'),
