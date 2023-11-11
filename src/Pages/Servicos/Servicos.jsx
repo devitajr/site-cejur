@@ -40,7 +40,7 @@ const Servicos = () => {
               <img
                 style={{ padding: "35px" }}
                 className="card-img-top"
-                src="./svg/contrato.svg"
+                src="/contrato.svg"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -54,7 +54,7 @@ const Servicos = () => {
             <Link className="card" to="/servicos#" >
               <img
                 className="card-img-top"
-                src="./svg/marteloJuiz.svg"
+                src="/marteloJuiz.svg"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -68,7 +68,7 @@ const Servicos = () => {
             <Link className="card" to="/servicos#">
               <img
                 className="card-img-top"
-                src="./svg/dashboard.svg"
+                src="/dashboard.svg"
                 alt="Card image cap"
               />
               <div className="card-body">
