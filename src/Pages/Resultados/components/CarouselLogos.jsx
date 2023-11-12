@@ -26,6 +26,7 @@ import logoLigaNegociosModa from "./logos/Liga_negocios_moda.png";
 import logoRubrum from "./logos/logo_rubrum-1.png";
 
 function CarouselLogos() {
+
     const logos = [
         logoCittaMobi,
         logoDatApto,
@@ -52,7 +53,23 @@ function CarouselLogos() {
                 disableOnInteraction: false, // Continue autoplaying when the user interacts with the slide.
             }}
             enabled={true}
-            slidesPerView={4}
+            breakpoints={{
+                // when window width is >= 1px
+                1: {
+                    slidesPerView: 1,
+                },
+                // when window width is >= 700px
+                400: {
+                    slidesPerView: 2,
+                },
+                700: {
+                    slidesPerView: 3,
+                },
+                // when window width is >= 1024px
+                1024: {
+                    slidesPerView: 4,
+                },
+              }}
             onSwiper={(swiper) => console.log(swiper)}
         >
             {logos.map((logo, index) => (
