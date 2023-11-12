@@ -76,7 +76,6 @@
 }
 #servicos .btn-mais a{
     font-size: 1.4rem;
-    margin-top: 2rem;
     padding: 1rem 2rem;
     background: var(--amareloClaro);
     border-radius: 5px;
@@ -91,6 +90,7 @@
 #servicos .tres-cards {
     display: flex;
     justify-content: center;
+    align-items: baseline;
     flex-wrap: wrap;
     transform: translateY(50px);
     opacity: 0.3;
@@ -98,7 +98,6 @@
 
 #servicos .card {
     border-radius: 10px;
-    height: 350px;
     background: none;
     border-color: transparent;
     background-position: center;

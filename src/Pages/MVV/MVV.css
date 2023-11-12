@@ -12,7 +12,7 @@
 }
 #mvv .container{
     max-width: min(var(--larguraMaxima), 90vw);
-    height: 70vh;
+    height: fit-content;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -74,7 +74,6 @@
 }
 #mvv .btn-mais a{
     font-size: 1.4rem;
-    margin-top: 2rem;
     padding: 1rem 2rem;
     background: var(--amareloClaro);
     border-radius: 5px;
@@ -89,6 +88,7 @@
 #mvv .tres-cards {
     display: flex;
     justify-content: center;
+    align-items: baseline;
     flex-wrap: wrap;
     transform: translateY(50px);
     opacity: 0.3;
@@ -96,7 +96,6 @@
 
 #mvv .card {
     border-radius: 10px;
-    height: 350px;
     background: none;
     border-color: transparent;
     background-position: center;
