@@ -42,7 +42,7 @@ const Navbar = () => {
                             aria-label="Close"
                         ></button>
                     </div>
-                    <div className="offcanvas-body">
+                    <div className="offcanvas-body ">
                         <div className="navbar-nav t-font-semibold navbar">
                             <a
                                 className="nav-link active"
