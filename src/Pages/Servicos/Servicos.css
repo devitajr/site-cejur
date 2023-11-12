@@ -103,6 +103,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-decoration: none;
     transition: transform 1000ms ease-out, opacity 1000ms ease-out; /* Add transition for smooth animation */
 }
 
