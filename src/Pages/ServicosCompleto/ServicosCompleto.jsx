@@ -142,35 +142,36 @@ const ServicosCompleto = () => {
                         </div>
                     </div>
                     <div id="adequacao-lgpd">
-                        <div className="servico-texto">
-                            <p>Adequação
-                                à LGPD</p>
-                            Para fazer cumprir a lei,
-                            realizamos uma análise do
-                            processo de tratamento de
-                            dados, através de um
-                            relatório e mapa de risco.
-                            Uma vez identificadas as
-                            necessidades da empresa,
-                            elaboramos os documentos
-                            para implementação da lei,
-                            oferecendo também o
-                            serviço de DPO para
-                            aconselhamento,
-                            compliance, gestão de riscos
-                            e atendimento ao titular de
-                            dados.
-
-                            <div className="servico-palavras-chave">
-                                DPO as a service - Política de Privacidade -
-                                Relatório de Atividades - Política de Cookies -
-                                Mapa de Riscos - Termos e Condições de Uso -
-                                Termo de Consentimento de Uso de Dados - Outros
-
-
-                            </div>
-                        </div>
                         <div className="servico-descricao">
+                            <div className="servico-texto">
+                                <p>Adequação
+                                    à LGPD</p>
+                                Para fazer cumprir a lei,
+                                realizamos uma análise do
+                                processo de tratamento de
+                                dados, através de um
+                                relatório e mapa de risco.
+                                Uma vez identificadas as
+                                necessidades da empresa,
+                                elaboramos os documentos
+                                para implementação da lei,
+                                oferecendo também o
+                                serviço de DPO para
+                                aconselhamento,
+                                compliance, gestão de riscos
+                                e atendimento ao titular de
+                                dados.
+
+                                <div className="servico-palavras-chave">
+                                    DPO as a service - Política de Privacidade -
+                                    Relatório de Atividades - Política de Cookies -
+                                    Mapa de Riscos - Termos e Condições de Uso -
+                                    Termo de Consentimento de Uso de Dados - Outros
+
+
+                                </div>
+                            </div>
+
                             <div className="servico-bloco">
                                 <div className="servico-svg"></div>
                                 <div className="servico-nome">
@@ -226,22 +227,21 @@ const ServicosCompleto = () => {
                         </div>
                     </div>
                     <div id="capacitacoes">
-                        <div className="servico-texto">
-                            <p>Capacitações</p>
-                            Personalizadas à sua necessidade. Seja para treinamento,
-                            um evento ou simplesmente para conscientização, nossas
-                            capacitações possuem o nível que somente a melhor
-                            faculdade de Direito privada do Brasil pode oferecer.
-
-                            <div className="servico-palavras-chave">
-                                Compliance - Direito do Consumidor -
-                                Direito Tributário - LGPD -
-                                Tipos Contratuais - Multa e Rescisão -
-                                Propriedade Intelectual - Outros
-
-                            </div>
-                        </div>
                         <div className="servico-descricao">
+                            <div className="servico-texto">
+                                <p>Capacitações</p>
+                                Personalizadas à sua necessidade. Seja para treinamento,
+                                um evento ou simplesmente para conscientização, nossas
+                                capacitações possuem o nível que somente a melhor
+                                faculdade de Direito privada do Brasil pode oferecer.
+
+                                <div className="servico-palavras-chave">
+                                    Compliance - Direito do Consumidor -
+                                    Direito Tributário - LGPD -
+                                    Tipos Contratuais - Multa e Rescisão -
+                                    Propriedade Intelectual - Outros
+                                </div>
+                            </div>
                             <div className="servico-bloco">
                                 <div className="servico-svg"></div>
                                 <div className="servico-nome">

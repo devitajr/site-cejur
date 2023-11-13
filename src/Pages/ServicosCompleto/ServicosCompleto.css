@@ -91,6 +91,21 @@
     }
  }
 
+ @media (max-width: 1024px) {
+   #serviços-completo .titulo{
+      display: flex;
+      flex-direction: column;
+   }
+
+   #servicos-completo .container-custom .titulo .parte-direita{
+      display:none
+   }
+
+   #servicos-completo .container-custom .titulo .parte-esquerda{
+      width: 100vw;
+   }
+ }
+
  /* ---------- ELABORAÇÃO E REVISÃO ----------- */
  #elaboracao-revisao{
     background-color: var(--azulEscuro);
@@ -132,6 +147,8 @@
 
  #elaboracao-revisao .servico-bloco{
     border: 2px solid var(--azulJeans);
+    height: fit-content;
+    padding-bottom: 25px;
  }
 
  #elaboracao-revisao .servico-bloco .servico-svg{
@@ -146,12 +163,53 @@
  }
 
  #elaboracao-revisao .servico-bloco .servico-nome{
+    height: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0px 15px;
     font-size: 40px;
     color:var(--azulJeans);
+ }
+
+ @media (max-width: 1300px){
+   #elaboracao-revisao {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      padding: auto;
+      margin: auto;
+   }
+
+   #elaboracao-revisao .servico-descricao{
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+      padding: 10vh 10vw ;
+      margin: auto;
+   }
+
+   #elaboracao-revisao .servico-texto{
+      margin: 0;
+      padding: 0;
+   }
+
+   #elaboracao-revisao .servico-bloco .servico-svg{
+      width: 75vw;
+      height: 51.6vw;
+      padding: 2vw;
+      margin: 2vw;
+   }
+
+   #elaboracao-revisao .servico-bloco{
+      height: fit-content;
+      margin-bottom: 10vh;
+   }
+
+   #elaboracao-revisao .servico-texto{
+      text-align: center;
+   }
  }
 
 
@@ -201,6 +259,8 @@
 
  #documentos-constitutivos .servico-bloco{
     border: 2px solid var(--azulEscuro);
+    height: fit-content;
+    padding-bottom: 25px;
  }
 
  #documentos-constitutivos .servico-bloco .servico-svg{
@@ -221,6 +281,47 @@
     padding: 0 15px;
     font-size: 40px;
     color:var(--azulEscuro);
+ }
+
+ @media (max-width: 1300px){
+   #documentos-constitutivos {
+      display: flex;
+      flex-direction: column-reverse;
+      height: fit-content;
+      padding: auto;
+      margin: auto;
+   }
+
+   #documentos-constitutivos .servico-descricao{
+      display: flex;
+      flex-direction: column-reverse;
+      height: fit-content;
+      align-items: center;
+      padding: 10vh 10vw ;
+      margin: auto;
+   }
+
+   #documentos-constitutivos .servico-texto{
+      margin: 0;
+      padding: 0;
+   }
+
+   #documentos-constitutivos .servico-bloco .servico-svg{
+      width: 75vw;
+      height: 51.6vw;
+      padding: 2vw;
+      margin: 2vw;
+   }
+
+   #documentos-constitutivos .servico-bloco{
+      height: fit-content;
+      margin-bottom: 10vh;
+   }
+
+   #documentos-constitutivos .servico-texto{
+      text-align: center;
+   }
+   
  }
 
 /* ---------- CONSULTORIA E PARECERES ----------- */
@@ -266,6 +367,8 @@
 
  #consultoria-pareceres .servico-bloco{
     border: 2px solid var(--azulJeans);
+    height: fit-content;
+    padding-bottom: 25px;
  }
 
  #consultoria-pareceres .servico-bloco .servico-svg{
@@ -286,6 +389,47 @@
     padding: 0 15px;
     font-size: 40px;
     color:var(--azulJeans);
+ }
+
+ @media (max-width: 1300px){
+   #consultoria-pareceres {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      padding: auto;
+      margin: auto;
+   }
+
+   #consultoria-pareceres .servico-descricao{
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+      padding: 10vh 10vw ;
+      margin: auto;
+   }
+
+   #consultoria-pareceres .servico-texto{
+      margin: 0;
+      padding: 0;
+   }
+
+   #consultoria-pareceres .servico-bloco .servico-svg{
+      width: 75vw;
+      height: 51.6vw;
+      padding: 2vw;
+      margin: 2vw;
+   }
+
+   #consultoria-pareceres .servico-bloco{
+      height: fit-content;
+      margin-bottom: 10vh;
+   }
+
+   #consultoria-pareceres .servico-texto{
+      text-align: center;
+   }
+   
  }
 
 
@@ -332,6 +476,8 @@
 
  #adequacao-lgpd .servico-bloco{
     border: 2px solid var(--azulEscuro);
+    height: fit-content;
+    padding-bottom: 25px;
  }
 
  #adequacao-lgpd .servico-bloco .servico-svg{
@@ -351,6 +497,48 @@
     padding: 0 15px;
     font-size: 40px;
     color:var(--azulEscuro);
+ }
+
+ @media (max-width: 1300px){
+   #adequacao-lgpd {
+      display: flex;
+      flex-direction: column-reverse;
+      height: fit-content;
+      padding: auto;
+      margin: auto;
+   }
+
+   #adequacao-lgpd .servico-descricao{
+      display: flex;
+      flex-direction: column-reverse;
+      height: fit-content;
+      align-items: center;
+      padding: 10vh 10vw ;
+      margin: auto;
+   }
+
+   #adequacao-lgpd .servico-texto{
+      margin: 0;
+      padding: 0;
+   }
+
+   #adequacao-lgpd .servico-bloco .servico-svg{
+      width: 75vw;
+      height: 51.6vw;
+      padding: 2vw;
+      margin: 2vw;
+   }
+
+   #adequacao-lgpd .servico-bloco{
+      height: fit-content;
+      margin-bottom: 10vh;
+   }
+
+   #adequacao-lgpd .servico-texto{
+      text-align: center;
+      align-items: center;
+   }
+   
  }
 
 
@@ -400,6 +588,8 @@
 
  #dpo-service .servico-bloco{
     border: 2px solid var(--corClara);
+    height: fit-content;
+    padding-bottom: 25px;
  }
 
  #dpo-service .servico-bloco .servico-svg{
@@ -418,6 +608,47 @@
     padding: 0 15px;
     font-size: 40px;
     color:var(--corClara);
+ }
+
+ @media (max-width: 1300px){
+   #dpo-service {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      padding: auto;
+      margin: auto;
+   }
+
+   #dpo-service .servico-descricao{
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+      align-items: center;
+      padding: 10vh 10vw ;
+      margin: auto;
+   }
+
+   #dpo-service .servico-texto{
+      margin: 0;
+      padding: 0;
+   }
+
+   #dpo-service .servico-bloco .servico-svg{
+      width: 75vw;
+      height: 51.6vw;
+      padding: 2vw;
+      margin: 2vw;
+   }
+
+   #dpo-service .servico-bloco{
+      height: fit-content;
+      margin-bottom: 10vh;
+   }
+
+   #dpo-service .servico-texto{
+      text-align: center;
+   }
+   
  }
 
  /* ---------- CAPACITACOES ----------- */
@@ -463,6 +694,11 @@
 
  #capacitacoes .servico-bloco{
     border: 2px solid var(--corClara);
+    height: fit-content;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
  }
 
  #capacitacoes .servico-bloco .servico-svg{
@@ -485,6 +721,57 @@
     color:var(--azulJeans);
  }
 
+ @media (max-width: 1300px){
+   #capacitacoes {
+      display: flex;
+      flex-direction: column-reverse;
+      height: fit-content;
+      padding: auto;
+      margin: auto;
+   }
+
+   #capacitacoes .servico-descricao{
+      display: flex;
+      flex-direction: column-reverse;
+      height: fit-content;
+      align-items: center;
+      padding: 10vh 10vw ;
+      margin: auto;
+   }
+
+   #capacitacoes .servico-texto{
+      margin: 0;
+      padding: 0;
+   }
+
+   #capacitacoes .servico-bloco .servico-svg{
+      width: 75vw;
+      height: 51.6vw;
+      padding: 2vw;
+      margin: 2vw;
+   }
+
+   #capacitacoes .servico-bloco{
+      height: fit-content;
+      margin-bottom: 10vh;
+   }
+
+   #capacitacoes .servico-texto{
+      text-align: center;
+   }
+   
+ }
+
+ /* --- Extras ------------ */ 
+
+
+ 
+ @media (max-width: 1300px){
+   .servico-bloco .servico-nome{
+      text-align: center;
+      align-items: center;
+   }
+}
 
 
  /* --------------  POR QUE O CEJUR?   --------------  */
