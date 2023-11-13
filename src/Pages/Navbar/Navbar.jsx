@@ -44,13 +44,15 @@ const Navbar = () => {
                     </div>
                     <div className="offcanvas-body ">
                         <div className="navbar-nav t-font-semibold navbar">
-                            <a
+                            {/* <a
                                 className="nav-link active"
                                 aria-current="page"
                                 href="/"
                             >
+                            </a> */}
+                            <Link className="nav-link active" to="/">
                                 Home
-                            </a>
+                            </Link>
                             <Dropdown>
                                 <Dropdown.Toggle className="dropdown-nav-link" >
                                     Sobre

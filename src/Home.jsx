@@ -1,6 +1,3 @@
-// Fiz o código da newsletter aparecendo com o gepeto
-// https://chat.openai.com/share/e34baf9a-ceb6-4cd3-9798-f63928ac2e45
-// Marcim T27 05/10/2023
 
 import React from "react";
 import Navbar from './Pages/Navbar/Navbar'
@@ -43,6 +40,18 @@ const Home = () => {
             window.removeEventListener('scroll', handleInteraction);
         };
     }, [hasInteracted]);
+
+
+    function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', // Isso suavizará a animação de rolagem, se desejado
+        });
+    }
+
+    useEffect(() => {
+        scrollToTop();
+    }, []);
 
     return (
         <>

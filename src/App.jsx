@@ -28,6 +28,8 @@ const Root = () => {
         </>
     );
 };
+
+
 // Coloca as rotas no nosso site (Cria o BrowserRouter e cria Rotas a partir de elementos)
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -44,7 +46,6 @@ const router = createBrowserRouter(
 );
 
 function App() {  
-
   return (
     <>
       <RouterProvider router={router} />

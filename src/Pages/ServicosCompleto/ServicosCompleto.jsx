@@ -1,7 +1,20 @@
+import { useEffect } from "react";
 import "./ServicosCompleto.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../../popups/Newsletter/Newsletter";
+
+
 const ServicosCompleto = () => {
+    function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', // Isso suavizará a animação de rolagem, se desejado
+        });
+    }
+
+    useEffect(() => {
+        scrollToTop();
+    }, []);
 
     return (
         <>

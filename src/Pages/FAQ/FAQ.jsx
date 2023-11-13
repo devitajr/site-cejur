@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../../popups/Newsletter/Newsletter";
 import './FAQ.css';
-
+import { useEffect } from 'react';
 
 const FAQ = () => {
 
@@ -49,8 +49,19 @@ const FAQ = () => {
         })
 
         return renderizar;
-
     }
+
+    function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', // Isso suavizará a animação de rolagem, se desejado
+        });
+    }
+
+    useEffect(() => {
+        scrollToTop();
+    }, []);
+
     return (
         <div id="faq-page">
             <Navbar></Navbar>
