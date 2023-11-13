@@ -66,7 +66,7 @@ function CarouselLogos() {
                     slidesPerView: 3,
                 },
                 // when window width is >= 1024px
-                1024: {
+                1030: {
                     slidesPerView: 4,
                 },
               }}
