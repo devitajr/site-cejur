@@ -455,7 +455,7 @@
  #adequacao-lgpd .servico-texto{
     font-size: 20px;
     color: var(--azulJeans);;
-    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
  }
@@ -535,6 +535,7 @@
    }
 
    #adequacao-lgpd .servico-texto{
+      flex-direction: column;
       text-align: center;
       align-items: center;
    }
@@ -605,6 +606,7 @@
 
  #dpo-service .servico-bloco .servico-nome{
     display: flex;
+    align-items: center;
     padding: 0 15px;
     font-size: 40px;
     color:var(--corClara);
@@ -646,6 +648,8 @@
    }
 
    #dpo-service .servico-texto{
+      flex-direction: column;
+      align-items: center;
       text-align: center;
    }
    
@@ -673,7 +677,7 @@
  #capacitacoes .servico-texto{
     font-size: 20px;
     color:  #ffffffb0;
-    margin-left: 10vw;
+    margin-right: 10vw;
     display: flex;
     flex-direction: column;
  }
@@ -757,6 +761,8 @@
    }
 
    #capacitacoes .servico-texto{
+      flex-direction: column;
+      align-items: center;
       text-align: center;
    }
    
@@ -768,6 +774,7 @@
  
  @media (max-width: 1300px){
    .servico-bloco .servico-nome{
+      flex-direction: column;
       text-align: center;
       align-items: center;
    }
