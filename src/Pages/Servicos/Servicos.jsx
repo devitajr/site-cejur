@@ -82,7 +82,7 @@ const Servicos = () => {
           </div>
           <br />
           <div className="btn-mais">
-          <Link to="/servicos#" className="btn" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+          <Link to="/servicos" className="btn" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
             Leia mais sobre nossos serviços
           </Link>
         </div>
