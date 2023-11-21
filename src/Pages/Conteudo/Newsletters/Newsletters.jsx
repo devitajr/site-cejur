@@ -7,12 +7,12 @@ const Conteudo = () => {
     const pdfDataArray = [
         {
           title: 'PDF 1',
-          pdfUrl: '/pdfs/pdf1.pdf',
+          pdfUrl: '/pdfs/news1.pdf',
           imageUrl: '/images/pdf1.jpg',
         },
         {
           title: 'PDF 2',
-          pdfUrl: '/pdfs/pdf2.pdf',
+          pdfUrl: '/pdfs/news1.pdf',
           imageUrl: '/images/pdf2.jpg',
         },
         // Adicione mais objetos para mais PDFs
@@ -24,7 +24,7 @@ const Conteudo = () => {
       
         const pdfHTML = pdfData.map((item, index) => {
           const { title, pdfUrl, imageUrl } = item;
-          const downloadUrl = `/download-pdf/${pdfUrl}`; // Rota de download (substitua por sua lógica)
+          const downloadUrl = `${pdfUrl}`; // Rota de download (substitua por sua lógica)
 
           const pdfItem = (
             <div class="pdf-item">
