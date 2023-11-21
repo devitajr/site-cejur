@@ -19,7 +19,7 @@ const Navbar = () => {
                 <button
                     className={`navbar-toggler`}
                     type="button"
-                    data-bs-toggle="offcanvas"
+                    data-bs-toggle="collapse"
                     data-bs-target="#navbarNav"
                     aria-controls="navbarNav"
                     aria-expanded="false"
@@ -28,7 +28,7 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    className="offcanvas offcanvas-start"
+                    className="offcanvas offcanvas-start navbar-collapse-custom"
                     tabIndex="-1"
                     id="navbarNav"
                     aria-labelledby="navbarNavLabel"
@@ -37,18 +37,13 @@ const Navbar = () => {
                         <button
                             type="button"
                             className="btn-close text-reset"
-                            data-bs-dismiss="offcanvas"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav"
                             aria-label="Close"
                         ></button>
                     </div>
                     <div className="offcanvas-body ">
                         <div className="navbar-nav t-font-semibold navbar">
-                            {/* <a
-                                className="nav-link active"
-                                aria-current="page"
-                                href="/"
-                            >
-                            </a> */}
                             <Link className="nav-link active" to="/">
                                 Home
                             </Link>

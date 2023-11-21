@@ -121,6 +121,10 @@
 
 }
 
+.navbar-collapse-custom {
+    transition-duration: 0.2s; /* Ajuste o valor conforme desejado, por exemplo, 0.5s para 0,5 segundos */
+}
+
 @media (max-width: 1200px) {
     .navbar-nav {
       display: flex;
