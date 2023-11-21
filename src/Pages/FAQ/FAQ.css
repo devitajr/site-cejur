@@ -49,3 +49,10 @@
 
     background-color: var(--cinzaMedio);
 }
+
+@media screen and (max-width: 496px){
+    #faq-page .titulo{
+        padding: 80px 1rem;
+        text-align: center;
+    }
+}

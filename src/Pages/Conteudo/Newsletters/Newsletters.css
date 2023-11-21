@@ -1,5 +1,6 @@
 
 
+
 #newsletters-page .titulo{
     display: flex;
     align-items: center;
@@ -7,8 +8,11 @@
     font-size: 3rem;
     color: var(--cinzaClaro);
     background-color: var(--azulJeans);
-    line-height: 1;
     padding: 1rem;
+    height: 20vh;
+    background-size: 40%;
+    background-position: 120% 35%;
+    background-image: url(/LogoSimplesVazada.svg);
 }
 
 #newsletters-page .newsletters-box{
@@ -16,4 +20,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 496px){
+    #newsletters-page .titulo{
+        padding: 80px 1rem;
+        text-align: center;
+    }
 }
