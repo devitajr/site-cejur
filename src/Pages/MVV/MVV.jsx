@@ -70,14 +70,14 @@ const MVV = () => {
               />
               <div className="card-body">
                 <h5 className="card-title">Valores</h5>
-                <p className="card-text">
+                <div className="card-text">
                     <div className="valores">Paixão pelo propósito</div>
                     <div className="valores">Foco no cliente</div>
                     <div className="valores">Responsabilidade com a empresa</div>
                     <div className="valores">Protagonismo no cotidiano</div>
                     <div className="valores">Pluralidade</div>
                     <div className="valores">Profissionalismo</div>
-                </p>
+                </div>
               </div>
             </div>
           </div>

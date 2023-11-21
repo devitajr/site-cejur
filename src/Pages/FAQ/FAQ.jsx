@@ -37,7 +37,7 @@ const FAQ = () => {
     const renderizarPerguntas = (duvidas) => {
         const renderizar = duvidas.map((duvida, id) => {
             return (
-                <Accordion.Item eventKey={id} className="accordion-item">
+                <Accordion.Item eventKey={id} key={id} className="accordion-item">
                     <Accordion.Header className='pergunta'>
                         {duvida.pergunta}
                     </Accordion.Header>
@@ -50,17 +50,6 @@ const FAQ = () => {
 
         return renderizar;
     }
-
-    function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth', // Isso suavizará a animação de rolagem, se desejado
-        });
-    }
-
-    useEffect(() => {
-        scrollToTop();
-    }, []);
 
     return (
         <div id="faq-page">

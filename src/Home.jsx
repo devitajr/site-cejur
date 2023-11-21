@@ -14,50 +14,39 @@ import { useState, useEffect } from "react";
 
 const Home = () => {
 
-    const NEWSLETTER_TIMER = 3000;
+    // const NEWSLETTER_TIMER = 3000;
 
-    //Code to show newsletter after 15 seconds of the first interaction with the page
-    const [showNewsletter, setShowNewsletter] = useState(false);
-    const [hasInteracted, setHasInteracted] = useState(false);
+    // //Code to show newsletter after 15 seconds of the first interaction with the page
+    // const [showNewsletter, setShowNewsletter] = useState(false);
+    // const [hasInteracted, setHasInteracted] = useState(false);
 
-    useEffect(() => {
-        const handleInteraction = () => {
-            if (!hasInteracted) {
-                setHasInteracted(true);
-                setTimeout(() => {
-                    setShowNewsletter(true);
-                }, NEWSLETTER_TIMER);
-            }
-        };
+    // useEffect(() => {
+    //     const handleInteraction = () => {
+    //         if (!hasInteracted) {
+    //             setHasInteracted(true);
+    //             setTimeout(() => {
+    //                 setShowNewsletter(true);
+    //             }, NEWSLETTER_TIMER);
+    //         }
+    //     };
 
-        window.addEventListener('click', handleInteraction);
-        window.addEventListener('keydown', handleInteraction);
-        window.addEventListener('scroll', handleInteraction);
+    //     window.addEventListener('click', handleInteraction);
+    //     window.addEventListener('keydown', handleInteraction);
+    //     window.addEventListener('scroll', handleInteraction);
 
-        return () => {
-            window.removeEventListener('click', handleInteraction);
-            window.removeEventListener('keydown', handleInteraction);
-            window.removeEventListener('scroll', handleInteraction);
-        };
-    }, [hasInteracted]);
+    //     return () => {
+    //         window.removeEventListener('click', handleInteraction);
+    //         window.removeEventListener('keydown', handleInteraction);
+    //         window.removeEventListener('scroll', handleInteraction);
+    //     };
+    // }, [hasInteracted]);
 
-
-    function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth', // Isso suavizará a animação de rolagem, se desejado
-        });
-    }
-
-    useEffect(() => {
-        scrollToTop();
-    }, []);
 
     return (
         <>
             <Navbar></Navbar>
             <Carrousel></Carrousel>
-            {showNewsletter && <Newsletter></Newsletter>}
+            <Newsletter></Newsletter>
             <Servicos></Servicos>
             <MVV></MVV>
             <Resultados></Resultados>

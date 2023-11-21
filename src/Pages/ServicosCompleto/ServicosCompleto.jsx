@@ -5,16 +5,6 @@ import Newsletter from "../../popups/Newsletter/Newsletter";
 
 
 const ServicosCompleto = () => {
-    function scrollToTop() {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth', // Isso suavizará a animação de rolagem, se desejado
-        });
-    }
-
-    useEffect(() => {
-        scrollToTop();
-    }, []);
 
     return (
         <>
