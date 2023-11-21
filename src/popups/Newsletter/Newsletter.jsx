@@ -47,37 +47,7 @@ const Newsletter = () => {
   return (
     <div id="newsletter">
 
-      {/* <div id="newsletter"> */}
-
-
-      {/* <form className="news-form fade-in" onSubmit={handleSubmit}>
-        <button onClick={handleClose} className="close-button">
-          X
-        </button>{" "}
-        <h2 className="subtitulo">Se inscreva no nosso newsletter!</h2>
-        <input
-          aria-label="Seu nome"
-          name="fields[first_name]"
-          placeholder="Seu nome"
-          type="text"
-          onChange={handleNameChange}
-          value={name}
-        />
-        <input
-          aria-label="Seu email"
-          name="email_address"
-          placeholder="Seu email"
-          required
-          type="email"
-          onChange={handleEmailChange}
-          value={email}
-        />
-        <button className="btn">Enviar</button>
-      </form>
-    </div> */}
-
-
-      <button type="button" className="botaoNewsletter" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" className="botaoNewsletter" data-bs-toggle="modal" data-bs-target="#exampleModal" translate="no" lang="pt">
         Acesse a newsletter!
       </button>
 
