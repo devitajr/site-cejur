@@ -32,10 +32,11 @@ const testimonials = [
       linkedin: "https://www.linkedin.com/in/johndoe/",
    },
    {
-      text: "CEJUR has been incredible to me! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod odio mollitia natus illum maiores consectetur.",
+      text: "Gostaria de enaltecer o grande trabalho que o Cejur-FGV fez com a Datapto. Nós tinhamos um grande desafio com um modelo de negócio totalmente inovador, sem paridade no mercado brasileiro, que deveria ser traduzido em forma um sistema de contratos. O Cejur-FGV abraçou o desafio e fez entregas espetaculares, muito acima das minhas  expectativas, pois muito além de discutirem aspectos contratuais e jurídicos, eles discutiram negócios " +
+      "entendendo no detalhe o modelo da empresa para, aí sim, entregar um sistema de contratos consistente, integrado, sintético e objetivo. Vale ressaltar também que o Cejur-FGV cumpriu todos os prazos de entrega, muito embora a demanda e a complexidade do projeto fosse maior do que a mapeada inicialmente. Com certeza, foi uma das melhores experiências de cliente com fornecedores de serviços jurídicos em minha vida profissional. Parabéns ao Cejur-FGV pelo excelente trabalho",
       image: "pessoas/image.jpg",
-      name: "John Doe",
-      profession: "Software Engineer",
+      name: " Rodrigo Togneri",
+      profession: "Sócio-fundador da Datapto.",
       linkedin: "https://www.linkedin.com/in/johndoe/",
    },
    {

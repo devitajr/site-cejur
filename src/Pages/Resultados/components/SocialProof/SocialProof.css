@@ -49,6 +49,9 @@
 
 #SocialProof .card-text {
    font-size: 14px;
+   overflow: scroll;
+   margin-bottom: 50px;
+   height: 310px;
 }
 
 #SocialProof .card-profissao{
