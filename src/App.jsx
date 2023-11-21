@@ -4,6 +4,7 @@ import Home from "./Home";
 import Newsletters from './Pages/Conteudo/Newsletters/Newsletters';
 import FAQ from './Pages/FAQ/FAQ';
 import ServicosCompleto from './Pages/ServicosCompleto/ServicosCompleto';
+import Eventos from './Pages/Eventos/Eventos';
 
 import {
     createBrowserRouter,
@@ -40,6 +41,7 @@ const router = createBrowserRouter(
             <Route path="/servicos" element = {<ServicosCompleto/>}></Route>
             <Route path="/newsletters" element = {<Newsletters/>}></Route>
             <Route path="/faq" element = {<FAQ/>}></Route>
+            <Route path="/eventos" element = {<Eventos/>}></Route>
         </Route>
 
     )
