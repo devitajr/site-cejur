@@ -44,7 +44,7 @@ const Navbar = () => {
                     </div>
                     <div className="offcanvas-body ">
                         <div className="navbar-nav t-font-semibold navbar">
-                            <Link className="nav-link active" to="/" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                            <Link className="nav-link active" translate="no" lang="pt" to="/" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                 Home
                             </Link>
                             <Dropdown>
@@ -86,7 +86,7 @@ const Navbar = () => {
                                     </Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
-                            <Link className="nav-link" to="/faq" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                            <Link className="nav-link" to="/faq" translate="no" lang="pt" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                 FAQ
                             </Link>
                             <a className="nav-link" href="/#contato" >
