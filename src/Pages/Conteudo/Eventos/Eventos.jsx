@@ -1,6 +1,6 @@
 import "./Eventos.css";
-import Navbar from "../Navbar/Navbar";
-import Newsletter from "../../popups/Newsletter/Newsletter";
+import Navbar from "../../Navbar/Navbar";
+import Newsletter from "../../../popups/Newsletter/Newsletter";
 import CarouselImages from "./Components/Carousel";
 
 const Eventos = () => {

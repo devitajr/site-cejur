@@ -4,7 +4,7 @@ import Home from "./Home";
 import Newsletters from './Pages/Conteudo/Newsletters/Newsletters';
 import FAQ from './Pages/FAQ/FAQ';
 import ServicosCompleto from './Pages/ServicosCompleto/ServicosCompleto';
-import Eventos from './Pages/Eventos/Eventos';
+import Eventos from './Pages/Conteudo/Eventos/Eventos';
 
 import {
     createBrowserRouter,
