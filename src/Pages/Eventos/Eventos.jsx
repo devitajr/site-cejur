@@ -1,7 +1,7 @@
 import "./Eventos.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../../popups/Newsletter/Newsletter";
-
+import CarouselImages from "./Components/Carousel";
 
 const Eventos = () => {
 
@@ -42,10 +42,12 @@ const Eventos = () => {
         const renderizar = arrayDeEventos.map((evento, id) => {
             if(id % 2 == 0){
                 return (
-                    <div id="evento-tipo1">
+                    <div id="evento-tipo1" key={id}>
                         <div className="evento-descricao">
                             <div className="evento-bloco">
-                                <div className="evento-svg"></div>
+                                <div className="evento-svg">
+                                    <CarouselImages></CarouselImages>
+                                </div>
                                 <div className="evento-nome">
                                     Elaboração e Revisão contratual
                                 </div>
@@ -65,7 +67,7 @@ const Eventos = () => {
                 )
             } else {
                 return (
-                    <div id="evento-tipo2">
+                    <div id="evento-tipo2" key={id}>
                         <div className="evento-descricao">
                             <div className="evento-texto">
                                 <p>{evento.nome}</p>
@@ -78,7 +80,9 @@ const Eventos = () => {
                                 </div>
                             </div>
                             <div className="evento-bloco">
-                                <div className="evento-svg"></div>
+                                <div className="evento-svg">
+                                    <CarouselImages></CarouselImages>
+                                </div>
                                 <div className="evento-nome">
                                     Documentos
                                     Constitutivos
