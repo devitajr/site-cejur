@@ -15,7 +15,7 @@ const Frame1 = () => {
             </h1>
 
             <div className="botao-e-texto">
-            <button className="btn btn-mais">Entre em Contato!</button>
+            <a className="btn btn-mais" href="/#contato">Entre em Contato!</a>
             <p className="textinho">E se junte a nossos 500 mil clientes!</p>
 
             </div>

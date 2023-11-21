@@ -44,22 +44,22 @@ const Navbar = () => {
                     </div>
                     <div className="offcanvas-body ">
                         <div className="navbar-nav t-font-semibold navbar">
-                            <Link className="nav-link active" to="/">
+                            <Link className="nav-link active" to="/" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                 Home
                             </Link>
                             <Dropdown>
-                                <Dropdown.Toggle className="dropdown-nav-link" >
+                                <Dropdown.Toggle className="dropdown-nav-link">
                                     Sobre
                                 </Dropdown.Toggle>
 
                                 <Dropdown.Menu>
                                     <Dropdown.Item className="item-nav-link">
-                                        <Link className="nav-link" to="/servicos">
+                                        <Link className="nav-link" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                             Serviços
                                         </Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item className="item-nav-link">
-                                        <Link className="nav-link" to="/sobre">
+                                        <Link className="nav-link" to="/sobre" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                             Sobre nós
                                         </Link>
                                     </Dropdown.Item>
@@ -75,21 +75,21 @@ const Navbar = () => {
 
                                 <Dropdown.Menu>
                                     <Dropdown.Item className="item-nav-link" href="/eventos">
-                                        <Link className="nav-link" to="/eventos">
+                                        <Link className="nav-link" to="/eventos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                             Eventos
                                         </Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item className="item-nav-link" href="/newsletters">
-                                        <Link className="nav-link" to="/newsletters">
+                                        <Link className="nav-link" to="/newsletters" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                             Newsletters
                                         </Link>
                                     </Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
-                            <Link className="nav-link" to="/faq">
+                            <Link className="nav-link" to="/faq" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                 FAQ
                             </Link>
-                            <a className="nav-link" href="/#contato">
+                            <a className="nav-link" href="/#contato" >
                                 Contato
                             </a>
                             <div className="social">
