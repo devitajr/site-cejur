@@ -8,6 +8,21 @@ import "./MVV.css";
 import { Link } from "react-router-dom";
 
 const MVV = () => {
+
+  const MVVObject = {
+    missao: "Promover soluções jurídicas, garantindo oportunidades e experiências personalizadas aos nossos clientes, membros e parceiros.",
+    visao: "Ser a Empresa Júnior Jurídica de maior referência em serviços de qualidade no Estado de São Paulo, atingindo o Cluster 3 do Movimento Brasil Júnior até 2024.",
+    valores: [
+      "Foco no Cliente",
+      "Excelência no trabalho",
+      "Responsabilidade com a empresa",
+      "Protagonismo no cotidiano",
+      "Profissionalismo",
+      "Paixão pelo propósito",
+      "Pluralidade",
+    ],
+  }
+
   const cards = useRef(null);
 
   const isInView = useInView(cards);
@@ -43,8 +58,7 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Missão</h5>
                 <p className="card-text">
-                Promover soluções jurídicas, garantindo oportunidades e experiências personalizadas aos nossos clientes, membros e parceiros. 
-
+                  {MVVObject.missao}
                 </p>
               </div>
             </div>
@@ -57,8 +71,7 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Visão</h5>
                 <p className="card-text">
-                Ser a Empresa Júnior Jurídica de maior referência em serviços de qualidade no Estado de São Paulo, atingindo o Cluster 3 do Movimento Brasil Júnior até 2024.
-
+                  {MVVObject.visao}
                 </p>
               </div>
             </div>
@@ -71,12 +84,11 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Valores</h5>
                 <div className="card-text">
-                    <div className="valores">Paixão pelo propósito</div>
-                    <div className="valores">Foco no cliente</div>
-                    <div className="valores">Responsabilidade com a empresa</div>
-                    <div className="valores">Protagonismo no cotidiano</div>
-                    <div className="valores">Pluralidade</div>
-                    <div className="valores">Profissionalismo</div>
+                  {MVVObject.valores.map(e => {
+                    return (
+                      <div className="valores">{e}</div>
+                    )
+                  })}
                 </div>
               </div>
             </div>
