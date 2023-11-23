@@ -56,8 +56,16 @@ const testimonials = [
    {
       text: "A equipe me ajudou a ter clareza de como proceder com as melhorias de minha empresa. São pessoas muito dedicadas, com clareza de pensamento, atentas às demandas solicitadas. Muito obrigada!",
       image: "pessoas/image.jpg",
-      name: "John Doe",
+      name: "",
       profession: "Marketway Comunicação",
+      linkedin: "https://www.linkedin.com/in/johndoe/",
+   },
+   {
+      text: "A equipe da Empresa Júnior jurídica CJUR fez um trabalho excelente no desenvolvimento do Código de Conduta e na revisão do Regimento Interno do Speech. Eles demonstraram grande comprometimento"+ 
+      " em entender nossas necessidades, entregando soluções alinhadas com as demandas que aprimoraram nossos documentos e robustez jurídica. O resultado final entregue reflete não só a competência técnica, mas também o empenho em atender os compromissos firmados. Agradecemos a parceria e nos colocamos à disposição para projetos futuros. ",
+      image: "pessoas/image.jpg",
+      name: "Beatriz Avrucik Magalhães",
+      profession: "Presidente da Speech Liderança & Comunicaçã0",
       linkedin: "https://www.linkedin.com/in/johndoe/",
    },
    // ... add more testimonials

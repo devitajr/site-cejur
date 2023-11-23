@@ -75,6 +75,7 @@
     padding-top: 20px;
 }
 #servicos .btn-mais a{
+    font-weight: 500;
     font-size: 1.4rem;
     padding: 1rem 2rem;
     background: var(--amareloClaro);
@@ -139,4 +140,16 @@
     opacity: 1;
     transform: translateY(0);
     transition: all 1000ms ease-out;
+}
+
+@media (max-width:1186px) {
+    #servicos .card-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media(max-width:1086px) {
+    #servicos .card-title {
+        font-size: 2rem;
+    }
 }
