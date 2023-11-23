@@ -48,7 +48,7 @@ const Newsletter = () => {
     <div id="newsletter">
 
       <button type="button" className="botaoNewsletter" data-bs-toggle="modal" data-bs-target="#exampleModal" translate="no" lang="pt">
-        Acesse a newsletter!
+        Receba as Newsletters!
       </button>
 
       <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

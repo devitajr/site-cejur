@@ -6,13 +6,13 @@ const Frame1 = () => {
    return (
       <div className="frame-1">
          <div className="hero-content">
-            <h2>
-               Lorem ipsum dolor sit. <br /> Lorem, ipsum dolor.
-            </h2>
             <h1>
+               <span>Empresa Júnior</span> <br/>de soluções jurídicas <br /> da melhor faculdade do Brasil.
+            </h1>
+            {/* <h1>
                Lorem, ipsum. <span>Lorem.</span>
                <br /> Lorem, ipsum dolor.
-            </h1>
+            </h1> */}
 
             <div className="botao-e-texto">
             <a className="btn btn-mais" href="/#contato">Entre em Contato!</a>

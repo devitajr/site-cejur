@@ -1,0 +1,33 @@
+.botaoWhatsapp {
+    position: fixed;
+    right: 5vw;
+    bottom: 10rem;
+    z-index: 10;
+    font-weight: 600;
+    
+  
+    cursor: pointer;
+    background-color: var(--corClara);
+    color: var(--azulMarinho--corClara);
+  }
+  
+  /* .botaoWhatsapp:hover{
+    background-color: var(--azulMarinho);
+    color: var(--corClara);
+  } */
+
+  .botaoWhatsapp .fab{
+    color: var(--azulMarinho);
+    border: 2px solid var(--azulMarinho);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 6px;
+  }
+
+  .botaoWhatsapp .fab:hover{
+    background-color: var(--azulMarinho);
+    color: var(--corClara);
+  }
