@@ -11,10 +11,6 @@
     color: var(--azulMarinho--corClara);
   }
   
-  /* .botaoWhatsapp:hover{
-    background-color: var(--azulMarinho);
-    color: var(--corClara);
-  } */
 
   .botaoWhatsapp .fab{
     color: var(--azulMarinho);
