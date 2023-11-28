@@ -8,40 +8,44 @@ const Eventos = () => {
 
     const listaDeEventos = [
         {
-            nome: "Capacitação do pessoal do CEJUR",
-            descricao: "bla bla bla bla bla blabla bla blabla bla blabla " +
-                "bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla ",
+            nome: "Reunião Geral do Cejur-FGV",
+            descricao: "Nossas RGs são realizadas mensalmente e nelas retomamos os nossos projetos em andamento, tanto internos como externos. Ainda, os diretores apresentam um panorama geral dos principais acontecimentos da empresa, relembrando as nossas metas do semestre.",
             fotos: [
-                'https://th.bing.com/th/id/OIP.msrY1lfbguWufq71iYQrewHaFj?rs=1&pid=ImgDetMain',
-                'https://th.bing.com/th/id/OIP.msrY1lfbguWufq71iYQrewHaFj?rs=1&pid=ImgDetMain',
-                'https://th.bing.com/th/id/OIP.msrY1lfbguWufq71iYQrewHaFj?rs=1&pid=ImgDetMain',
+                'IMG/eventos/RG.jpg',
             ]
         },
         {
-            nome: "Capacitação do pessoal do CEJUR",
+            nome: "Evento no Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados",
             descricao: "bla bla bla bla bla blabla bla blabla bla blabla " +
                 "bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla ",
             fotos: [
-                '/Logo_cejur.svg',
-                '/Logo_cejur.svg',
-                '/Logo_cejur.svg',
+                'IMG/eventos/EventoLacazMartins.jpg',
+                'IMG/eventos/EventoLacazMartins2.jpg',
+            ]
+        },
+        
+        {
+            nome: "Membros do Cejur-FGV no Vórtex em abril de 2023",
+            descricao: " A empresa está sempre presente nos eventos do Movimento Empresa Júnior, fazendo benchmarks, construindo laços para Ações Colaborativas e prospectando novos projetos com outras EJs",
+            fotos: [
+                'IMG/eventos/Vortex.jpg',
             ]
         },
         {
-            nome: "Capacitação do pessoal do CEJUR",
-            descricao: "bla bla bla bla bla blabla bla blabla bla blabla " +
-                "bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla ",
+            nome: "Evento na sede da Ambev",
+            descricao: 'Evento na sede da Ambev organizado por um dos nossos conselheiros, Alessandro Marques, advogado na área cível da multinacional. Sempre com o propósito de ampliar a experiencia do seus membros,' +
+                ' o Cejur-FGV proporcionou a sua equipe e aos primeiros inscritos no Processo Seletivo a oportunidade de vivenciar o funcionamento da área jurídica de uma das maiores empresas da América Latina. ' +
+                'No encontro, conversamos com a equipe da "Ambev ON", que explicou as suas estratégias para tornar o ambiente de trabalho mais produtivo e diverso. Nossos membros trocaram também com advogados da Ambev que ' +
+                'explicaram melhor as demandas jurídicas de uma grande multinacional, permitindo aos nossos membros de trocarem com profissionais do mercado sênior sobre carreira, além de desenvolver o networking para futuros projetos e parcerias.',
             fotos: [
-                '/Logo_cejur.svg',
-                '/Logo_cejur.svg',
-                '/Logo_cejur.svg',
+                'IMG/eventos/Ambev.jpg',
             ]
         }
     ]
 
     const renderizarEventos = (arrayDeEventos) => {
         return arrayDeEventos.map((evento, id) => (
-            <div key={id} className={id % 2 === 0 ? "evento-tipo1" : "evento-tipo2"}>
+            <div key={id} id={"evento"+id} className={id % 2 === 0 ? "evento-tipo1" : "evento-tipo2"}>
                 <div className="evento-descricao">
                     <div className="evento-bloco">
                         <div className="evento-svg">
@@ -51,75 +55,12 @@ const Eventos = () => {
                     <div className="evento-texto">
                         <p>{evento.nome}</p>
                         {evento.descricao}
-                        <div className="evento-palavras-chave">
-                            Prestação de Serviços - Parceria -
-                            Vesting - Licença e Cessão de Uso de Marca -
-                            Confidencialidade - Compra e Venda -
-                            Termos de Consentimento - Locação - Outros
-                        </div>
                     </div>
                 </div>
-                
+
             </div>
         ));
     };
-
-    // const renderizarEventos = (arrayDeEventos) => {
-    //     const renderizar = arrayDeEventos.map((evento, id) => {
-    //         if (id % 2 == 0) {
-    //             return (
-    //                 <div id="evento-tipo1" key={id}>
-    //                     <div className="evento-descricao">
-    //                         <div className="evento-bloco">
-    //                             <div className="evento-svg">
-    //                                 <CarouselImages fotos={evento.fotos}></CarouselImages>
-    //                             </div>
-    //                         </div>
-    //                         <div className="evento-texto">
-    //                             <p>{evento.nome}</p>
-    //                             {evento.descricao}
-    //                             <div className="evento-palavras-chave">
-    //                                 Prestação de Serviços - Parceria -
-    //                                 Vesting - Licença e Cessão de Uso de Marca -
-    //                                 Confidencialidade - Compra e Venda -
-    //                                 Termos de Consentimento - Locação - Outros
-    //                             </div>
-    //                         </div>
-    //                     </div>
-    //                 </div>
-    //             )
-    //         } else {
-    //             return (
-    //                 <div id="evento-tipo2" key={id}>
-    //                     <div className="evento-descricao">
-    //                         <div className="evento-texto">
-    //                             <p>{evento.nome}</p>
-    //                             {evento.descricao}
-    //                             <div className="evento-palavras-chave">
-    //                                 Contrato Social - Estatuto Social -
-    //                                 Código de Conduta - Licença e Cessão de Uso de Marca -
-    //                                 Regimento Interno - Termo de Voluntariado -
-    //                                 Manual de Abertura de CNPJ - Outros
-    //                             </div>
-    //                         </div>
-    //                         <div className="evento-bloco">
-    //                             <div className="evento-svg">
-    //                                 <CarouselImages fotos={evento.fotos}></CarouselImages>
-    //                             </div>
-    //                         </div>
-    //                     </div>
-    //                 </div>
-    //             )
-    //         }
-
-    //     })
-
-    //     return renderizar;
-    // }
-
-
-
-
 
     return (
         <>
@@ -143,13 +84,11 @@ const Eventos = () => {
                         </div>
                     </div>
                     <div className="seta">
-                        <a className="btn" href="#evento-tipo1">
+                        <a className="btn" href="#evento0">
                             <i className="fas fa-solid fa-chevron-down fa-2x"></i>
                         </a>
                     </div>
-                    <div>
-                        {renderizarEventos(listaDeEventos)}
-                    </div>
+                    {renderizarEventos(listaDeEventos)}
                 </div>
             </section>
         </>

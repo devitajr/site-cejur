@@ -14,7 +14,7 @@
     width: 100vw;
     display: flex;
     margin: 0;
-    height: 87vh;
+    height: 90vh;
 }
 
 
@@ -131,6 +131,7 @@
     margin-left: 10vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
  }
 
  .evento-tipo1 .evento-texto p{
@@ -138,41 +139,19 @@
     color: var(--azulEscuro);
  }
 
- .evento-tipo1 .evento-palavras-chave{
-    margin-top: 80px;
-    padding: 20px;
-    font-size: 25px;
-    border-top: var(--azulEscuro) solid 3px;
-    border-bottom: var(--azulEscuro) solid 3px;
-    color: var(--azulEscuro);
- }
-
  .evento-tipo1 .evento-bloco{
     border: 2px solid var(--azulJeans);
     height: fit-content;
-    padding-bottom: 25px;
  }
 
  .evento-tipo1 .evento-bloco .evento-svg{
-    width: 315px;
-    height: 217.5px;
+    width: 35vw;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
-    padding: 10px;
-    margin: 15px;
  }
 
- .evento-tipo1 .evento-bloco .evento-nome{
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 15px;
-    font-size: 40px;
-    color:var(--azulEscuro);
- }
+
 
  @media (max-width: 1300px){
    .evento-tipo1 {
@@ -244,6 +223,7 @@
     margin-right: 10vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
  }
 
  .evento-tipo2 .evento-texto p{
@@ -263,28 +243,21 @@
  .evento-tipo2 .evento-bloco{
     border: 2px solid var(--azulJeans);
     height: fit-content;
-    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
  }
 
  .evento-tipo2 .evento-bloco .evento-svg{
-    width: 315px;
-    height: 217.5px;
+    width: 35vw;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
-    padding: 10px;
-    margin: 15px;
+    justify-content: center;
+
  }
 
- .evento-tipo2 .evento-bloco .evento-nome{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 15px;
-    font-size: 40px;
-    color:var(--azulJeans);
- }
 
  @media (max-width: 1300px){
    .evento-tipo2 {
