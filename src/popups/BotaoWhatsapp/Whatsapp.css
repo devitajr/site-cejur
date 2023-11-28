@@ -9,6 +9,9 @@
     cursor: pointer;
     background-color: var(--corClara);
     color: var(--azulMarinho--corClara);
+    border-radius: 6px;
+
+  
   }
   
 

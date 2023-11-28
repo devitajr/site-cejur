@@ -1,33 +1,43 @@
 
-const CarouselImages = () => {
-    return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                    <img src="/Logo_cejur.svg" className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src="/Logo_cejur.svg" className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img src="/Logo_cejur.svg" className="d-block w-100" alt="..." />
-                </div>
-            </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button>
-        </div>
-    )
-}
+import React, { useState } from "react";
 
-export default CarouselImages
+const CarouselImages = (props) => {
+   const [activeIndex, setActiveIndex] = useState(0);
+
+   const exibirFotos = (fotos) => {
+      return fotos.map((foto, id) => (
+         <div key={id} className={`carousel-item ${id === activeIndex ? "active" : ""}`}>
+            <img src={foto} className="d-block w-100" alt={`Slide ${id + 1}`} />
+         </div>
+      ));
+   };
+
+   const handlePrev = () => {
+      setActiveIndex((prevIndex) => (prevIndex === 0 ? props.fotos.length - 1 : prevIndex - 1));
+   };
+
+   const handleNext = () => {
+      setActiveIndex((prevIndex) => (prevIndex === props.fotos.length - 1 ? 0 : prevIndex + 1));
+   };
+
+   return (
+      <div id={"carouselExampleIndicators"+props.id} className="carousel slide" data-bs-ride="carousel">
+         <div className="carousel-indicators">
+            {props.fotos.map((_, id) => (
+               <button
+                  key={id}
+                  type="button"
+                  data-bs-target={"#carouselExampleIndicators"+props.id}
+                  data-bs-slide-to={id}
+                  className={id === activeIndex ? "active" : ""}
+                  aria-label={`Slide ${id + 1}`}
+               ></button>
+            ))}
+         </div>
+         <div className="carousel-inner">{exibirFotos(props.fotos)}</div>
+         
+      </div>
+   );
+};
+
+export default CarouselImages;

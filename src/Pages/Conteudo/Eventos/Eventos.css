@@ -109,7 +109,7 @@
 
 
  /* ---------- Evento do tipo 1 ----------- */
- #evento-tipo1{
+ .evento-tipo1{
     background-color: var(--corClara);
     color: var(--azulEscuro);
     display: flex;
@@ -120,12 +120,12 @@
  }
 
 
- #evento-tipo1 .evento-descricao{
+ .evento-tipo1 .evento-descricao{
     display: flex;
     padding: 10vh 10vw;
  }
 
- #evento-tipo1 .evento-texto{
+ .evento-tipo1 .evento-texto{
     font-size: 20px;
     color: var(--azulJeans);
     margin-left: 10vw;
@@ -133,12 +133,12 @@
     flex-direction: column;
  }
 
- #evento-tipo1 .evento-texto p{
+ .evento-tipo1 .evento-texto p{
     font-size: 30px;
     color: var(--azulEscuro);
  }
 
- #evento-tipo1 .evento-palavras-chave{
+ .evento-tipo1 .evento-palavras-chave{
     margin-top: 80px;
     padding: 20px;
     font-size: 25px;
@@ -147,13 +147,13 @@
     color: var(--azulEscuro);
  }
 
- #evento-tipo1 .evento-bloco{
+ .evento-tipo1 .evento-bloco{
     border: 2px solid var(--azulJeans);
     height: fit-content;
     padding-bottom: 25px;
  }
 
- #evento-tipo1 .evento-bloco .evento-svg{
+ .evento-tipo1 .evento-bloco .evento-svg{
     width: 315px;
     height: 217.5px;
     background-size: 100%;
@@ -164,7 +164,7 @@
     margin: 15px;
  }
 
- #evento-tipo1 .evento-bloco .evento-nome{
+ .evento-tipo1 .evento-bloco .evento-nome{
     height: fit-content;
     display: flex;
     align-items: center;
@@ -175,7 +175,7 @@
  }
 
  @media (max-width: 1300px){
-   #evento-tipo1 {
+   .evento-tipo1 {
       display: flex;
       flex-direction: column;
       height: fit-content;
@@ -183,7 +183,7 @@
       margin: auto;
    }
 
-   #evento-tipo1 .evento-descricao{
+   .evento-tipo1 .evento-descricao{
       display: flex;
       flex-direction: column;
       height: fit-content;
@@ -192,24 +192,24 @@
       margin: auto;
    }
 
-   #evento-tipo1 .evento-texto{
+   .evento-tipo1 .evento-texto{
       margin: 0;
       padding: 0;
    }
 
-   #evento-tipo1 .evento-bloco .evento-svg{
+   .evento-tipo1 .evento-bloco .evento-svg{
       width: 75vw;
       height: 51.6vw;
       padding: 2vw;
       margin: 2vw;
    }
 
-   #evento-tipo1 .evento-bloco{
+   .evento-tipo1 .evento-bloco{
       height: fit-content;
       margin-bottom: 10vh;
    }
 
-   #evento-tipo1 .evento-texto{
+   .evento-tipo1 .evento-texto{
       text-align: center;
    }
  }
@@ -221,7 +221,7 @@
  /* ---------- 2° tipo de evento ----------- */
 
 
- #evento-tipo2{
+ .evento-tipo2{
     background-color: var(--cinzaClaro);
     color: var(--azulJeans);
     display: flex;
@@ -232,12 +232,13 @@
  }
 
 
- #evento-tipo2 .evento-descricao{
+ .evento-tipo2 .evento-descricao {
     display: flex;
+    flex-direction: row-reverse;
     padding: 10vh 10vw;
  }
 
- #evento-tipo2 .evento-texto{
+ .evento-tipo2 .evento-texto{
     font-size: 20px;
     color: var(--azulJeans);;
     margin-right: 10vw;
@@ -245,12 +246,12 @@
     flex-direction: column;
  }
 
- #evento-tipo2 .evento-texto p{
+ .evento-tipo2 .evento-texto p{
     font-size: 30px;
     color: var(--azulJeans);
  }
 
- #evento-tipo2 .evento-palavras-chave{
+ .evento-tipo2 .evento-palavras-chave{
     margin-top: 50px;
     padding: 20px;
     font-size: 25px;
@@ -259,13 +260,13 @@
     color: var(--azulJeans);
  }
 
- #evento-tipo2 .evento-bloco{
+ .evento-tipo2 .evento-bloco{
     border: 2px solid var(--azulJeans);
     height: fit-content;
     padding-bottom: 25px;
  }
 
- #evento-tipo2 .evento-bloco .evento-svg{
+ .evento-tipo2 .evento-bloco .evento-svg{
     width: 315px;
     height: 217.5px;
     background-size: 100%;
@@ -276,7 +277,7 @@
     margin: 15px;
  }
 
- #evento-tipo2 .evento-bloco .evento-nome{
+ .evento-tipo2 .evento-bloco .evento-nome{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -286,7 +287,7 @@
  }
 
  @media (max-width: 1300px){
-   #evento-tipo2 {
+   .evento-tipo2 {
       display: flex;
       flex-direction: column-reverse;
       height: fit-content;
@@ -294,7 +295,7 @@
       margin: auto;
    }
 
-   #evento-tipo2 .evento-descricao{
+   .evento-tipo2 .evento-descricao{
       display: flex;
       flex-direction: column-reverse;
       height: fit-content;
@@ -303,24 +304,24 @@
       margin: auto;
    }
 
-   #evento-tipo2 .evento-texto{
+   .evento-tipo2 .evento-texto{
       margin: 0;
       padding: 0;
    }
 
-   #evento-tipo2 .evento-bloco .evento-svg{
+   .evento-tipo2 .evento-bloco .evento-svg{
       width: 75vw;
       height: 51.6vw;
       padding: 2vw;
       margin: 2vw;
    }
 
-   #evento-tipo2 .evento-bloco{
+   .evento-tipo2 .evento-bloco{
       height: fit-content;
       margin-bottom: 10vh;
    }
 
-   #evento-tipo2 .evento-texto{
+   .evento-tipo2 .evento-texto{
       text-align: center;
    }
    
