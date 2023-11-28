@@ -2,6 +2,8 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../../popups/Newsletter/Newsletter";
+import Whatsapp from "../../popups/BotaoWhatsapp/Whatsapp"
+
 import './FAQ.css';
 import { useEffect } from 'react';
 
@@ -55,6 +57,7 @@ const FAQ = () => {
         <div id="faq-page">
             <Navbar></Navbar>
             <Newsletter></Newsletter>
+            <Whatsapp></Whatsapp>
             <div className="titulo">Perguntas Frequentes</div>
             <div className='corpo'>
                 <Accordion defaultActiveKey="0" className='accordion'>

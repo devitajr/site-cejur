@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../../Navbar/Navbar";
 import Newsletter from "../../../popups/Newsletter/Newsletter";
+import Whatsapp from "../../../popups/BotaoWhatsapp/Whatsapp"
+
 import './Newsletters.css'
 const Conteudo = () => {
 
@@ -44,6 +46,7 @@ const Conteudo = () => {
         <div id="newsletters-page">
             <Navbar></Navbar>
             <Newsletter></Newsletter>
+            <Whatsapp></Whatsapp>
             <div className="titulo">Newsletters passadas</div>
             <div className="newsletters-box">
                 {getNewsletters(pdfDataArray)}

@@ -1,6 +1,7 @@
 import "./Eventos.css";
 import Navbar from "../../Navbar/Navbar";
 import Newsletter from "../../../popups/Newsletter/Newsletter";
+import Whatsapp from "../../../popups/BotaoWhatsapp/Whatsapp"
 import CarouselImages from "./Components/Carousel";
 
 const Eventos = () => {
@@ -108,6 +109,7 @@ const Eventos = () => {
             <section id="eventos">
                 <Navbar></Navbar>
                 <Newsletter></Newsletter>
+                <Whatsapp></Whatsapp>
                 <div className="container-custom">
                     <div id="inicio" className="titulo">
                         <div className="parte-esquerda">
@@ -124,11 +126,13 @@ const Eventos = () => {
                         </div>
                     </div>
                     <div className="seta">
-                        <a className="btn">
+                        <a className="btn" href="#evento-tipo1">
                             <i className="fas fa-solid fa-chevron-down fa-2x"></i>
                         </a>
                     </div>
-                    {renderizarEventos(listaDeEventos)}
+                    <div>
+                        {renderizarEventos(listaDeEventos)}
+                    </div>
                 </div>
             </section>
         </>

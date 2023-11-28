@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import "./ServicosCompleto.css";
 import Navbar from "../Navbar/Navbar";
 import Newsletter from "../../popups/Newsletter/Newsletter";
+import Whatsapp from "../../popups/BotaoWhatsapp/Whatsapp"
 
 
 const ServicosCompleto = () => {
@@ -11,6 +12,7 @@ const ServicosCompleto = () => {
             <section id="servicos-completo">
                 <Navbar></Navbar>
                 <Newsletter></Newsletter>
+                <Whatsapp></Whatsapp>
                 <div className="container-custom">
                     <div id="inicio" className="titulo">
                         <div className="parte-esquerda">
@@ -27,7 +29,7 @@ const ServicosCompleto = () => {
                         </div>
                     </div>
                     <div className="seta">
-                        <a className="btn">
+                        <a className="btn" href="#elaboracao-revisao">
                             <i className="fas fa-solid fa-chevron-down fa-2x"></i>
                         </a>
                     </div>
