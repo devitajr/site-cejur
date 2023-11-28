@@ -21,7 +21,6 @@ import "swiper/css/autoplay";
 import logoCittaMobi from "./logos/cittamobi.png";
 import logoDatApto from "./logos/datApto.png";
 import logoEJMackenzie from "./logos/EJ_Mackenzie.png";
-import logoFinDocs from "./logos/FinDocs.png";
 import logoLigaNegociosModa from "./logos/Liga_negocios_moda.png";
 import logoRubrum from "./logos/logo_rubrum-1.png";
 
@@ -31,13 +30,11 @@ function CarouselLogos() {
         logoCittaMobi,
         logoDatApto,
         logoEJMackenzie,
-        logoFinDocs,
         logoLigaNegociosModa,
         logoRubrum,
         logoCittaMobi,
         logoDatApto,
         logoEJMackenzie,
-        logoFinDocs,
         logoLigaNegociosModa,
         logoRubrum,
     ];
