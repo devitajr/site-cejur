@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className=" navbar navbar-expand-lg" id="main-nav">
             <div className="container-fluid">
                 {/* LOGO DA CEJUR */}
-                <a href="#" className="navbar-brand">
+                <a href="/" className="navbar-brand">
                     <img className="logo" src={LogoCejur} alt="Logo Cejur" />
                 </a>
 
@@ -61,6 +61,11 @@ const Navbar = () => {
                                     <Dropdown.Item className="item-nav-link">
                                         <Link className="nav-link" to="/sobre" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
                                             Sobre nós
+                                        </Link>
+                                    </Dropdown.Item>
+                                    <Dropdown.Item className="item-nav-link">
+                                        <Link className="nav-link" to="/equipe" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                                            Equipe
                                         </Link>
                                     </Dropdown.Item>
                                 </Dropdown.Menu>

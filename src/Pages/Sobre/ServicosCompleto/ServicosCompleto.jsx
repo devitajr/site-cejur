@@ -1,8 +1,7 @@
-import { useEffect } from "react";
 import "./ServicosCompleto.css";
-import Navbar from "../Navbar/Navbar";
-import Newsletter from "../../popups/Newsletter/Newsletter";
-import Whatsapp from "../../popups/BotaoWhatsapp/Whatsapp"
+import Navbar from "../../Navbar/Navbar";
+import Newsletter from "../../../popups/Newsletter/Newsletter";
+import Whatsapp from "../../../popups/BotaoWhatsapp/Whatsapp"
 
 
 const ServicosCompleto = () => {
