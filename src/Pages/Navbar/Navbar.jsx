@@ -63,11 +63,6 @@ const Navbar = () => {
                                             História
                                         </Link>
                                     </Dropdown.Item>
-                                    <Dropdown.Item className="item-nav-link">
-                                        <Link className="nav-link" to="/equipe" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-                                            Equipe
-                                        </Link>
-                                    </Dropdown.Item>
                                 </Dropdown.Menu>
                             </Dropdown>
                             <a className="nav-link" href="/#resultados">
