@@ -24,7 +24,7 @@ const Historia = () => {
                     <p> A virada de chave no escopo de atuação do CEJUR se deu no ano de 2021, através do ingresso da entidade no MEJ (Movimento Empresa Júnior), que, ainda nos dias de hoje, nos proporciona uma integração essencial com o mercado sênior e outras empresas juniores, fortalecendo, deste modo, a cultura e o propósito de uma entidade que busca cada vez mais a oferta de experiências e aprendizados aos seus membros bem como o constante contato com núcleos expoentes dentro do mundo jurídico o CEJUR.</p>
                 </div>
                 <div className="foto-equipe">
-                    <img src='IMG/Historia/Reuniao.jpg' className="d-block w-100" alt='reuniao' />
+                    <img src='IMG/Historia/Reuniao.jpg' alt='reuniao' />
                 </div>
             </div>
             <Equipe></Equipe>

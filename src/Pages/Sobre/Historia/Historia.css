@@ -1,6 +1,7 @@
 #historia-cejur .titulo{
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     font-size: 3rem;
     color: var(--cinzaClaro);
@@ -14,6 +15,7 @@
 
 #historia-cejur .corpo {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     padding: 100px;
@@ -23,7 +25,31 @@
     text-align: justify;
 }
 
-#historia-cejur .foto-equipe{
-    width: 2000px;
+#historia-cejur .foto-equipe img{
+    display: block;
+    width: 30vw;
     margin-left: 100px;
+}
+
+@media (max-width: 1300px) {
+    #historia-cejur .corpo{
+        flex-direction: column-reverse;
+    }
+
+    #historia-cejur .foto-equipe img{
+        display: block;
+        width: 50vw;
+        margin-left: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    #historia-cejur .foto-equipe img{
+        width: 80vw;
+    }
+
+    #historia-cejur .corpo{
+        padding: 10vw;
+    }
 }

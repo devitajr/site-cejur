@@ -1,0 +1,76 @@
+#equipe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--azulEscuro);
+    padding: 0 10vw;
+}
+
+#equipe .tituloEquipe{
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#equipe .wrap{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+#equipe .membro{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#equipe .linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-bottom: solid 2px var(--azulEscuro);
+}
+
+#equipe .linkedin i{
+    color: var(--azulEscuro);
+    padding-left: 20px;
+}
+
+#equipe .linkedin .nome{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#equipe .infos{
+    display: flex;
+    justify-content: space-around;
+}
+
+#equipe .cargos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 1px solid var(--azulEscuro);
+    padding-top: 20px;
+}
+
+#equipe .foto-membro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#equipe .foto-membro img{
+    width: 150px;
+    border: 2px solid var(--azulEscuro);
+}
+
+
+
