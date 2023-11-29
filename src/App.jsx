@@ -5,7 +5,7 @@ import Newsletters from './Pages/Conteudo/Newsletters/Newsletters';
 import FAQ from './Pages/FAQ/FAQ';
 import ServicosCompleto from './Pages/Sobre/ServicosCompleto/ServicosCompleto';
 import Eventos from './Pages/Conteudo/Eventos/Eventos';
-
+import Historia from './Pages/Sobre/Historia/Historia'
 
 import {
     createBrowserRouter,
@@ -43,6 +43,7 @@ const router = createBrowserRouter(
             <Route path="/newsletters" element = {<Newsletters/>}></Route>
             <Route path="/faq" element = {<FAQ/>}></Route>
             <Route path="/eventos" element = {<Eventos/>}></Route>
+            <Route path="/historia" element = {<Historia/>}></Route>
         </Route>
 
     )

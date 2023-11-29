@@ -59,8 +59,8 @@ const Navbar = () => {
                                         </Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item className="item-nav-link">
-                                        <Link className="nav-link" to="/sobre" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-                                            Sobre nós
+                                        <Link className="nav-link" to="/historia" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+                                            História
                                         </Link>
                                     </Dropdown.Item>
                                     <Dropdown.Item className="item-nav-link">
