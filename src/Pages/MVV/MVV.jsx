@@ -84,9 +84,9 @@ const MVV = () => {
               <div className="card-body">
                 <h5 className="card-title">Valores</h5>
                 <div className="card-text">
-                  {MVVObject.valores.map(e => {
+                  {MVVObject.valores.map((e, index) => {
                     return (
-                      <div className="valores">{e}</div>
+                      <div className="valores" key={index}>{e}</div>
                     )
                   })}
                 </div>

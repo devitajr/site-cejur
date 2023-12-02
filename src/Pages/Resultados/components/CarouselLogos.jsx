@@ -67,7 +67,6 @@ function CarouselLogos() {
                     slidesPerView: 4,
                 },
               }}
-            onSwiper={(swiper) => console.log(swiper)}
         >
             {logos.map((logo, index) => (
                 <SwiperSlide key={index} className="slide">
