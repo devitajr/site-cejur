@@ -5,7 +5,10 @@ import Whatsapp from "../../../popups/BotaoWhatsapp/Whatsapp"
 
 
 const ServicosCompleto = () => {
-
+    const infos = {
+        numero: 5511943509221,
+        mensagem: "Olá! Eu gostaria de conhecer mais sobre os serviços do CEJUR-FGV!"
+    }
     return (
         <>
             <section id="servicos-completo">
@@ -23,6 +26,11 @@ const ServicosCompleto = () => {
                             <p>
                                 Como podemos te ajudar?
                             </p>
+                            <a className="btn btn-mais"
+                                href={"https://wa.me/" + infos.numero + "?text=" + infos.mensagem}
+                                target="_blank">
+                                Fale conosco!
+                            </a>
                         </div>
                         <div className="parte-direita">
                         </div>

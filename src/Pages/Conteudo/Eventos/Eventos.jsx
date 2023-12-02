@@ -16,9 +16,7 @@ const Eventos = () => {
         },
         {
             nome: "Evento no Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados",
-            descricao: "bla bla bla bla bla blabla bla blabla bla blabla " +
-                "bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla blabla bla bla ",
-            fotos: [
+            descricao: "Visita ao escritório Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados e conversa com alguns sócios sobre questões de conteúdo multidisciplinar, como planejamento sucessório e planejamento tributário.",            fotos: [
                 'IMG/eventos/EventoLacazMartins.jpg',
                 'IMG/eventos/EventoLacazMartins2.jpg',
             ]
