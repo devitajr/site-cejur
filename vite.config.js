@@ -19,7 +19,6 @@ export default {
   build: {
     // outras configurações de build...
     rollupOptions: {
-      input: 'src/main.js', // ajuste conforme sua estrutura de arquivos
       output: {
         dir: 'dist', // ajuste conforme sua estrutura de pastas
       },
