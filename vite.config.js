@@ -17,6 +17,16 @@ export default {
   plugins: [react()],
   publicDir: "public", 
   build: {
-    outDir: 'dist', // Define o diretório de saída para 'dist' ou o diretório desejado
+    // outras configurações de build...
+    rollupOptions: {
+      input: 'src/main.js', // ajuste conforme sua estrutura de arquivos
+      output: {
+        dir: 'dist', // ajuste conforme sua estrutura de pastas
+      },
+    },
+    // Adicione uma configuração para copiar o robots.txt
+    assetsInlineLimit: 0,
+    assetsInclude: ['robots.txt'],
   },
 }
+
