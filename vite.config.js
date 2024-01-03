@@ -18,7 +18,7 @@ export default {
   publicDir: "public", 
   build: {
     outDir: 'dist', // Define o diretório de saída para 'dist' ou o diretório desejado
-    assetsInclude: ['robots.txt'],
+    assetsInclude: ['Robots.txt'],
   },
 }
 
