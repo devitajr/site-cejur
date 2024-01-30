@@ -34,6 +34,7 @@ const FAQ = () => {
             pergunta: "OS SERVIÇOS REALIZADOS AOS CLIENTES SÃO PADRÃO OU PERSONALIZADOS CONFORME AS ESPECIFICIDADES DO CLIENTE?",
             resposta: "Nossos serviços são personalizados de acordo com as especificidades e necessidades de cada cliente. nossa abordagem é adaptada para atender a essas particularidades. Portanto, desenvolvemos soluções jurídicas sob medida com base nas circunstâncias individuais de cada cliente. Assim, cada projeto será realizado por uma equipe de membros, que atuará exclusivamente em sua execução até que seja finalizado.",
         },
+    
         
     ]
     const renderizarPerguntas = (duvidas) => {

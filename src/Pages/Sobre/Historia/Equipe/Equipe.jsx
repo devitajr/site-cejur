@@ -5,8 +5,8 @@ const Equipe = () => {
     // Links para o linkedin devem começar com https://www.linkedin
     const presidente = [
         {
-            nome: 'José Maria da Silva Ramos',
-            foto: 'IMG/Historia/unknown.png',
+            nome: 'Rodrigo Bezerra',
+            foto: 'IMG/Historia/oi.jpeg',
             linkedin: 'https://www.linkedin.com/in/johndoe/',
             periodo: '4° período',
             cargo: 'Presidente',
