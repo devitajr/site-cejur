@@ -6,9 +6,9 @@ const Equipe = () => {
     const presidente = [
         {
             nome: 'Rodrigo Bezerra',
-            foto: 'IMG/Historia/oi.jpeg',
+            foto: 'IMG/Historia/rodrigo.jpeg',
             linkedin: 'https://www.linkedin.com/in/johndoe/',
-            periodo: '4° período',
+            periodo: '5° período',
             cargo: 'Presidente',
         },
     ]
