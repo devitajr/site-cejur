@@ -10,23 +10,47 @@ const Equipe = () => {
             linkedin: 'https://www.linkedin.com/in/johndoe/',
             periodo: '5° período',
             cargo: 'Presidente',
-        },
+        },{
+            nome: 'Nicholas Guth',
+            foto: 'IMG/Historia/nicholas.jpeg',
+            linkedin: 'https://www.linkedin.com/in/nicholas-guth-57912b26b/',
+            periodo: '3° período',
+            cargo: 'Vice-Presidente',
+        }
     ]
 
     const diretores = [
         {
-            nome: 'José Maria da Silva Ramos',
-            foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
-            periodo: '4° período',
-            cargo: 'Diretor de eventos',
+            nome: 'Rubem Suzuki Vieira',
+            foto: 'IMG/Historia/rubem.jpeg',
+            linkedin: 'https://www.linkedin.com/in/rubem-suzuki-vieira/',
+            periodo: '5° período',
+            cargo: 'Diretor de Projetos',
         },{
-            nome: 'José Maria da Silva Ramos',
-            foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
-            periodo: '4° período',
-            cargo: 'Diretor de Captação',
-        },
+            nome: 'Natalia Valois Sá',
+            foto: 'IMG/Historia/natalia.jpeg',
+            linkedin: 'https://www.linkedin.com/in/nat%C3%A1liavalois/',
+            periodo: '5° período',
+            cargo: 'Diretora de Marketing',
+        },{
+            nome: 'Paula Monrroy',
+            foto: 'IMG/Historia/paula.jpeg',
+            linkedin: 'https://www.linkedin.com/in/paula-monrroy-8924ba245/',
+            periodo: '3° período',
+            cargo: 'Diretora de Administrativo-Financeiro',
+        },{
+            nome: 'Marina Fló',
+            foto: 'IMG/Historia/marina.jpeg',
+            linkedin: 'https://www.linkedin.com/in/marina-fl%C3%B3-424715237/',
+            periodo: '5° período',
+            cargo: 'Diretora de Recursos Humanos',
+        },{
+            nome: 'Maurício Dessimoni',
+            foto: 'IMG/Historia/mauricio.jpeg',
+            linkedin: 'https://www.linkedin.com/in/maur%C3%ADcio-dessimoni-056065279/',
+            periodo: '3° período',
+            cargo: 'Diretor de Comercial',
+        }
     ]
     const membros = [
         {
