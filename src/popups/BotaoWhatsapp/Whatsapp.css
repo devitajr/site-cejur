@@ -24,11 +24,12 @@
     height: 50px;
     width: 50px;
     border-radius: 6px;
-    text-decoration: underline var(--corClara);
+    text-decoration: underline var(--corClara) 4px;
 
   }
 
   .botaoWhatsapp .fab:hover{
     background-color: var(--azulMarinho);
     color: var(--corClara);
+    text-decoration: underline var(--azulMarinho) 4px;
   }
