@@ -25,7 +25,7 @@ const Frame1 = () => {
                target="_blank">
                   Entre em Contato!
             </a>
-            <p className="textinho">E se junte a nossos 500 mil clientes!</p>
+            <p className="textinho">E se junte aos nossos clientes!</p>
 
             </div>
          </div>

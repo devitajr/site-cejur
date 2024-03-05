@@ -24,6 +24,8 @@
     height: 50px;
     width: 50px;
     border-radius: 6px;
+    text-decoration: none;
+
   }
 
   .botaoWhatsapp .fab:hover{

@@ -11,7 +11,7 @@ const MVV = () => {
 
   const MVVObject = {
     missao: "Promover soluções jurídicas, garantindo oportunidades e experiências personalizadas aos nossos clientes, membros e parceiros.",
-    visao: "Ser a Empresa Júnior Jurídica de maior referência em serviços de qualidade no Estado de São Paulo, atingindo o Cluster 3 do Movimento Brasil Júnior até 2024.",
+    visao: "Ser a empresa júnior jurídica referência no Brasil e formar líderes de impacto por meio da vivência empreserial, atingindo o Cluster 4 em 2024.",
     valores: [
       "Foco no Cliente",
       "Excelência no trabalho",
