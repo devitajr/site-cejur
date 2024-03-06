@@ -5,7 +5,7 @@ import "./Newsletter.css";
 
 const Newsletter = () => {
   
-  const urlForms = "https://forms.gle/TQtn4RZybk1rahzh8"
+  const urlForms = "https://forms.gle/uJEgdckK5nQK6mxA7"
   return (
     <div id="newsletter">
 

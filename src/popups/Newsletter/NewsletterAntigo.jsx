@@ -92,39 +92,10 @@ const Newsletter = () => {
             <div className="modal-body">
               {success && <div>Sucesso! Seu formulário foi enviado.</div>}
               {error && <div>Ops! Algo deu errado. Por favor, tente novamente.</div>}
-              {!success && !error && (
-                <>
-                  <div>Nome</div>
-                  <input
-                    aria-label="Seu nome"
-                    name="fields[first_name]"
-                    placeholder="Digite seu nome"
-                    type="text"
-                    onChange={handleNameChange}
-                    value={name}
-                  />
-                  <div>Email</div>
-                  <input
-                    aria-label="Seu email"
-                    name="email_address"
-                    placeholder="Digite seu email"
-                    required
-                    type="email"
-                    onChange={handleEmailChange}
-                    value={email}
-                  />
-                  <div>Como nos conheceu?</div>
-                  <input
-                    aria-label="Seu email"
-                    name="how_knew"
-                    placeholder=""
-                    required
-                    type="text-area"
-                    onChange={handleHowKnewChange}
-                    value={howKnew}
-                  />
-                </>
-              )}
+              {!success && !error  && (
+              <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeFFeu-yUu8958DiQSgA7c_zhJxJuoqCehwexUxudLJtT_jBQ/viewform?embedded=true" width="640" height="717" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+              )
+              }
             </div>
             {success && (
               <div className="modal-footer">

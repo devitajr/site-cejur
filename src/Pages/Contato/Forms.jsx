@@ -4,10 +4,10 @@
     ~ Marcim T27 14/09/2023
 */
 
-const YOUR_SERVICE_ID = "service_nj6dhoa";
-const YOUR_TEMPLATE_ID = "template_0rhc8y8";
-const YOUR_USER_ID = "lWDmz__YgXZExslPu";
-const Senha = "hB_4kAMQ7qn!xW6"
+const YOUR_SERVICE_ID = "service_xvmqyhd";
+const YOUR_TEMPLATE_ID = "template_73ztxyo";
+const YOUR_USER_ID = "BCI1rB8VsPXG9r9ql";
+const Senha = "zw0B1OM_fu8ShYDDkPUmI"
 
 import React from "react";
 import * as Form from "@radix-ui/react-form";
@@ -178,12 +178,10 @@ const Forms = () => {
         <Form.Control asChild>
           <textarea
             className="Textarea"
-            required
             value={howKnew}
             onChange={(e) => setHowknew(e.target.value)}
           />
         </Form.Control>
-        <div className="status FormMessage">{formStatus}</div>
       </Form.Field>
       <Form.Field className="FormField" name="question">
         <div
