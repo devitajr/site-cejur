@@ -116,6 +116,11 @@
 
 #servicos .card .card-img-top{
     height: 200px;
+    color: var(--azulJeans);
+}
+
+#servicos .card .data-protect{
+    padding: 30px;
 }
 
 #servicos .card-title {

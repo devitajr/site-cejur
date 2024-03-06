@@ -40,7 +40,7 @@ const Servicos = () => {
               <img
                 style={{ padding: "35px" }}
                 className="card-img-top"
-                src="/contrato.svg"
+                src="SVG/servicos/document.svg"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -54,7 +54,7 @@ const Servicos = () => {
             <Link className="card" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img
                 className="card-img-top"
-                src="/marteloJuiz.svg"
+                src="SVG/servicos/marteloJuiz.svg"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -67,8 +67,8 @@ const Servicos = () => {
             </Link>
             <Link className="card" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img
-                className="card-img-top"
-                src="/dashboard.svg"
+                className="card-img-top data-protect"
+                src="SVG/servicos/data-protect.svg"
                 alt="Card image cap"
               />
               <div className="card-body">

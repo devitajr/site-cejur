@@ -16,13 +16,11 @@ const Carrousel = () => {
                </div>
             </div>
          </div>
-         <br />
          <div className="seta">
             <a href="#servicos" className="btn">
                <i className="fas fa-solid fa-chevron-down fa-2x"></i>
             </a>
          </div>
-         <br />
       </>
    );
 };
