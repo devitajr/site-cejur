@@ -171,7 +171,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
+    background-image: url(IMG/servicos/elaboracao.png);
     padding: 10px;
     margin: 15px;
  }
@@ -283,7 +283,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
+    background-image: url(IMG/servicos/documentos.png);
     padding: 10px;
     margin: 15px;
  }
@@ -391,7 +391,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
+    background-image: url(IMG/servicos/pareceres.png);
     padding: 10px;
     margin: 15px;
  }
@@ -500,7 +500,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
+    background-image: url(IMG/servicos/lgpd.png);
     padding: 10px;
     margin: 15px;
  }
@@ -613,7 +613,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
+    background-image: url(IMG/servicos/dpo.png);
     padding: 10px;
     margin: 15px;
  }
@@ -725,7 +725,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./SVG/Elaboracao.svg);
+    background-image: url(IMG/servicos/capacitacoes.png);
     padding: 10px;
     margin: 15px;
  }
