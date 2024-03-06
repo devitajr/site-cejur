@@ -8,11 +8,12 @@ const Frame1 = () => {
       mensagem: "Olá! Eu gostaria de conhecer mais sobre os serviços do CEJUR-FGV!"
    }
 
+   
    return (
       <div className="frame-1">
          <div className="hero-content">
             <h1>
-               <span>Empresa Júnior</span> <br/>de soluções jurídicas <br /> da melhor faculdade do Brasil.
+               <span>Empresa Júnior</span> <br />de soluções jurídicas <br /> da melhor faculdade do Brasil.
             </h1>
             {/* <h1>
                Lorem, ipsum. <span>Lorem.</span>
@@ -20,13 +21,18 @@ const Frame1 = () => {
             </h1> */}
 
             <div className="botao-e-texto">
-            <a className="btn btn-mais" 
-               href={"https://wa.me/" + infos.numero + "?text=" + infos.mensagem}
-               target="_blank">
+               <a className="btn btn-mais"
+                  href={"https://wa.me/" + infos.numero + "?text=" + infos.mensagem}
+                  target="_blank">
                   Entre em Contato!
-            </a>
-            <p className="textinho">E se junte aos nossos clientes!</p>
-
+               </a>
+               {/* <div className="textinho">
+                  <div class="typewriter">E se junte</div>
+                  <div class="typewriter">aos nossos clientes!</div>
+               </div> */}
+               <div class="typewriter">
+                  E se junte aos nossos clientes!
+               </div>
             </div>
          </div>
          <img src={LogoCejurHero} alt="Logo Cejur" className="logo-cejur" />
