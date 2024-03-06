@@ -47,7 +47,7 @@ const Resultados = () => {
           Trabalha com soluções jurídicas e consultorias que contribuem para a adequação jurídica do cliente diante do mercado.
           Os principais perfis de clientes da entidade são: startups, ONGs, entidades estudantis e projetos Pro-Bono.
         </h3>
-        <Link to="/faq" className="btn-mais faqbtn">
+        <Link to="/faq" className="btn-mais faqbtn" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
           Acesse nosso FAQ!
         </Link>
 
