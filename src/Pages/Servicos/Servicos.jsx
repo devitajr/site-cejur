@@ -36,7 +36,7 @@ const Servicos = () => {
             </p>
           </div>
           <div ref={cards} className="card-group tres-cards info">
-            <Link className="card" to="/servicos#" >
+            <Link className="card" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img
                 style={{ padding: "35px" }}
                 className="card-img-top"
@@ -51,7 +51,7 @@ const Servicos = () => {
                 </p>
               </div>
             </Link>
-            <Link className="card" to="/servicos#" >
+            <Link className="card" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img
                 className="card-img-top"
                 src="/marteloJuiz.svg"
@@ -65,7 +65,7 @@ const Servicos = () => {
                 </p>
               </div>
             </Link>
-            <Link className="card" to="/servicos#">
+            <Link className="card" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img
                 className="card-img-top"
                 src="/dashboard.svg"

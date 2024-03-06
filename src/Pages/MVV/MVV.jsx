@@ -96,8 +96,8 @@ const MVV = () => {
           <br />
         </div>
         <div className="btn-mais">
-          <Link to="/sobre" className="btn" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-            Sobre Nós
+          <Link to="/historia" className="btn" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
+            Conheça nossa história
           </Link>
         </div>
       </section>
