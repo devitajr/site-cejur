@@ -65,7 +65,15 @@ const testimonials = [
       " em entender nossas necessidades, entregando soluções alinhadas com as demandas que aprimoraram nossos documentos e robustez jurídica. O resultado final entregue reflete não só a competência técnica, mas também o empenho em atender os compromissos firmados. Agradecemos a parceria e nos colocamos à disposição para projetos futuros. ",
       image: "pessoas/image.jpg",
       name: "Beatriz Avrucik Magalhães",
-      profession: "Presidente da Speech Liderança & Comunicaçã0",
+      profession: "Presidente da Speech Liderança & Comunicação",
+      linkedin: "https://www.linkedin.com/in/johndoe/",
+   },
+   {
+      text: "O trabalho do CEJUR-FGV com o Cittamobi foi a criação de um contrato de Vesting customizado de acordo com as nossas necessidades. "+ 
+      "A metodologia utilizada atendeu as nossas expectativas e hoje usamos a minuta criada nesta parceria.",
+      image: "pessoas/image.jpg",
+      name: "Paulo Fraga",
+      profession: "Cittamobi",
       linkedin: "https://www.linkedin.com/in/johndoe/",
    },
    // ... add more testimonials
