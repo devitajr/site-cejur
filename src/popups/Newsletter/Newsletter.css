@@ -1,4 +1,9 @@
 
+#newsletter {
+  height: 0px;
+}
+
+
 .botaoNewsletter a{
     position: fixed;
     right: 5vw;
