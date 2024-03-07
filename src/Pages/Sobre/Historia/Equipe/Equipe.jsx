@@ -7,7 +7,7 @@ const Equipe = () => {
         {
             nome: 'Rodrigo Bezerra',
             foto: 'IMG/Historia/rodrigo.jpeg',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
+            linkedin: 'https://www.linkedin.com/in/rodrigo-bezerra-959492236',
             periodo: '5° período',
             cargo: 'Presidente',
         },{
@@ -52,39 +52,103 @@ const Equipe = () => {
             cargo: 'Diretor de Comercial',
         }
     ]
+
     const membros = [
         {
-            nome: 'José Maria da Silva Ramos',
+            nome: 'Giovanna Layoun',
             foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
+            linkedin: 'https://www.linkedin.com/in/giovanna-layoun-578a51214',
             periodo: '4° período',
             cargo: 'membro',
         },
         {
-            nome: 'José Maria da Silva Ramos',
+            nome: 'Natália Bicudo Porto',
             foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
+            linkedin: 'https://www.linkedin.com/in/nat%C3%A1lia-bicudo-porto-85aa33265',
             periodo: '4° período',
             cargo: 'membro',
         },
         {
-            nome: 'José Maria da Silva Ramos',
+            nome: 'Djalma Nogueira Pinheiro Neto',
             foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
+            linkedin: 'https://www.linkedin.com/in/djalma-nogueira-pinheiro-neto-5a90482a0',
             periodo: '4° período',
             cargo: 'membro',
         },
         {
-            nome: 'José Maria da Silva Ramos',
+            nome: 'Flora Vaisman Pimenta',
             foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
+            linkedin: 'https://www.linkedin.com/in/flora-vaisman-pimenta-636853272/',
             periodo: '4° período',
             cargo: 'membro',
         },
         {
-            nome: 'José Maria da Silva Ramos',
+            nome: 'Paula Monrroy',
             foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/johndoe/',
+            linkedin: 'https://www.linkedin.com/in/paula-monrroy-8924ba245',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Giulia Bortoleto de Iudicibus',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'http://linkedin.com/in/giulia-bortoleto-de-iudicibus-a497a6203',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Sofia Vilutis',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/sofia-vilutis-67771a237',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Maria Eduarda de Souza Alves',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/maria-eduarda-alves-823341272/ ',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Cecília Frederico De Mio ',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/cecília-frederico-de-mio-95a7a0292',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Maria Eduarda Sitta Midea',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/maria-eduarda-midea-bb7748269/',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Letícia Hespanhol Lima',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/let%C3%ADcia-hespanhol-lima-395723270',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Gabriel Jeszensky Pitta',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/gabriel-jeszensky-pitta-273b06212',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Nicolas Levi Dutra',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/nicolas-levi-796470204',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Clara Junqueira Moses',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/clara-junqueira-moses-184a3b278',
             periodo: '4° período',
             cargo: 'membro',
         },
@@ -236,6 +300,28 @@ const Equipe = () => {
         return renderizar;
     }
 
+    const renderizarMembros = (membros) => {
+        const renderizar = membros.map((membro, id) => {
+            return (
+                <div key={id} className='membro'>
+                    <div className='linkedin'>
+                        <div className='nome'>{membro.nome}</div>
+                        <a href={membro.linkedin} target='_blank'>
+                            <i className='fab fa-linkedin fa-2x'></i>
+                        </a>
+                    </div>
+                    <div className='infos'>
+                        <div className="empresa">{membro.cargo}</div>
+                        <div className="periodo">{membro.periodo}</div>
+                    </div>
+                    
+                </div>
+            )
+        })
+
+        return renderizar;
+    }
+
     const renderizarEquipeAtual = (membros) => {
         const renderizar = membros.map((membro, id) => {
             return (
@@ -272,7 +358,7 @@ const Equipe = () => {
                 <div className='cargos'>Diretoria</div>
                 <div className="wrap">{renderizarEquipeAtual(diretores)}</div>
                 <div className='cargos'>Membros</div>
-                <div className="wrap">{renderizarEquipeAtual(membros)}</div>
+                <div className="wrap">{renderizarMembros(membros)}</div>
             </div>
         </div>
         <div>
