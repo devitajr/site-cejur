@@ -50,10 +50,10 @@ const MVV = () => {
           <div ref={cards} className="card-group tres-cards info">
             <div className="card">
               <img
-                style={{ padding: "35px" }}
-                className="card-img-top"
-                src="/contrato.svg"
-                alt="Card image cap"
+                style={{ padding: "10px" }}
+                className="card-img-top mission"
+                src="/SVG/mvv/mission.svg"
+                alt="Missão"
               />
               <div className="card-body">
                 <h5 className="card-title">Missão</h5>
@@ -65,8 +65,8 @@ const MVV = () => {
             <div className="card">
               <img
                 className="card-img-top"
-                src="/marteloJuiz.svg"
-                alt="Card image cap"
+                src="/SVG/mvv/vision.svg"
+                alt="Visão"
               />
               <div className="card-body">
                 <h5 className="card-title">Visão</h5>
@@ -78,8 +78,8 @@ const MVV = () => {
             <div className="card">
               <img
                 className="card-img-top"
-                src="/dashboard.svg"
-                alt="Card image cap"
+                src="/SVG/mvv/valores.svg"
+                alt="Valores"
               />
               <div className="card-body">
                 <h5 className="card-title">Valores</h5>

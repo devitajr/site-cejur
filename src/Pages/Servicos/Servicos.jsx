@@ -40,8 +40,8 @@ const Servicos = () => {
               <img
                 style={{ padding: "35px" }}
                 className="card-img-top"
-                src="SVG/servicos/document.svg"
-                alt="Card image cap"
+                src="SVG/servicos/document-add.svg"
+                alt="Elaboração e revisão"
               />
               <div className="card-body">
                 <h5 className="card-title">Elaboração e Revisão</h5>
@@ -53,9 +53,9 @@ const Servicos = () => {
             </Link>
             <Link className="card" to="/servicos" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
               <img
-                className="card-img-top"
-                src="SVG/servicos/marteloJuiz.svg"
-                alt="Card image cap"
+                className="card-img-top  data-protect"
+                src="SVG/servicos/justice.svg"
+                alt="Consultoria jurídica"
               />
               <div className="card-body">
                 <h5 className="card-title">Consultoria jurídica</h5>
@@ -69,7 +69,7 @@ const Servicos = () => {
               <img
                 className="card-img-top data-protect"
                 src="SVG/servicos/data-protect.svg"
-                alt="Card image cap"
+                alt="Adequação à lgpd"
               />
               <div className="card-body">
                 <h5 className="card-title">Adequação à LGPD</h5>
