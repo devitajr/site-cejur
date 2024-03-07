@@ -43,7 +43,7 @@ const ServicosCompleto = () => {
                     <div id="elaboracao-revisao">
                         <div className="servico-descricao">
                             <div className="servico-bloco">
-                                <div className="servico-svg"></div>
+                                <img className="servico-svg" alt="elaboração e revisão" src="IMG/servicos/elaboracao.png"></img>
                                 <div className="servico-nome">
                                     Elaboração e Revisão contratual
                                 </div>
@@ -104,7 +104,7 @@ const ServicosCompleto = () => {
                                 </div>
                             </div>
                             <div className="servico-bloco">
-                                <div className="servico-svg"></div>
+                                <img className="servico-svg" alt="elaboração e revisão" src="IMG/servicos/documentos.png"></img>
                                 <div className="servico-nome">
                                     Documentos
                                     Constitutivos
@@ -117,7 +117,8 @@ const ServicosCompleto = () => {
                     <div id="consultoria-pareceres">
                         <div className="servico-descricao">
                             <div className="servico-bloco">
-                                <div className="servico-svg"></div>
+                                <img className="servico-svg" alt="elaboração e revisão" src="IMG/servicos/pareceres.png"></img>
+
                                 <div className="servico-nome">
                                     Consultoria
                                     e Pareceres
@@ -185,7 +186,8 @@ const ServicosCompleto = () => {
                             </div>
 
                             <div className="servico-bloco">
-                                <div className="servico-svg"></div>
+                                <img className="servico-svg" alt="elaboração e revisão" src="IMG/servicos/lgpd.png"></img>
+
                                 <div className="servico-nome">
                                     Adequação
                                     <br></br>
@@ -199,7 +201,8 @@ const ServicosCompleto = () => {
                     <div id="dpo-service">
                         <div className="servico-descricao">
                             <div className="servico-bloco">
-                                <div className="servico-svg"></div>
+                                <img className="servico-svg" alt="elaboração e revisão" src="IMG/servicos/dpo.png"></img>
+
                                 <div className="servico-nome">
                                     DPO
                                     <br></br>
@@ -255,7 +258,8 @@ const ServicosCompleto = () => {
                                 </div>
                             </div>
                             <div className="servico-bloco">
-                                <div className="servico-svg"></div>
+                                <img className="servico-svg" alt="elaboração e revisão" src="IMG/servicos/capacitacoes.png"></img>
+
                                 <div className="servico-nome">
                                     Capacitações
                                 </div>
