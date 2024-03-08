@@ -83,6 +83,33 @@
         align-items: center;
     }
 
+    #equipe .comFoto .membro{
+        align-items: center;
+    }
+
+    #equipe .comFoto .linkedin {
+        padding-top: 10px;
+        width: 250px;
+    }
+
+    #equipe .comFoto .infos {
+        width: 250px;
+    }
+
+    #equipe .comFoto .infos .periodo{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+
+}
+
+@media (max-width: 600px) {
+    #equipe .wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+
     #equipe .membro{
         align-items: center;
     }
@@ -99,14 +126,5 @@
     #equipe .infos .periodo{
         display: flex;
         flex-wrap: nowrap;
-    }
-    
-
-}
-
-@media (max-width: 600px) {
-    #equipe .wrap{
-        flex-direction: column;
-        align-items: center;
     }
 }
