@@ -52,4 +52,12 @@
     #historia-cejur .corpo{
         padding: 10vw;
     }
+
+    
+}
+
+@media (max-width: 425px){
+    #historia-cejur .titulo{
+        width: 100vw;
+    }
 }

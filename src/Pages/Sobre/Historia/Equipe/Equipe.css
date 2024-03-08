@@ -1,4 +1,4 @@
-#equipe{
+#equipe {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,21 +7,21 @@
     padding: 0 10vw;
 }
 
-#equipe .tituloEquipe{
+#equipe .tituloEquipe {
     font-size: 36px;
     font-weight: 600;
     text-align: center;
     padding-bottom: 20px;
 }
 
-#equipe .wrap{
+#equipe .wrap {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 20px;
 }
 
-#equipe .membro{
+#equipe .membro {
     padding: 20px;
     width: 30vw;
     display: flex;
@@ -29,7 +29,7 @@
 
 }
 
-#equipe .linkedin{
+#equipe .linkedin {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,22 +37,22 @@
     border-bottom: solid 2px var(--azulEscuro);
 }
 
-#equipe .linkedin i{
+#equipe .linkedin i {
     color: var(--azulEscuro);
     padding-left: 20px;
 }
 
-#equipe .linkedin .nome{
+#equipe .linkedin .nome {
     font-size: 20px;
     font-weight: 600;
 }
 
-#equipe .infos{
+#equipe .infos {
     display: flex;
     justify-content: space-between;
 }
 
-#equipe .cargos{
+#equipe .cargos {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -62,20 +62,51 @@
     padding-top: 20px;
 }
 
-#equipe .foto-membro{
+#equipe .foto-membro {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#equipe .foto-membro img{
+#equipe .foto-membro img {
     width: 150px;
     border: 2px solid var(--azulEscuro);
 }
 
-#equipe .empresa{
+#equipe .empresa {
     padding-right: 10px;
 }
 
+@media (max-width: 768px) {
+    #equipe .comFoto{
+        flex-direction: column;
+        align-items: center;
+    }
 
+    #equipe .membro{
+        align-items: center;
+    }
 
+    #equipe .linkedin {
+        padding-top: 10px;
+        width: 250px;
+    }
+
+    #equipe .infos {
+        width: 250px;
+    }
+
+    #equipe .infos .periodo{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+
+}
+
+@media (max-width: 600px) {
+    #equipe .wrap{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -354,9 +354,9 @@ const Equipe = () => {
             <div className='tituloEquipe'>Equipe Atual do CEJUR</div>
             <div className='membros-atuais'>
                 <div className='cargos'>Presidência</div>
-                <div className="wrap">{renderizarEquipeAtual(presidente)}</div>
+                <div className="wrap comFoto">{renderizarEquipeAtual(presidente)}</div>
                 <div className='cargos'>Diretoria</div>
-                <div className="wrap">{renderizarEquipeAtual(diretores)}</div>
+                <div className="wrap comFoto">{renderizarEquipeAtual(diretores)}</div>
                 <div className='cargos'>Membros</div>
                 <div className="wrap">{renderizarMembros(membros)}</div>
             </div>
