@@ -82,18 +82,22 @@
     background-position-x: 35%;
     margin: 0;
     padding: 0;
-    border: none;
 }
 
-@media screen and (max-width: 600px) {
-    #contato .svg-processo{
-      width: 120%
-    }
-  }
+    @media screen and (max-width: 600px) {
+        #contato .svg-processo{
+            height: 90vw;
+            width: 90vw;
+            margin-left: 8vw;
+            margin-right: 2vw;
+        }
 
-  @media screen and (max-width: 600px) {
-    #contato .svg-processo{
-      width: 90%;
-      margin-left: 3.5rem;
-    }
-  }
+        #contato .mensagem-lateral{
+            max-width: 500px;
+            width: 100%;
+            height: fit-content;
+            overflow-wrap: break-word;
+        }
+      }
+
+  
