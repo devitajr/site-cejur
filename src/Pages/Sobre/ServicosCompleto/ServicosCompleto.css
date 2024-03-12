@@ -168,10 +168,6 @@
  #elaboracao-revisao .servico-bloco .servico-svg{
     width: 315px;
     height: 217.5px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(IMG/servicos/elaboracao02.jpg);
     padding: 10px;
     margin: 15px;
  }
@@ -280,10 +276,6 @@
  #documentos-constitutivos .servico-bloco .servico-svg{
     width: 315px;
     height: 217.5px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(IMG/servicos/documentos02.jpg);
     padding: 10px;
     margin: 15px;
  }
@@ -388,10 +380,6 @@
  #consultoria-pareceres .servico-bloco .servico-svg{
     width: 315px;
     height: 217.5px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(IMG/servicos/pareceres02.jpg);
     padding: 10px;
     margin: 15px;
  }
@@ -497,10 +485,6 @@
  #adequacao-lgpd .servico-bloco .servico-svg{
     width: 315px;
     height: 217.5px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(IMG/servicos/adequacao02.jpg);
     padding: 10px;
     margin: 15px;
  }
@@ -610,10 +594,6 @@
  #dpo-service .servico-bloco .servico-svg{
     width: 315px;
     height: 217.5px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(IMG/servicos/dpo02.jpg);
     padding: 10px;
     margin: 15px;
  }
@@ -722,10 +702,6 @@
  #capacitacoes .servico-bloco .servico-svg{
     width: 315px;
     height: 217.5px;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url(IMG/servicos/capacitacoes.png);
     padding: 10px;
     margin: 15px;
  }
