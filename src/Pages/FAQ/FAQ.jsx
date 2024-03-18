@@ -12,7 +12,7 @@ const FAQ = () => {
     const perguntasERespostas = [
         {
             pergunta: "COMO CONSIGO FAZER UM ORÇAMENTO PARA UM SERVIÇO?",
-            resposta: "Para solicitar um orçamento para nossos serviços, entre em contato conosco através do botão de acesso do nosso site. Após recebermos sua solicitação, um membro da CEJUR FGV Jr. entrará em contato com você para agendar uma reunião. Durante essa conversa inicial, trabalharemos para entender suas necessidades e identificar o serviço específico que melhor atenderá às suas demandas. Estamos à disposição para auxiliá-lo em todo o processo de orçamento.",
+            resposta: "Para solicitar um orçamento para nossos serviços, entre em contato conosco através do botão de acesso do nosso site. Após recebermos sua solicitação, um membro da Cejur FGV entrará em contato com você para agendar uma reunião. Durante essa conversa inicial, trabalharemos para entender suas necessidades e identificar o serviço específico que melhor atenderá às suas demandas. Estamos à disposição para auxiliá-lo em todo o processo de orçamento.",
         },
         {
             pergunta: "VOCÊS REALIZAM PROJETOS PARA OUTROS ESTADOS? E PARA REGIÕES FORA DO BRASIL?",

@@ -173,7 +173,7 @@ const Forms = () => {
             justifyContent: "space-between",
           }}
         >
-          <Form.Label className="FormLabel">Como você conheceu o CEJUR? </Form.Label>
+          <Form.Label className="FormLabel">Como você conheceu o Cejur FGV? </Form.Label>
         </div>
         <Form.Control asChild>
           <textarea

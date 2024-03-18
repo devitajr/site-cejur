@@ -30,7 +30,7 @@ const Servicos = () => {
               <span>SERVIÇOS</span>
             </h2>
             <p>
-            O CEJUR é uma entidade que se pauta em serviços paralegais e na elaboração de projetos acadêmicos e sociais. 
+            O Cejur FGV é uma entidade que se pauta em serviços paralegais e na elaboração de projetos acadêmicos e sociais. 
             Trabalha com soluções jurídicas e consultorias que contribuem para a adequação jurídica do cliente diante do mercado. 
             Os principais perfis de clientes da entidade são: startups, ONGs, entidades estudantis e projetos Pro-Bono.
             </p>

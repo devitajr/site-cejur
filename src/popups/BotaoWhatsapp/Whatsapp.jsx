@@ -4,7 +4,7 @@ import "./Whatsapp.css";
 const Whatsapp = () => {
     const infos = {
         numero: 5511943509221,
-        mensagem: "Olá! Eu gostaria de conhecer mais sobre os serviços do CEJUR-FGV!"
+        mensagem: "Olá! Eu gostaria de conhecer mais sobre os serviços do Cejur FGV!"
     }
     return (
         <div className="botaoWhatsapp">

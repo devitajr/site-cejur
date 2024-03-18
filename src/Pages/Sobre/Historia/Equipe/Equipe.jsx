@@ -351,7 +351,7 @@ const Equipe = () => {
     return (
     <div id="equipe">
         <div>
-            <div className='tituloEquipe'>Equipe Atual do CEJUR</div>
+            <div className='tituloEquipe'>Equipe Atual do Cejur FGV</div>
             <div className='membros-atuais'>
                 <div className='cargos'>Presidência</div>
                 <div className="wrap comFoto">{renderizarEquipeAtual(presidente)}</div>
@@ -362,7 +362,7 @@ const Equipe = () => {
             </div>
         </div>
         <div>
-            <div className='tituloEquipe'>Ex-membros do CEJUR</div>
+            <div className='tituloEquipe'>Ex-membros do Cejur FGV</div>
             <div className='wrap'>
                 {renderizarEquipeAntiga(equipeAntiga)}
             </div>
