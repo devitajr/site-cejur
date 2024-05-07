@@ -13,7 +13,7 @@ const Frame1 = () => {
       <div className="frame-1">
          <div className="hero-content">
             <h1>
-               <span>Empresa Júnior</span> <br />de soluções jurídicas <br /> da Fundaçao Getulio Vargas.
+               <span>Empresa Júnior</span> <br />de soluções jurídicas <br /> da Fundação Getulio Vargas.
             </h1>
             {/* <h1>
                Lorem, ipsum. <span>Lorem.</span>

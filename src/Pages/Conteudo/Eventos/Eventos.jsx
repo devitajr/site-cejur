@@ -14,8 +14,8 @@ const Eventos = () => {
             ]
         },
         {
-            nome: "Eventos Nacionais do Movimento Empresa Júnior: EDL 24  e ENEJ 23",
-            descricao: "O Cejur participa anualmente dos dois congressos nacionais do Movimento Empresa Júnior, participando ativamente de uma rede de mais de 16 mil jovens. (Foto 1 - Encontro de Lideranças - Itú/SP) (Foto 2 - Encontro Nacional de Empresas Júniores - Rio de Janeiro/RJ)",            fotos: [
+            nome: "Eventos Nacionais do Movimento Empresa Júnior: EDL 24",
+            descricao: "O Cejur participa anualmente dos dois congressos nacionais do Movimento Empresa Júnior, participando ativamente de uma rede de mais de 16 mil jovens",            fotos: [
                 'IMG/eventos/edl24xx.jpg',
             ]
         },
