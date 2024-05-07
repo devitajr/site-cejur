@@ -8,10 +8,22 @@ const Eventos = () => {
 
     const listaDeEventos = [
         {
-            nome: "Reunião Geral do Cejur FGV",
-            descricao: "Nossas RGs são realizadas mensalmente e nelas retomamos os nossos projetos em andamento, tanto internos como externos. Ainda, os diretores apresentam um panorama geral dos principais acontecimentos da empresa, relembrando as nossas metas do semestre.",
+            nome: "Vórtex 24",
+            descricao: "Em Sorocaba, o Vórtex (evento estadual do Movimento Empresa Júnior) reuniu grandes empresas do mercado sênior, como Ambev e Stone, para oferecerem treinamentos aos estudantes. Além disso, o Cejur participou da “Batalha de Cases”, em que saiu vencedor, por voto do público, na categoria de Transformação Cultural, após compartilharmos a nossa história como empresa para mais de 600 empresários juniores.",            fotos: [
+                'IMG/eventos/vortex24.jpeg',
+            ]
+        },
+        {
+            nome: "Eventos Nacionais do Movimento Empresa Júnior: EDL 24  e ENEJ 23",
+            descricao: "O Cejur participa anualmente dos dois congressos nacionais do Movimento Empresa Júnior, participando ativamente de uma rede de mais de 16 mil jovens. (Foto 1 - Encontro de Lideranças - Itú/SP) (Foto 2 - Encontro Nacional de Empresas Júniores - Rio de Janeiro/RJ)",            fotos: [
+                'IMG/eventos/edl24xx.jpg',
+            ]
+        },
+        {
+            nome: "Estação SP 23",
+            descricao: "Em São José dos Campos, o Estação SP (evento regional do Movimento Empresa Júnior) contou com a presença de mais de 800 empresários juniores, ocasião em que o Cejur foi reconhecido em quatro categorias diferentes pelo seu alto desempenho como empresa júnior no ano de 2023.",
             fotos: [
-                'IMG/eventos/RG.jpg',
+                'IMG/eventos/estacao23.jpeg',
             ]
         },
         {
@@ -23,18 +35,8 @@ const Eventos = () => {
         },
         
         {
-            nome: "Membros do Cejur FGV no Vórtex em abril de 2023",
-            descricao: " A empresa está sempre presente nos eventos do Movimento Empresa Júnior, fazendo benchmarks, construindo laços para Ações Colaborativas e prospectando novos projetos com outras EJs",
-            fotos: [
-                'IMG/eventos/Vortex.jpg',
-            ]
-        },
-        {
             nome: "Evento na sede da Ambev",
-            descricao: 'Evento na sede da Ambev organizado por um dos nossos conselheiros, Alessandro Marques, advogado na área cível da multinacional. Sempre com o propósito de ampliar a experiencia do seus membros,' +
-                ' o Cejur FGV proporcionou a sua equipe e aos primeiros inscritos no Processo Seletivo a oportunidade de vivenciar o funcionamento da área jurídica de uma das maiores empresas da América Latina. ' +
-                'No encontro, conversamos com a equipe da "Ambev ON", que explicou as suas estratégias para tornar o ambiente de trabalho mais produtivo e diverso. Nossos membros trocaram também com advogados da Ambev que ' +
-                'explicaram melhor as demandas jurídicas de uma grande multinacional, permitindo aos nossos membros de trocarem com profissionais do mercado sênior sobre carreira, além de desenvolver o networking para futuros projetos e parcerias.',
+            descricao: 'Evento na sede da Ambev em São Paulo com a equipe jurídica da empresa para conversar sobre carreira no mercado e as demandas de uma multinacional e com a equipe da "Ambev ON" para ouvir sobre estratégias que tornam o ambiente de trabalho mais produtivo.',
             fotos: [
                 'IMG/eventos/Ambev.jpg',
             ]
