@@ -14,9 +14,17 @@ const Eventos = () => {
             ]
         },
         {
-            nome: "Eventos Nacionais do Movimento Empresa Júnior: EDL 24",
-            descricao: "O Cejur participa anualmente dos dois congressos nacionais do Movimento Empresa Júnior, participando ativamente de uma rede de mais de 16 mil jovens",            fotos: [
+            nome: "EDL 24",
+            descricao: "Todo mês de janeiro o Cejur marca presença no EDL (Encontro de Lideranças), evento nacional organizado pela Brasil Júnior para as lideranças formais das empresas júniores, que estarão à frente da gestão durante o ano.",            
+            fotos: [
                 'IMG/eventos/edl24xx.jpg',
+            ]
+        },
+        {
+            nome: "ENEJ 23",
+            descricao: "Todo ano o Cejur participa do ENEJ (Encontro Nacional de Empresas Júniores), maior evento de empreendedorismo jovem do mundo e que reúne mais de cinco mil jovens brasileiros. A edição de 2023 foi sediada no Rio de Janeiro/RJ e em 2024 o evento acontecerá na cidade Florianópolis/SC.",            
+            fotos: [
+                'IMG/eventos/enej23x.jpg',
             ]
         },
         {
@@ -24,6 +32,13 @@ const Eventos = () => {
             descricao: "Em São José dos Campos, o Estação SP (evento regional do Movimento Empresa Júnior) contou com a presença de mais de 800 empresários juniores, ocasião em que o Cejur foi reconhecido em quatro categorias diferentes pelo seu alto desempenho como empresa júnior no ano de 2023.",
             fotos: [
                 'IMG/eventos/estacao23.jpeg',
+            ]
+        },
+        {
+            nome: "Credit Suisse",
+            descricao: "Na sede do Credit Suisse em São Paulo, o Cejur promoveu um evento sobre carreiras jurídicas no mercado financeiro brasileiro.",
+            fotos: [
+                'IMG/eventos/credit.jpg',
             ]
         },
         {
