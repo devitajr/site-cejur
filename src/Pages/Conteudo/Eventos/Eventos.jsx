@@ -42,15 +42,15 @@ const Eventos = () => {
             ]
         },
         {
-            nome: "Evento com Heln Wan",
+            nome: "Evento com Helen Wan",
             descricao: "Evento organizado pelo Cejur para debater os desafios da diversidade e a busca pelo sucesso em ambientes corporativos com a presença da palestrante internacional Helen Wan, autora do romance legal “The Partner Track”, de 2013, transformado em série pela Netflix.",
             fotos: [
-                'IMG/eventos/HELEN.jpeg',
+                'IMG/eventos/helen2.jpg',
             ]
         },
         {
             nome: "Credit Suisse",
-            descricao: "Na sede do Credit Suisse em São Paulo, o Cejur promoveu um evento sobre carreiras jurídicas no mercado financeiro brasileiro.",
+            descricao: "Evento sobre carreiras jurídicas no mercado financeiro brasileiro, na sede do Credit Suisse em São Paulo.",
             fotos: [
                 'IMG/eventos/credit.jpg',
             ]
