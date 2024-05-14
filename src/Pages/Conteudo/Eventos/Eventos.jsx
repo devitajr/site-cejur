@@ -14,10 +14,10 @@ const Eventos = () => {
             ]
         },
         {
-            nome: "EDL 24",
-            descricao: "Todo mês de janeiro o Cejur marca presença no EDL (Encontro de Lideranças), evento nacional organizado pela Brasil Júnior para as lideranças formais das empresas júniores, que estarão à frente da gestão durante o ano.",            
+            nome: "Evento na sede da Ambev",
+            descricao: 'Evento na sede da Ambev em São Paulo com a equipe jurídica da empresa para conversar sobre carreira no mercado e as demandas de uma multinacional e com a equipe da "Ambev ON" para ouvir sobre estratégias que tornam o ambiente de trabalho mais produtivo.',
             fotos: [
-                'IMG/eventos/edl24xx.jpg',
+                'IMG/eventos/Ambev.jpg',
             ]
         },
         {
@@ -25,6 +25,13 @@ const Eventos = () => {
             descricao: "Todo ano o Cejur participa do ENEJ (Encontro Nacional de Empresas Júniores), maior evento de empreendedorismo jovem do mundo e que reúne mais de cinco mil jovens brasileiros. A edição de 2023 foi sediada no Rio de Janeiro/RJ e em 2024 o evento acontecerá na cidade Florianópolis/SC.",            
             fotos: [
                 'IMG/eventos/enej23x.jpg',
+            ]
+        },
+        {
+            nome: "Evento no Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados",
+            descricao: "Visita ao escritório Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados e conversa com alguns sócios sobre questões de conteúdo multidisciplinar, como planejamento sucessório e planejamento tributário.",            fotos: [
+                'IMG/eventos/EventoLacazMartins.jpg',
+                'IMG/eventos/EventoLacazMartins2.jpg',
             ]
         },
         {
@@ -42,20 +49,13 @@ const Eventos = () => {
             ]
         },
         {
-            nome: "Evento no Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados",
-            descricao: "Visita ao escritório Lacaz Martins, Pereira Neto, Gurevich & Schoueri Advogados e conversa com alguns sócios sobre questões de conteúdo multidisciplinar, como planejamento sucessório e planejamento tributário.",            fotos: [
-                'IMG/eventos/EventoLacazMartins.jpg',
-                'IMG/eventos/EventoLacazMartins2.jpg',
+            nome: "EDL 24",
+            descricao: "Todo mês de janeiro o Cejur marca presença no EDL (Encontro de Lideranças), evento nacional organizado pela Brasil Júnior para as lideranças formais das empresas júniores, que estarão à frente da gestão durante o ano.",            
+            fotos: [
+                'IMG/eventos/edl24xx.jpg',
             ]
         },
         
-        {
-            nome: "Evento na sede da Ambev",
-            descricao: 'Evento na sede da Ambev em São Paulo com a equipe jurídica da empresa para conversar sobre carreira no mercado e as demandas de uma multinacional e com a equipe da "Ambev ON" para ouvir sobre estratégias que tornam o ambiente de trabalho mais produtivo.',
-            fotos: [
-                'IMG/eventos/Ambev.jpg',
-            ]
-        }
     ]
 
     const renderizarEventos = (arrayDeEventos) => {
