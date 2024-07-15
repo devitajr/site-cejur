@@ -36,7 +36,7 @@ const Equipe = () => {
             nome: 'Paula Monrroy',
             foto: 'IMG/Historia/paula.jpeg',
             linkedin: 'https://www.linkedin.com/in/paula-monrroy-8924ba245/',
-            periodo: '3° período',
+            periodo: '4° período',
             cargo: 'Diretora de Administrativo-Financeiro',
         },{
             nome: 'Laura Freitas',
