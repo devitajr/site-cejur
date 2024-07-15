@@ -6,31 +6,31 @@ const Equipe = () => {
     const presidente = [
         {
             nome: 'Rodrigo Bezerra',
-            foto: 'IMG/Historia/rodrigo.jpeg',
+            foto: 'IMG/Historia/Rodrigo02.JPG',
             linkedin: 'https://www.linkedin.com/in/rodrigo-bezerra-959492236',
-            periodo: '5° período',
+            periodo: '6° período',
             cargo: 'Presidente',
         },{
             nome: 'Nicholas Guth',
-            foto: 'IMG/Historia/nicholas.jpeg',
+            foto: 'IMG/Historia/Nicholas02.JPG',
             linkedin: 'https://www.linkedin.com/in/nicholas-guth-57912b26b/',
-            periodo: '3° período',
+            periodo: '4° período',
             cargo: 'Vice-Presidente',
         }
     ]
 
     const diretores = [
         {
-            nome: 'Rubem Suzuki Vieira',
-            foto: 'IMG/Historia/rubem.jpeg',
+            nome: 'Maria Luisa Carvalho',
+            foto: 'IMG/Historia/MariaLuisa.JPG',
             linkedin: 'https://www.linkedin.com/in/rubem-suzuki-vieira/',
-            periodo: '5° período',
-            cargo: 'Diretor de Projetos',
+            periodo: '4° período',
+            cargo: 'Diretora de Projetos',
         },{
-            nome: 'Natalia Valois Sá',
-            foto: 'IMG/Historia/natalia.jpeg',
+            nome: 'Letícia Hespanhol Lima',
+            foto: 'IMG/Historia/Leticia.JPG',
             linkedin: 'https://www.linkedin.com/in/nat%C3%A1liavalois/',
-            periodo: '5° período',
+            periodo: '4° período',
             cargo: 'Diretora de Marketing',
         },{
             nome: 'Paula Monrroy',
@@ -39,16 +39,16 @@ const Equipe = () => {
             periodo: '3° período',
             cargo: 'Diretora de Administrativo-Financeiro',
         },{
-            nome: 'Marina Fló',
-            foto: 'IMG/Historia/marina.jpeg',
+            nome: 'Laura Freitas',
+            foto: 'IMG/Historia/Laura.JPG',
             linkedin: 'https://www.linkedin.com/in/marina-fl%C3%B3-424715237/',
-            periodo: '5° período',
+            periodo: '4° período',
             cargo: 'Diretora de Recursos Humanos',
         },{
             nome: 'Maurício Dessimoni',
-            foto: 'IMG/Historia/mauricio.jpeg',
+            foto: 'IMG/Historia/Mauricio02.JPG',
             linkedin: 'https://www.linkedin.com/in/maur%C3%ADcio-dessimoni-056065279/',
-            periodo: '3° período',
+            periodo: '4° período',
             cargo: 'Diretor de Comercial',
         }
     ]
