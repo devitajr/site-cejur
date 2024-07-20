@@ -243,6 +243,20 @@ const Equipe = () => {
             periodo: '2° período',
             cargo: 'membro',
         },
+        {
+            nome: 'Renata Smith',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/renata-smith-99b724308/',
+            periodo: '2° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'Valentina Hajjar Hoschmann',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/valentina-roschmann-aa539a302/',
+            periodo: '2° período',
+            cargo: 'membro',
+        },
         
         
     ]
@@ -252,12 +266,18 @@ const Equipe = () => {
             nome: 'Fernanda Gonçalves Oldani',
             periodo: '2020 - 2022',
             linkedin: 'https://www.linkedin.com/in/fernanda-gon%C3%A7alves-oldani-632b401b5/',
-            empresa: 'Dupla graduação',
+            empresa: 'Hospital Albert Einstein',
         },
         {
             nome: 'Agatha Neiva',
             periodo: '2021 - 2023',
             linkedin: 'https://www.linkedin.com/in/agathaneiva',
+            empresa: 'PNA',
+        },
+        {
+            nome: 'Luiza Balby',
+            periodo: '2021 - 2022',
+            linkedin: 'https://www.linkedin.com/in/luiza-balby/',
             empresa: 'PNA',
         },
         {
