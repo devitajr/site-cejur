@@ -257,6 +257,20 @@ const Equipe = () => {
             periodo: '2° período',
             cargo: 'membro',
         },
+        {
+            nome: 'Julie Branquinho Laeber',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/julie-braquinho-laeber-b08829321/edit/forms/next-action/after-connect-update-profile/',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
+        {
+            nome: 'André de Castro Mogames',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/andr%C3%A9-mogames-506826321/',
+            periodo: '4° período',
+            cargo: 'membro',
+        },
         
         
     ]
