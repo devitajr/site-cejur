@@ -271,6 +271,13 @@ const Equipe = () => {
             periodo: '4° período',
             cargo: 'membro',
         },
+        {
+            nome: 'Felipe Pimentel Martins',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/felipe-martins-310067321/',
+            periodo: '2° período',
+            cargo: 'membro',
+        },
         
         
     ]
