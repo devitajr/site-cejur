@@ -278,6 +278,13 @@ const Equipe = () => {
             periodo: '2° período',
             cargo: 'membro',
         },
+        {
+            nome: 'Ana Julia Battistella de Lima',
+            foto: 'IMG/Historia/unknown.png',
+            linkedin: 'https://www.linkedin.com/in/ana-julia-battistella-de-lima-097150320/?original_referer=&originalSubdomain=br',
+            periodo: '2° período',
+            cargo: 'membro',
+        },
         
         
     ]
