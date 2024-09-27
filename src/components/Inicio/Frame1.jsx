@@ -31,7 +31,7 @@ const Frame1 = () => {
                   <div class="typewriter">aos nossos clientes!</div>
                </div> */}
                <div class="typewriter">
-                  E se junte aos nossos clientes!
+                  Se junte aos nossos clientes!
                </div>
             </div>
          </div>
