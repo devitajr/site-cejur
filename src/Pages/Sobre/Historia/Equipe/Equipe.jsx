@@ -386,7 +386,7 @@ const Equipe = () => {
             empresa: 'System e Systemic',
         },
         {
-            nome: 'Livia Flora ',
+            nome: 'Livia Flora',
             periodo: '2017 - 2019',
             linkedin: 'https://www.linkedin.com/in/l%C3%ADvia-flora-95440214a',
             empresa: 'Quadra Capital ',
