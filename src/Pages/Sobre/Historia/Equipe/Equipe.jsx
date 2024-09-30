@@ -76,13 +76,6 @@ const Equipe = () => {
             cargo: 'membro',
         },
         {
-            nome: 'Flora Vaisman Pimenta',
-            foto: 'IMG/Historia/unknown.png',
-            linkedin: 'https://www.linkedin.com/in/flora-vaisman-pimenta-636853272/',
-            periodo: '4° período',
-            cargo: 'membro',
-        },
-        {
             nome: 'Alexandre Fridman Berezovsky',
             foto: 'IMG/Historia/unknown.png',
             linkedin: 'https://www.linkedin.com/in/alexandre-fridman-berezovsky-a46150275/',
